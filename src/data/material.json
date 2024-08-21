@@ -1,0 +1,160 @@
+[
+	{
+		"Name": "Clay",
+		"Source": "Archaeology",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Copper Ore",
+		"Source": "Upper Mines (Floors 1 - 19)Copper Clods",
+		"Museum": "No"
+	},
+	{
+		"Name": "Coral",
+		"Source": "Tide Caverns (Floors 21 -39)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Crystal",
+		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Diamond",
+		"Source": "Lava Caves",
+		"Museum": "Yes",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Emerald",
+		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Glass",
+		"Source": "Mines & Some Large Rocks",
+		"Museum": "No"
+	},
+	{
+		"Name": "Gold Ore",
+		"Source": "Lava Caves",
+		"Museum": "No",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Hard Wood",
+		"Source": "Large Stumps",
+		"Museum": "No"
+	},
+	{
+		"Name": "Ice Block",
+		"Source": "Foraging during Winter",
+		"Museum": "No"
+	},
+	{
+		"Name": "Iron Ore",
+		"Source": "Tide Caverns (Floors 21 -39)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Mistril Ore",
+		"Source": "Ancient Ruins",
+		"Museum": "No",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Oil",
+		"Source": "Purchasable & Some Chests",
+		"Museum": "No"
+	},
+	{
+		"Name": "Paper",
+		"Source": "Milling",
+		"Museum": "No"
+	},
+	{
+		"Name": "Perfect Copper Ore",
+		"Source": "Upper Mines (Floors 1 - 19)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Perfect Diamond",
+		"Source": "Lava Caves",
+		"Museum": "Yes",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Perfect Emerald",
+		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Perfect Gold Ore",
+		"Source": "Lava Caves",
+		"Museum": "Yes",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Perfect Iron Ore",
+		"Source": "Tide Caverns (Floors 21 -39)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Perfect Mistril Ore",
+		"Source": "Ancient Ruins",
+		"Museum": "Yes",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Perfect Pink Diamond",
+		"Source": "Ancient Ruins",
+		"Museum": "Yes",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Perfect Ruby",
+		"Source": "Upper Mines (Floors 1 - 19)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Perfect Sapphire",
+		"Source": "Tide Caverns (Floors 21 -39)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Perfect Silver Ore",
+		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Pink Diamond",
+		"Source": "Ancient Ruins",
+		"Museum": "No",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Ruby",
+		"Source": "Upper Mines (Floors 1 - 19)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Sapphire",
+		"Source": "Tide Caverns (Floors 21 -39) & Some Large Rocks",
+		"Museum": "No"
+	},
+	{
+		"Name": "Silver Ore",
+		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Museum": "No"
+	},
+	{
+		"Name": "Stone",
+		"Source": "Mines & Overworld Rocks",
+		"Museum": "No"
+	},
+	{
+		"Name": "Wood",
+		"Source": "Trees",
+		"Museum": "No"
+	}
+]

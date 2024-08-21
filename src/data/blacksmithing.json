@@ -1,0 +1,418 @@
+[
+	{
+		"Name": "Copper Ingot",
+		"Ingredient": "Copper Ore (10)",
+		"Level": "0",
+		"Time": "20 min"
+	},
+	{
+		"Name": "Iron Ingot",
+		"Ingredient": "Iron Ore (10)",
+		"Level": "2",
+		"Time": "20 min"
+	},
+	{
+		"Name": "Silver Ingot",
+		"Ingredient": "Silver Ore (10)",
+		"Level": "4",
+		"Time": "20 min"
+	},
+	{
+		"Name": "Gold Ingot",
+		"Ingredient": "Gold Ore (10)",
+		"Level": "6",
+		"Time": "20 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Ingot",
+		"Ingredient": "Mistril Ore (10)",
+		"Level": "8",
+		"Time": "20 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Pickaxe",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Axe",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Hoe",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Watering Can",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Fishing Rod",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Shovel",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Worn Net",
+		"Ingredient": "Starter",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Copper Pickaxe",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Axe",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Hoe",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Watering Can",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Fishing Rod",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Shovel",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+	{
+		"Name": "Copper Net",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "4",
+		"Time": "30 min"
+	},
+
+	{
+		"Name": "Iron Pickaxe",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Axe",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Hoe",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Watering Can",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Fishing Rod",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Shovel",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Iron Net",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Pickaxe",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Axe",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Hoe",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Watering Can",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Fishing Rod",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Shovel",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Silver Net",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "16",
+		"Time": "40 min"
+	},
+	{
+		"Name": "Gold Pickaxe",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Axe",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Hoe",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Watering Can",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Fishing Rod",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Shovel",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Gold Net",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Pickaxe",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Axe",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Hoe",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Watering Can",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Fishing Rod",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Shovel",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Net",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "28",
+		"Time": "40 min",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Copper Sword",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "8",
+		"Time": "1 hr"
+	},
+	{
+		"Name": "Iron Sword",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "14",
+		"Time": "1 hr"
+	},
+	{
+		"Name": "Silver Sword",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "20",
+		"Time": "1 hr"
+	},
+	{
+		"Name": "Gold Sword",
+		"Ingredient": "Gold Ingot (4)",
+		"Level": "26",
+		"Time": "1 hr",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Mistril Sword",
+		"Ingredient": "Mistril Ingot (4)",
+		"Level": "32",
+		"Time": "1 hr",
+		"Ignore": "Yes"
+	},
+
+	{
+		"Name": "Copper Helmet",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "6",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Copper Armor",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "6",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Copper Legplates",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "6",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Copper Greaves",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "6",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Copper Ring",
+		"Ingredient": "Copper Ingot (4)",
+		"Level": "6",
+		"Time": "50 min"
+	},
+
+	{
+		"Name": "Iron Helmet",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "12",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Iron Armor",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "12",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Iron Legplates",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "12",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Iron Greaves",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "12",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Iron Ring",
+		"Ingredient": "Iron Ingot (4)",
+		"Level": "12",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Silver Helmet",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "18",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Silver Armor",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "18",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Silver Legplates",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "18",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Silver Greaves",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "18",
+		"Time": "50 min"
+	},
+	{
+		"Name": "Silver Ring",
+		"Ingredient": "Silver Ingot (4)",
+		"Level": "18",
+		"Time": "50 min"
+	}
+]

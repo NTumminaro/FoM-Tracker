@@ -1,0 +1,624 @@
+[
+	{
+		"Name": "Ant",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Leaves", "Petals", "Rain", "Rainy"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Beach Hopper",
+		"Location": "Beach",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Brightbulb Moth",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Winter"],
+		"Weather": ["Sunny", "Petals"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Bumblebee",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Petals", "Wind"],
+		"Time": "Day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Butterfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Petals", "Wind"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Caterpillar",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns in trees",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Cicada",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns in trees",
+		"Season": ["Summer"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Chillipede",
+		"Location": "Overworld",
+		"Spawn": "Breaking rocks",
+		"Season": ["Fall"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Cicada Nymph",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Any"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Copper Nugget Beetle",
+		"Location": "Upper Mines",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Coral Mantis",
+		"Location": "Tide Caverns (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": " Yes"
+	},
+	{
+		"Name": "Cricket",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Any"],
+		"Time": "Night",
+		"Museum": "No"
+	},
+	{
+		"Name": "Crystal Caterpillar",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns in trees",
+		"Season": ["Winter"],
+		"Weather": [",Blizzard"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Crystal Wing Moth",
+		"Location": "Deep Earth (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Crystalline Cricket",
+		"Location": "Deep Earth (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Deep Earthworm",
+		"Location": "Deep Earth (Mines)",
+		"Spawn": "Breaking rocks",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Dragonfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Sunny", "Rain", "Rainy"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Fairy Bee",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Sunny", "Leaves"],
+		"Time": "Morning",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Firefly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Sunny"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Flower Crown Beetle",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Wind"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Frost Flutter Butterfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Winter"],
+		"Weather": ["Sunny"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Fuzzy Moth",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Sunny", "Leaves", "Wind"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Gem Shard Caterpillar",
+		"Location": "Deep Earth (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Grasshopper",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns when breaking grass",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Leaves", "Wind"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Hermit Crab",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Hermit Snail",
+		"Location": "Tide Caverns (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Hummingbird Hawk Moth",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Icehopper",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns when breaking grass",
+		"Season": ["Winter"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Inchworm",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Jewel Beetle",
+		"Location": "Overworld",
+		"Spawn": "Breaking rocks",
+		"Season": ["Summer"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Ladybug",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Lantern Moth",
+		"Location": "Upper Mines",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Leafhopper",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns when breaking grass",
+		"Season": ["Fall"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Lightning Dragonfly",
+		"Location": "Narrows, Eastern Road",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Storm", "Thunderstorm"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Luna Moth",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Petals"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Magma Beetle",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Mine Cricket",
+		"Location": "Upper Mines (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Mistmoth",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Sunny", "Leaves"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Monarch Butterfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Sunny", "Leaves"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Orchid Mantis",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Petalhopper",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns when breaking grass",
+		"Season": ["Spring"],
+		"Weather": ["Any"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Rock Roach",
+		"Location": "Deep Earth (Mines)",
+		"Spawn": "Breaking rocks",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Roly Poly",
+		"Location": "Overworld",
+		"Spawn": "Breaking rocks",
+		"Season": ["Spring"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Polar Fly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Winter"],
+		"Weather": ["Sunny"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Pond Skater",
+		"Location": "Overworld (River)",
+		"Spawn": "On water",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Wind", "petals", "Rain", "Rainy"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Praying Mantis",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Leaves", "Petals"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Puddle Spider",
+		"Location": "Tide Caverns (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Question Mark Butterfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Leaves", "Petals"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Raindrop Beetle",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Any"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "No",
+		"Ignore": "Yes"
+	},
+	{
+		"Name": "Redhead Worm",
+		"Location": "Overworld",
+		"Spawn": "Breaking rocks",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Relic Crab",
+		"Location": "Beach",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Rhinoceros Beetle",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Any"],
+		"Time": "Night",
+		"Museum": "No"
+	},
+	{
+		"Name": "Sand Bug",
+		"Location": "Beach",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Sea Scarab",
+		"Location": "Tide Caverns (Mines)",
+		"Spawn": "Breaking rocks",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Snail",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Snowball Beetle",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Winter"],
+		"Weather": ["Storm", "Thunderstorm", "Blizzard"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Snug Bug",
+		"Location": "Overworld",
+		"Spawn": "Breaking rocks",
+		"Season": ["Winter"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "No"
+	},
+	{
+		"Name": "Speedy Snail",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Spring", "Summer", "Fall"],
+		"Weather": ["Sunny", "Leaves", "Petals", "Rain", "Rainy"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Strawhopper",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Strobe Firefly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Summer"],
+		"Weather": ["Sunny"],
+		"Time": "Night",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Surf Beetle",
+		"Location": "Beach",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Tiger Swallowtail Butterfly",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Fall"],
+		"Weather": ["Sunny", "Leaves"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Tunnel Millipede",
+		"Location": "Upper Mines (Mines)",
+		"Spawn": "Breaking rocks",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Walking Leaf",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns in trees",
+		"Season": ["Fall"],
+		"Weather": ["Any"],
+		"Time": "Day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Walking Stick",
+		"Location": "Overworld",
+		"Spawn": "",
+		"Season": ["Winter"],
+		"Weather": ["Sunny"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Waterbug",
+		"Location": "Beach",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Waterfly",
+		"Location": "Tide Caverns (Mines)",
+		"Spawn": "",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Winterpillar",
+		"Location": "Overworld",
+		"Spawn": "Additional spawns in trees",
+		"Season": ["Winter"],
+		"Weather": ["Sunny"],
+		"Time": "All day",
+		"Museum": "Yes"
+	},
+	{
+		"Name": "Worm",
+		"Location": "Upper MinesTide Caverns (Mines)",
+		"Spawn": "Breaking rocks",
+		"Season": ["All"],
+		"Weather": ["Any"],
+		"Time": "",
+		"Museum": " Yes"
+	}
+]
