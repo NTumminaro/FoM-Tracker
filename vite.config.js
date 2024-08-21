@@ -1,17 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-	// conditionally set the base path
-	base: mode === 'production' ? '/frontend/' : '/',
+	base: mode === 'production' ? '/FoM-Tracker/' : '/',
 	plugins: [react()],
 	build: {
-		outDir: 'frontend',
+		outDir: 'dist', 
 		minify: 'terser',
 		terserOptions: {
 			compress: {
-				drop_console: true, // removes console logs in production
+				drop_console: true,
 			},
 		},
 	},
