@@ -104,7 +104,7 @@ const MainLayout = () => {
 			'Blacksmithing',
 			'CookedDish',
 		]);
-		setBackgroundColor('#ffffff');
+		setBackgroundColor('#303030');
 		// setBorderColor('#000000');
 
 		// Clear relevant localStorage keys
