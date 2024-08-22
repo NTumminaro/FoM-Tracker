@@ -17,7 +17,13 @@ import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
 
 // Main Component ////////////////////////////////////////////////////
-function BugTracker({ tooltipsEnabled, editMode, museumOnly, backgroundColor }) {
+function BugTracker({
+	tooltipsEnabled,
+	editMode,
+	museumOnly,
+	backgroundColor,
+	caughtHighlighting,
+}) {
 	// State Hooks ////////////////////////////////////////////////////
 	const [bugs, setBugs] = useState([]);
 	const [containerSize, setContainerSize] = useState(
@@ -413,11 +419,22 @@ function BugTracker({ tooltipsEnabled, editMode, museumOnly, backgroundColor }) 
 								<IconButton
 									size="small"
 									onClick={() => toggleCaught(f.name)}
-									sx={{ filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }}
+									sx={
+										caughtHighlighting
+											? {
+													filter: f.caught ? 'grayscale(0)' : 'grayscale(1)',
+													backgroundColor: f.caught ? '#66bb6a7d' : 'inherit',
+													'&:hover': {
+														backgroundColor: f.caught ? '#66bb6aaf' : '',
+													},
+												}
+											: { filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }
+									}
 								>
 									<img
 										src={`bug/${f.name.replace(/ /g, '_')}.webp`}
 										alt={f.name}
+										draggable={false}
 										style={{ width: '40px', height: '40px' }}
 									/>
 								</IconButton>
@@ -434,7 +451,8 @@ BugTracker.propTypes = {
 	tooltipsEnabled: PropTypes.bool,
 	editMode: PropTypes.bool,
 	museumOnly: PropTypes.bool,
-  backgroundColor: PropTypes.string
+	backgroundColor: PropTypes.string,
+	caughtHighlighting: PropTypes.bool,
 };
 
 export default BugTracker;

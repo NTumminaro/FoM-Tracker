@@ -19,7 +19,13 @@ import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
 
 // Main Component ////////////////////////////////////////////////////
-function ArtifactTracker({ tooltipsEnabled, editMode, museumOnly, backgroundColor }) {
+function ArtifactTracker({
+	tooltipsEnabled,
+	editMode,
+	museumOnly,
+	backgroundColor,
+	caughtHighlighting,
+}) {
 	// State Hooks ////////////////////////////////////////////////////
 	const [artifacts, setArtifacts] = useState([]);
 	const [containerSize, setContainerSize] = useState(
@@ -383,11 +389,22 @@ function ArtifactTracker({ tooltipsEnabled, editMode, museumOnly, backgroundColo
 								<IconButton
 									size="small"
 									onClick={() => toggleCaught(f.name)}
-									sx={{ filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }}
+									sx={
+										caughtHighlighting
+											? {
+													filter: f.caught ? 'grayscale(0)' : 'grayscale(1)',
+													backgroundColor: f.caught ? '#66bb6a7d' : 'inherit',
+													'&:hover': {
+														backgroundColor: f.caught ? '#66bb6aaf' : '',
+													},
+												}
+											: { filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }
+									}
 								>
 									<img
 										src={`artifact/${f.name.replace(/ /g, '_').toLowerCase()}.webp`}
 										alt={f.name}
+										draggable={false}
 										style={{ width: '40px', height: '40px' }}
 									/>
 								</IconButton>
@@ -404,7 +421,8 @@ ArtifactTracker.propTypes = {
 	tooltipsEnabled: PropTypes.bool,
 	editMode: PropTypes.bool,
 	museumOnly: PropTypes.bool,
-	backgroundColor: PropTypes.string
+	backgroundColor: PropTypes.string,
+	caughtHighlighting: PropTypes.bool,
 };
 
 export default ArtifactTracker;

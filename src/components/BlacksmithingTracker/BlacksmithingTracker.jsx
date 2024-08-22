@@ -17,7 +17,13 @@ import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
 
 // Components //////////////////////////////////////////////////////////////
-function BlacksmithingTracker({ tooltipsEnabled, editMode, museumOnly, backgroundColor }) {
+function BlacksmithingTracker({
+	tooltipsEnabled,
+	editMode,
+	museumOnly,
+	backgroundColor,
+	caughtHighlighting,
+}) {
 	const [blacksmithings, setBlacksmithings] = useState([]);
 	const [containerSize, setContainerSize] = useState(
 		JSON.parse(localStorage.getItem('blacksmithingTrackerContainerSize')) || {
@@ -381,13 +387,24 @@ function BlacksmithingTracker({ tooltipsEnabled, editMode, museumOnly, backgroun
 								<IconButton
 									size="small"
 									onClick={() => toggleCaught(f.name)}
-									sx={{ filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }}
+									sx={
+										caughtHighlighting
+											? {
+													filter: f.caught ? 'grayscale(0)' : 'grayscale(1)',
+													backgroundColor: f.caught ? '#66bb6a7d' : 'inherit',
+													'&:hover': {
+														backgroundColor: f.caught ? '#66bb6aaf' : '',
+													},
+												}
+											: { filter: f.caught ? 'grayscale(0)' : 'grayscale(1)' }
+									}
 								>
 									<img
 										src={`blacksmithing/${f.name
 											.replace(/ /g, '_')
 											.toLowerCase()}.webp`}
 										alt={f.name}
+										draggable={false}
 										style={{ width: '40px', height: '40px' }}
 									/>
 								</IconButton>
@@ -407,6 +424,7 @@ if (!import.meta.env.PROD) {
 		tooltipsEnabled: PropTypes.bool,
 		editMode: PropTypes.bool,
 		museumOnly: PropTypes.bool,
-		backgroundColor: PropTypes.string
+		backgroundColor: PropTypes.string,
+		caughtHighlighting: PropTypes.bool,
 	};
 }

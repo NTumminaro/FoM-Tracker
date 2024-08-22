@@ -29,6 +29,8 @@ function Header({
 	toggleTracker,
 	backgroundColor,
 	setBackgroundColor,
+	caughtHighlighting,
+	toggleCaughtHighlighting,
 	// borderColor,
 	// setBorderColor,
 }) {
@@ -176,19 +178,27 @@ function Header({
 							onClose={handleClose}
 						>
 							<MenuItem onClick={resetTrackers}>Reset Trackers</MenuItem>
-							<MenuItem sx={{ height: 36 }}>
+							<MenuItem onClick={toggleTooltips} sx={{ height: 36 }}>
 								<Typography>Show Tooltips</Typography>
 								<Switch
 									checked={tooltipsEnabled}
-									onChange={toggleTooltips}
+									// onChange={toggleTooltips}
 									color="success"
 								/>
 							</MenuItem>
-							<MenuItem sx={{ height: 36 }}>
+							<MenuItem onClick={toggleMuseumOnly} sx={{ height: 36 }}>
 								<Typography>Museum Items Only</Typography>
 								<Switch
 									checked={museumOnly}
-									onChange={toggleMuseumOnly}
+									// onChange={toggleMuseumOnly}
+									color="success"
+								/>
+							</MenuItem>
+							<MenuItem onClick={toggleCaughtHighlighting} sx={{ height: 36 }}>
+								<Typography>Highlight Obtained Items</Typography>
+								<Switch
+									checked={caughtHighlighting}
+									// onChange={toggleCaughtHighlighting}
 									color="success"
 								/>
 							</MenuItem>
@@ -217,5 +227,7 @@ if (!import.meta.env.PROD) {
 		setBackgroundColor: PropTypes.func,
 		borderColor: PropTypes.string,
 		setBorderColor: PropTypes.func,
+		caughtHighlighting: PropTypes.bool,
+		toggleCaughtHighlighting: PropTypes.func,
 	};
 }
