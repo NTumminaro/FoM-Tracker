@@ -273,7 +273,7 @@ const FilterButtons = ({
 							<img
 								height={24}
 								width={24}
-								src="fish/Wooden_Chest.webp"
+								src="fish/wooden_chest.webp"
 								alt="missing"
 								key="missing"
 							/>

@@ -1,11 +1,4 @@
-import {
-	Box,
-	Divider,
-	IconButton,
-	ToggleButton,
-	ToggleButtonGroup,
-	Tooltip,
-} from '@mui/material';
+import { Box, ToggleButton, ToggleButtonGroup, Tooltip } from '@mui/material';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import PropTypes from 'prop-types';
 
@@ -15,25 +8,40 @@ const FilterButtons = ({
 	toggleFilter,
 	setFilters,
 }) => {
+	let isThereFilters =
+		filters.seasons.length > 0 ||
+		filters.weathers.length > 0 ||
+		filters.locations.length > 0 ||
+		filters.ingredients.length > 0 ||
+		filters.showMuseum ||
+		filters.showSkills ||
+		filters.showDiveable ||
+		filters.showMissing;
+
 	console.log('FilterButtons.jsx, filters:', filters);
 	return (
 		<Box
 			sx={{
 				display: 'flex',
-				justifyContent: 'center',
+				justifyContent: 'space-between',
 				alignItems: 'center',
 				flexWrap: 'wrap',
-				padding: 0,
 				margin: 0,
+				backgroundColor: '#3a49b22f',
 			}}
 		>
 			<Box
 				display="flex"
 				justifyContent="center"
 				alignItems="center"
-				paddingX={1}
+				padding={1}
 			>
-				<ToggleButtonGroup value={filters.ingredients} exclusive={false}>
+				<ToggleButtonGroup
+					color="info"
+					value={filters.ingredients}
+					exclusive={false}
+					size="small"
+				>
 					<Tooltip
 						disableHoverListener={!tooltipsEnabled}
 						title="Copper"
@@ -98,58 +106,65 @@ const FilterButtons = ({
 						</ToggleButton>
 					</Tooltip>
 				</ToggleButtonGroup>
+			</Box>
+			<Box
+				display="flex"
+				justifyContent="center"
+				alignItems="center"
+				padding={1}
+			>
+				{/* <Divider orientation={'vertical'} flexItem sx={{ marginX: 1 }} /> */}
 
-				<Divider orientation={'vertical'} flexItem sx={{ marginX: 1 }} />
-
-				<Tooltip
-					disableHoverListener={!tooltipsEnabled}
-					title="Show Only Missing"
-					placement="top"
-					arrow
-					disableInteractive
-				>
-					<ToggleButton
-						value="showMissing"
-						selected={filters.showMissing}
-						onChange={() => toggleFilter('showMissing')}
+				<ToggleButtonGroup color="info" exclusive={false} size="small">
+					<Tooltip
+						disableHoverListener={!tooltipsEnabled}
+						title="Show Only Missing"
+						placement="top"
+						arrow
+						disableInteractive
 					>
-						<img
-							height={24}
-							width={24}
-							src="fish/Wooden_Chest.webp"
-							alt="missing"
-							key="missing"
-						/>
-					</ToggleButton>
-				</Tooltip>
+						<ToggleButton
+							value="showMissing"
+							selected={filters.showMissing}
+							onChange={() => toggleFilter('showMissing')}
+						>
+							<img
+								height={24}
+								width={24}
+								src="fish/Wooden_Chest.webp"
+								alt="missing"
+								key="missing"
+							/>
+						</ToggleButton>
+					</Tooltip>
 
-				<Tooltip
-					disableHoverListener={!tooltipsEnabled}
-					title="Clear Filters"
-					placement="top"
-					arrow
-					disableInteractive
-				>
-					<IconButton
-						sx={{ marginLeft: 1 }}
-						value="clearFilters"
-						color="error"
-						onClick={() =>
-							setFilters({
-								seasons: [],
-								weathers: [],
-								locations: [],
-								ingredients: [],
-								showMuseum: false,
-								showSkills: false,
-								showDiveable: false,
-								showMissing: false,
-							})
-						}
+					<Tooltip
+						disableHoverListener={!tooltipsEnabled}
+						title="Clear Filters"
+						placement="top"
+						arrow
+						disableInteractive
 					>
-						<HighlightOffIcon />
-					</IconButton>
-				</Tooltip>
+						<ToggleButton
+							value="showMissing"
+							selected={isThereFilters}
+							onClick={() =>
+								setFilters({
+									seasons: [],
+									weathers: [],
+									locations: [],
+									ingredients: [],
+									showMuseum: false,
+									showSkills: false,
+									showDiveable: false,
+									showMissing: false,
+								})
+							}
+						>
+							<HighlightOffIcon color="error" />
+						</ToggleButton>
+					</Tooltip>
+				</ToggleButtonGroup>
 			</Box>
 		</Box>
 	);

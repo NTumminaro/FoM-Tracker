@@ -8,6 +8,7 @@ import {
 	Tooltip,
 	Stack,
 	Menu,
+	Collapse,
 } from '@mui/material';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import { Resizable } from 're-resizable';
@@ -42,7 +43,7 @@ function ForageableTracker({
 		showDiveable: false,
 		showMissing: false,
 	});
-	const [anchorEl, setAnchorEl] = useState(null);
+	const [expanded, setExpanded] = useState(true);
 
 	// Utils ////////////////////////////////////////////////////
 	const keysToLowerCase = (obj) => {
@@ -82,14 +83,6 @@ function ForageableTracker({
 	}, [museumOnly]);
 
 	// Handlers ////////////////////////////////////////////////////
-	const handleMenuOpen = (event) => {
-		setAnchorEl(event.currentTarget);
-	};
-
-	const handleMenuClose = () => {
-		setAnchorEl(null);
-	};
-
 	const toggleFilter = (filterType, value) => {
 		setFilters((prevFilters) => {
 			const updatedFilters = { ...prevFilters };
@@ -125,9 +118,10 @@ function ForageableTracker({
 			const matchesLocation =
 				filters.locations.length === 0 ||
 				filters.locations.includes(f.location.toLowerCase()) ||
+				(f.location.toLowerCase().includes('overworld') &&
+					!filters.locations.includes('mine')) ||
 				(filters.locations.includes('mine') &&
-					f.location.toLowerCase().includes('mine')) ||
-				f.location.toLowerCase().includes('floor');
+					f.location.toLowerCase().includes('mine' || 'floor'));
 			const matchesMuseum =
 				!filters.showMuseum || f.museum.toLowerCase() === 'yes';
 			const matchesSkills = !filters.showSkills || f.skill;
@@ -234,17 +228,19 @@ function ForageableTracker({
 				>
 					<Tooltip
 						placement="top"
-						title="Toggle Filters"
+						title={expanded ? 'Hide Filters' : 'Show Filters'}
 						arrow
 						disableInteractive
 					>
 						<IconButton
 							sx={{ marginRight: '2px' }}
 							size="small"
-							color={'warning'}
-							onClick={handleMenuOpen}
+							// onClick={handleMenuOpen}
+							onClick={() => setExpanded(!expanded)}
 						>
-							<FilterAltIcon />
+							<FilterAltIcon
+								sx={{ color: expanded ? 'warning.main' : 'sideBarTextColor' }}
+							/>
 						</IconButton>
 					</Tooltip>
 					<Typography variant="subtitle1">
@@ -253,20 +249,7 @@ function ForageableTracker({
 					</Typography>
 				</Box>
 
-				{/* Filters Menu */}
-				<Menu
-					anchorEl={anchorEl}
-					anchorOrigin={{
-						vertical: 'center',
-						horizontal: 'right',
-					}}
-					transformOrigin={{
-						vertical: 'center',
-						horizontal: 'left',
-					}}
-					open={Boolean(anchorEl)}
-					onClose={handleMenuClose}
-				>
+				<Collapse in={expanded} timeout="auto" unmountOnExit>
 					<FilterButtons
 						filters={filters}
 						tooltipsEnabled={tooltipsEnabled}
@@ -274,7 +257,7 @@ function ForageableTracker({
 						isVerticalLayout={false}
 						setFilters={setFilters}
 					/>
-				</Menu>
+				</Collapse>
 
 				<Box sx={{ display: 'flex', height: 'auto' }}>
 					<Box
