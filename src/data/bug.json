@@ -112,7 +112,7 @@
 		"Location": "Overworld",
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Winter"],
-		"Weather": [",Blizzard"],
+		"Weather": ["Blizzard"],
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -614,7 +614,7 @@
 	},
 	{
 		"Name": "Worm",
-		"Location": "Upper MinesTide Caverns (Mines)",
+		"Location": "Upper Mines & Tide Caverns (Mines)",
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
