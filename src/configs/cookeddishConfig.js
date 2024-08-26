@@ -13,6 +13,9 @@ const cookedDishConfig = {
   tooltipFields: [
     'source',
     'time',
+    'ingredients',
+    'skill',
+    'kitchen'
 	],
 };
 

@@ -12,6 +12,8 @@ const blacksmithingConfig = {
   },
   tooltipFields: [
     'time',
+    'ingredients',
+    'skill'
 	],
 };
 

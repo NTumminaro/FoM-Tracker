@@ -16,11 +16,15 @@ const fishConfig = {
 		],
 		Museum: ['Yes', 'No'],
 	},
-  tooltipFields: [
+	tooltipFields: [
 		'location',
 		'size',
+		'requiredPerk',
+		'skill',
+		'essence',
 		'season',
 		'weather',
+
 		'museumAndDiveable',
 	],
 };

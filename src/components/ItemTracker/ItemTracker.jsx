@@ -28,6 +28,7 @@ function ItemTracker({
 	backgroundColor,
 	caughtHighlighting,
 }) {
+	console.log(data);
 	// State Hooks ////////////////////////////////////////////////////
 	const [items, setItems] = useState([]);
 	const [containerSize, setContainerSize] = useState(
@@ -70,6 +71,9 @@ function ItemTracker({
 		if (museumOnly) {
 			filteredItems = filteredItems.filter((i) => i.Museum === 'Yes');
 		}
+
+		filteredItems.sort((a, b) => a.Name.localeCompare(b.Name));
+
 		const updatedItems = filteredItems.map((f) => {
 			const lowerCaseItems = keysToLowerCase(f);
 			return {
@@ -186,6 +190,16 @@ function ItemTracker({
 							key="sunny"
 						/>
 					);
+				case 'rain':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="weather/rain.webp"
+							alt="rainy"
+							key="rainy"
+						/>
+					);
 				case 'rainy':
 					return (
 						<img
@@ -226,6 +240,36 @@ function ItemTracker({
 							key="snow"
 						/>
 					);
+				case 'blizzard':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="weather/blizzard.webp"
+							alt="blizzard"
+							key="blizzard"
+						/>
+					);
+				case 'petals':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="weather/petals.webp"
+							alt="petals"
+							key="petals"
+						/>
+					);
+				case 'leaves':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="weather/leaves.webp"
+							alt="leaves"
+							key="leaves"
+						/>
+					);
 				default:
 					return null;
 			}
@@ -246,7 +290,13 @@ function ItemTracker({
 
 	const getSkillIcon = (skill, level) => (
 		<>
-			<Box display={'flex'} alignContent={'center'} justifyContent={'center'} height={'24px'} width={'24px'}>
+			<Box
+				display={'flex'}
+				alignContent={'center'}
+				justifyContent={'center'}
+				height={'24px'}
+				width={'24px'}
+			>
 				<img
 					style={{
 						objectFit: 'contain',
@@ -254,30 +304,58 @@ function ItemTracker({
 						maxHeight: '100%',
 					}}
 					src={`misc/${skill.toLowerCase()}.webp`}
-					alt="blacksmithing"
-					key="blacksmithing"
+					alt={skill}
+					key={skill}
 				/>
 			</Box>
 			<Typography marginLeft={1}>Level: {level}</Typography>
 		</>
 	);
 
-	const getIngredients = (ingredient) => {
-		let ingredientName =
-			ingredient.split(' ')[0] + '_' + ingredient.split(' ')[1];
-		return (
-			<>
-				<img
-					src={`blacksmithing/${ingredientName
-						.replace(/ /g, '_')
-						.toLowerCase()}.webp`}
-					alt={ingredientName}
-					style={{ width: '30px', height: '30px' }}
-				/>
-				<Typography marginLeft={0}>{ingredient}</Typography>
-			</>
-		);
+	const getIngredients = (ingredients) => {
+		return ingredients.map((ingredient) => {
+			let ingredientName = ingredient.split('(')[0].trim().toLowerCase();
+			return (
+				<Box
+					key={ingredient}
+					display="flex"
+					alignItems="center"
+					marginBottom={1}
+				>
+					<img
+						src={`${config.name.toLowerCase()}/${ingredientName.replace(/ /g, '_').toLowerCase()}.webp`}
+						alt={ingredientName}
+						style={{ width: '30px', height: '30px' }}
+					/>
+					<Typography marginLeft={0}>{ingredient}</Typography>
+				</Box>
+			);
+		});
 	};
+
+	const getKitchenTierIcon = (tier) => (
+		<>
+			<Box
+				display={'flex'}
+				alignContent={'center'}
+				justifyContent={'center'}
+				height={'24px'}
+				width={'24px'}
+			>
+				<img
+					style={{
+						objectFit: 'contain',
+						maxWidth: '100%',
+						maxHeight: '100%',
+					}}
+					src={`cookedDish/kitchen_level_${tier}.webp`}
+					alt="tier"
+					key="tier"
+				/>
+			</Box>
+			<Typography marginLeft={1}>Kitchen Tier: {tier}</Typography>
+		</>
+	);
 
 	const getEssenceIcon = (essence) => {
 		return (
@@ -296,7 +374,6 @@ function ItemTracker({
 
 	// Child Components ////////////////////////////////////////////////////
 	const renderTooltipContent = (item) => {
-		console.log(item);
 		return (
 			<Stack
 				spacing={1}
@@ -348,6 +425,36 @@ function ItemTracker({
 									) : null}
 								</>
 							);
+						case 'requiredPerk':
+							return (
+								<>
+									{item.requiredperk && item.requiredperk !== '' && (
+										<Paper key={field}>
+											<Typography variant="caption" marginLeft={1}>
+												Required Skill
+											</Typography>
+											<Typography marginLeft={2}>
+												{item.requiredperk}
+											</Typography>
+										</Paper>
+									)}
+								</>
+							);
+						case 'ingredients':
+							return (
+								<>
+									{item.ingredients && item.ingredients !== '' && (
+										<Paper key={field}>
+											<Typography variant="caption" marginLeft={1}>
+												{field.charAt(0).toUpperCase() + field.slice(1)}
+											</Typography>
+											<Typography marginLeft={2}>
+												{getIngredients(item.ingredients)}
+											</Typography>
+										</Paper>
+									)}
+								</>
+							);
 						case 'skill':
 							return (
 								<>
@@ -368,7 +475,16 @@ function ItemTracker({
 									)}
 								</>
 							);
-
+						case 'kitchen':
+							return (
+								<>
+									{item.kitchen && item.kitchen !== '' && (
+										<Box display="flex" alignItems="center">
+											{getKitchenTierIcon(item.kitchen)}
+										</Box>
+									)}
+								</>
+							);
 						case 'museumAndDiveable':
 							return (
 								<>

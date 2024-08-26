@@ -218,6 +218,7 @@
 		"RequiredPerk": "Aquatic Antiquities",
 		"Skill": "Fishing",
 		"RequiredLevel": "1",
+		"Essence": "20",
 		"Museum": "Yes"
 	},
 	{

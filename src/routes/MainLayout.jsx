@@ -13,7 +13,7 @@ import artifactData from '../data/artifact.json';
 import materialData from '../data/material.json';
 import forageableData from '../data/forageable.json';
 import blacksmithingData from '../data/blacksmithing.json';
-import cookeddishData from '../data/cookeddish.json';
+import cookedDishData from '../data/cookedDish.json';
 
 const data = {
 	fish: fishData,
@@ -22,7 +22,7 @@ const data = {
 	material: materialData,
 	forageable: forageableData,
 	blacksmithing: blacksmithingData,
-	cookeddish: cookeddishData,
+	cookeddish: cookedDishData,
 };
 
 // configs /////////////////////////////////
@@ -32,7 +32,7 @@ import artifactConfig from '../configs/artifactConfig';
 import materialConfig from '../configs/materialConfig';
 import forageableConfig from '../configs/forageableConfig';
 import blacksmithingConfig from '../configs/blacksmithingConfig';
-import cookeddishConfig from '../configs/cookeddishConfig';
+import cookedDishConfig from '../configs/cookeddishConfig';
 
 const configs = {
 	Fish: fishConfig,
@@ -41,7 +41,7 @@ const configs = {
 	Material: materialConfig,
 	Forageable: forageableConfig,
 	Blacksmithing: blacksmithingConfig,
-	CookedDish: cookeddishConfig,
+	CookedDish: cookedDishConfig,
 };
 
 // Main Component /////////////////////////////////
