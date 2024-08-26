@@ -14,12 +14,12 @@ const blacksmithingConfig = {
         { type: 'silver_ingot', label: 'Silver' },
       ],
     },
-		attributes: {
-			title: 'Attributes',
-			filters: [
-				{ type: 'museum', label: 'Museum' },
-			],
-		},
+		// attributes: {
+		// 	title: 'Attributes',
+		// 	filters: [
+		// 		{ type: 'museum', label: 'Museum' },
+		// 	],
+		// },
 	},
   tooltipFields: [
     'time',
