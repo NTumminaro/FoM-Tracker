@@ -7,16 +7,19 @@
 	{
 		"Name": "Copper Ore",
 		"Source": "Upper Mines (Floors 1 - 19)Copper Clods",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
 		"Name": "Coral",
 		"Source": "Tide Caverns (Floors 21 -39)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
 		"Name": "Crystal",
 		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
@@ -28,6 +31,7 @@
 	{
 		"Name": "Emerald",
 		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
@@ -54,6 +58,7 @@
 	{
 		"Name": "Iron Ore",
 		"Source": "Tide Caverns (Floors 21 -39)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
@@ -75,6 +80,7 @@
 	{
 		"Name": "Perfect Copper Ore",
 		"Source": "Upper Mines (Floors 1 - 19)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
@@ -86,6 +92,7 @@
 	{
 		"Name": "Perfect Emerald",
 		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
@@ -97,6 +104,7 @@
 	{
 		"Name": "Perfect Iron Ore",
 		"Source": "Tide Caverns (Floors 21 -39)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
@@ -114,16 +122,19 @@
 	{
 		"Name": "Perfect Ruby",
 		"Source": "Upper Mines (Floors 1 - 19)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Perfect Sapphire",
 		"Source": "Tide Caverns (Floors 21 -39)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Perfect Silver Ore",
 		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Location": "Mine",
 		"Museum": "Yes"
 	},
 	{
@@ -135,21 +146,25 @@
 	{
 		"Name": "Ruby",
 		"Source": "Upper Mines (Floors 1 - 19)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
 		"Name": "Sapphire",
 		"Source": "Tide Caverns (Floors 21 -39) & Some Large Rocks",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
 		"Name": "Silver Ore",
 		"Source": "Deep Earth Caverns (Floors 41 - 59)",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{
 		"Name": "Stone",
 		"Source": "Mines & Overworld Rocks",
+		"Location": "Mine",
 		"Museum": "No"
 	},
 	{

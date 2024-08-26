@@ -5,7 +5,6 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import Header from '../components/Header/Header';
 import ItemTracker from '../components/ItemTracker/ItemTracker';
 
-
 // data /////////////////////////////////
 import fishData from '../data/fish.json';
 import bugData from '../data/bug.json';
@@ -106,7 +105,7 @@ const MainLayout = () => {
 					(tracker) => tracker !== 'Blacksmithing' && tracker !== 'CookedDish'
 				)
 			);
-		} else {
+		} else if (museumOnly === false) {
 			// Ensure Blacksmithing and CookedDish trackers are included when museumOnly is false
 			setDisplayedTrackers((prev) => {
 				const updatedTrackers = [...prev];

@@ -1,18 +1,24 @@
-
 const materialConfig = {
-  name: 'Material',
-  defaultSize: {
-    width: 400,
-    height: 350,
-  },
-  filters: {
-    seasons: ['Spring', 'Summer', 'Fall', 'Winter'],
-    locations: ['The Narrows', 'The Eastern Road', 'Sweetwater Farms', 'The Western Ruins', 'Overworld', 'Mines' ],
-    Museum: ['Yes', 'No'],
-  },
-  tooltipFields: [
-		'location',
-	],
+	name: 'Material',
+	defaultSize: {
+		width: 400,
+		height: 350,
+	},
+	filterGroups: {
+		locations: {
+			title: 'Locations',
+			filters: [
+				{ type: 'mine', label: 'Mine' },
+			],
+		},
+		attributes: {
+			title: 'Attributes',
+			filters: [
+				{ type: 'museum', label: 'Museum' },
+			],
+		},
+	},
+	tooltipFields: ['source', 'museumAndDiveable'],
 };
 
 export default materialConfig;

@@ -1,53 +1,53 @@
 [
 	{
 		"Name": "Aldarian Gauntlet",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Aldarian Sword",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Aldarian War Banner",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Family Crest Pendant",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Lost Crown of Aldaria",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Museum": "Yes"
 	},
 
 	{
 		"Name": "Caldosian Breastplate",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Caldosian Drinking Horn",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Caldosian Emperor Bust",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Caldosian Sword",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Statuette of Caldarus",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Museum": "Yes"
 	},
 
@@ -79,27 +79,27 @@
 
 	{
 		"Name": "Ancient Crystal Goblet",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Ancient Gold Coin",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Ancient Horn Circlet",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Ancient Royal Scepter",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Ancient Stone Lantern",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Museum": "Yes"
 	},
 	{
@@ -134,27 +134,27 @@
 	},
 	{
 		"Name": "Amber-trapped Insect",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Fossilized Egg",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Meteorite",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Tiny Dinosaur Skeleton",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Trilobite Fossil",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Museum": "Yes"
 	},
 	{
@@ -296,27 +296,27 @@
 
 	{
 		"Name": "Diamond-backed Mirror",
-		"Location": "The Mines",
+		"Location": "Mines",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Flint Arrowhead",
-		"Location": "The Mines",
+		"Location": "Mines",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Obsidian Blade",
-		"Location": "The Mines",
+		"Location": "Mines",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Shortcut Scroll",
-		"Location": "The Mines",
+		"Location": "Mines",
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Stone Horse",
-		"Location": "The Mines",
+		"Location": "Mines",
 		"Museum": "Yes"
 	},
 

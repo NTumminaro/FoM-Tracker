@@ -8,7 +8,7 @@
 	},
 	{
 		"Name": "Basil",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Season": ["Summer"],
 		"Museum": "Yes"
 	},
@@ -20,13 +20,13 @@
 	},
 	{
 		"Name": "Blue Conch Shell",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["All"],
 		"Museum": "No"
 	},
 	{
 		"Name": "Blueberry",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Season": ["Spring"],
 		"Museum": "No"
 	},
@@ -45,13 +45,13 @@
 	},
 	{
 		"Name": "Catmint",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Summer"],
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Cattail Fluff",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Museum": "No"
 	},
@@ -75,7 +75,7 @@
 	},
 	{
 		"Name": "Coconut",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["Summer"],
 		"Museum": "No"
 	},
@@ -105,7 +105,7 @@
 	},
 	{
 		"Name": "Daffodil",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
@@ -117,7 +117,7 @@
 	},
 	{
 		"Name": "Dandelion",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
@@ -135,13 +135,13 @@
 	},
 	{
 		"Name": "Fennel",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Fiddlehead",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
@@ -160,7 +160,7 @@
 	},
 	{
 		"Name": "Garlic",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Source": "Inside ruins",
 		"Season": ["Fall"],
 		"Museum": "Yes"
@@ -209,7 +209,7 @@
 	},
 	{
 		"Name": "Iris",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["Summer"],
 		"Museum": "Yes"
 	},
@@ -251,13 +251,13 @@
 	},
 	{
 		"Name": "Moon Fruit",
-		"Location": "Near the Wishing Well",
+		"Location": "Eastern Road, Near the Wishing Well",
 		"Season": ["Fall"],
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Morel Mushroom",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
@@ -308,7 +308,7 @@
 	},
 	{
 		"Name": "Pink Scallop Shell",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["All"],
 		"Museum": "No"
 	},
@@ -365,7 +365,7 @@
 	},
 	{
 		"Name": "Sand Dollar",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["All"],
 		"Museum": "No"
 	},
@@ -377,7 +377,7 @@
 	},
 	{
 		"Name": "Seaweed",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["All"],
 		"Museum": "No"
 	},
@@ -401,19 +401,19 @@
 	},
 	{
 		"Name": "Snapdragon",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Season": ["Winter"],
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Snowdrop Anemone",
-		"Location": "The Western Ruins",
+		"Location": "Western Ruins",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
 	{
 		"Name": "Spirula Shell",
-		"Location": "The Beach",
+		"Location": "Beach",
 		"Season": ["All"],
 		"Museum": "No"
 	},
@@ -437,7 +437,7 @@
 	},
 	{
 		"Name": "Tulip",
-		"Location": "The Eastern Road",
+		"Location": "Eastern Road",
 		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
@@ -461,7 +461,7 @@
 	},
 	{
 		"Name": "Water Chestnut",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Museum": "No"
 	},
@@ -473,7 +473,7 @@
 	},
 	{
 		"Name": "Wild Grapes",
-		"Location": "The Narrows",
+		"Location": "Narrows",
 		"Season": ["Summer"],
 		"Museum": "No"
 	},

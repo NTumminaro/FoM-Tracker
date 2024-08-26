@@ -5,11 +5,22 @@ const blacksmithingConfig = {
     width: 750,
     height: 350,
   },
-  filters: {
-    seasons: ['Spring', 'Summer', 'Fall', 'Winter'],
-    locations: ['The Narrows', 'The Eastern Road', 'Sweetwater Farms', 'The Western Ruins', 'Overworld', 'Mines' ],
-    Museum: ['Yes', 'No'],
-  },
+	filterGroups: {
+    materials: {
+      title: 'Materials',
+      filters: [
+        { type: 'copper_ingot', label: 'Copper' },
+        { type: 'iron_ingot', label: 'Iron' },
+        { type: 'silver_ingot', label: 'Silver' },
+      ],
+    },
+		attributes: {
+			title: 'Attributes',
+			filters: [
+				{ type: 'museum', label: 'Museum' },
+			],
+		},
+	},
   tooltipFields: [
     'time',
     'ingredients',

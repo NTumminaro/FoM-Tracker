@@ -4,17 +4,25 @@ const artifactConfig = {
 		width: 750,
 		height: 350,
 	},
-	filters: {
-		seasons: ['Spring', 'Summer', 'Fall', 'Winter'],
-		locations: [
-			'The Narrows',
-			'The Eastern Road',
-			'Sweetwater Farms',
-			'The Western Ruins',
-			'Overworld',
-			'Mines',
-		],
-		Museum: ['Yes', 'No'],
+	filterGroups: {
+		locations: {
+			title: 'Locations',
+			filters: [
+				{ type: 'beach', label: 'Beach' },
+				{ type: 'narrows', label: 'Narrows' },
+				{ type: 'eastern road', label: 'Eastern Road' },
+				{ type: 'sweetwater farm', label: 'Sweetwater Farm' },
+				{ type: 'western ruins', label: 'Western Ruins' },
+				{ type: 'mine', label: 'Mine' },
+			],
+		},
+		attributes: {
+			title: 'Attributes',
+			filters: [
+				{ type: 'museum', label: 'Museum' },
+				{ type: 'skill', label: 'Skill' },
+			],
+		},
 	},
 	tooltipFields: [
 		'location',

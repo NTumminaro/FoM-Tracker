@@ -14,7 +14,6 @@ import { Resizable } from 're-resizable';
 
 // Components, Hooks, & Utils /////////////////////////////////////////////////
 import FilterButtons from './components/FilterButtons';
-// import forageableData from '../../data/forageable.json';
 import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
 
@@ -39,10 +38,12 @@ function ItemTracker({
 		seasons: [],
 		weathers: [],
 		locations: [],
-		showSkills: false,
-		showDiveable: false,
+		kitchen: [],
+		materials: [],
+		attributes: [],
 		showMissing: false,
 	});
+
 	const [expanded, setExpanded] = useState(true);
 
 	// Utils ////////////////////////////////////////////////////
@@ -66,7 +67,6 @@ function ItemTracker({
 		}
 		const savedItems =
 			JSON.parse(localStorage.getItem(`caught${config.name}`)) || {};
-		console.log(data);
 		let filteredItems = data.filter((i) => i.Ignore !== 'Yes');
 		if (museumOnly) {
 			filteredItems = filteredItems.filter((i) => i.Museum === 'Yes');
@@ -89,9 +89,17 @@ function ItemTracker({
 		setFilters((prevFilters) => {
 			const updatedFilters = { ...prevFilters };
 
-			if (filterType === 'showMissing') {
-				updatedFilters.showMissing = !prevFilters.showMissing;
-			} else if (['seasons', 'weathers', 'locations'].includes(filterType)) {
+			if (
+				[
+					'seasons',
+					'weathers',
+					'locations',
+					'materials',
+					'kitchen',
+					'attributes',
+				].includes(filterType)
+			) {
+				// Handle array filters
 				if (updatedFilters[filterType].includes(value)) {
 					updatedFilters[filterType] = updatedFilters[filterType].filter(
 						(item) => item !== value
@@ -100,7 +108,8 @@ function ItemTracker({
 					updatedFilters[filterType] = [...updatedFilters[filterType], value];
 				}
 			} else {
-				updatedFilters[filterType] = !updatedFilters[filterType];
+				// Handle boolean filters
+				updatedFilters[filterType] = !prevFilters[filterType];
 			}
 
 			return updatedFilters;
@@ -111,33 +120,62 @@ function ItemTracker({
 		return items.filter((i) => {
 			const matchesSeason =
 				filters.seasons.length === 0 ||
-				i.season.some((season) => filters.seasons.includes(season)) ||
-				i.season.includes('All');
+				(i.season &&
+					i.season.some((season) => filters.seasons.includes(season))) ||
+				(i.season && i.season.includes('All'));
+
 			const matchesWeather =
 				filters.weathers.length === 0 ||
-				i.weather.some((weather) => filters.weathers.includes(weather)) ||
-				i.weather.includes('Any');
+				(i.weather &&
+					i.weather.some((weather) => filters.weathers.includes(weather))) ||
+				(i.weather && i.weather.includes('Any'));
+
 			const matchesLocation =
 				filters.locations.length === 0 ||
-				filters.locations.includes(i.location.toLowerCase()) ||
-				(i.location.toLowerCase().includes('overworld') &&
+				(i.location &&
+					i.location
+						.split(',')
+						.map((loc) => loc.trim().toLowerCase())
+						.some((loc) => filters.locations.includes(loc))) ||
+				(i.location &&
+					i.location.toLowerCase().includes('overworld') &&
 					!filters.locations.includes('mine')) ||
-				(filters.locations.includes('mine') &&
-					i.location.toLowerCase().includes('mine' || 'floor'));
-			const matchesMuseum =
-				!filters.showMuseum || i.museum.toLowerCase() === 'yes';
-			const matchesSkills = !filters.showSkills || i.skill;
-			const matchesDiveable =
-				!filters.showDiveable || i.diveable.toLowerCase() === 'yes';
+				(i.location &&
+					filters.locations.includes('mine') &&
+					i.location.toLowerCase().includes('mine' || 'floor')) ||
+				(!i.location && filters.locations.includes('anywhere'));
+
+			const matchKitchen =
+				filters.kitchen.length === 0 ||
+				(i.kitchen && filters.kitchen.includes(i.kitchen));
+
+			const matchMaterials =
+				filters.materials.length === 0 ||
+				(i.ingredients &&
+					i.ingredients
+						.map((mat) => mat.split(' ')[0].toLowerCase())
+						.some((mat) =>
+							filters.materials
+								.map((mat) => mat.split('_')[0].toLowerCase())
+								.includes(mat)
+						));
+
+			const matchesAttributes =
+				filters.attributes.length === 0 ||
+				filters.attributes.some((attr) => {
+					if (attr === 'skill') return i.skill;
+					return i[attr] && i[attr].toLowerCase() === 'yes';
+				});
+
 			const matchesMissing = !filters.showMissing || !i.caught;
 
 			return (
 				matchesSeason &&
 				matchesWeather &&
 				matchesLocation &&
-				matchesMuseum &&
-				matchesSkills &&
-				matchesDiveable &&
+				matchKitchen &&
+				matchMaterials &&
+				matchesAttributes &&
 				matchesMissing
 			);
 		});
@@ -196,8 +234,8 @@ function ItemTracker({
 							height={24}
 							width={24}
 							src="weather/rain.webp"
-							alt="rainy"
-							key="rainy"
+							alt="rain"
+							key="rain"
 						/>
 					);
 				case 'rainy':
@@ -348,7 +386,7 @@ function ItemTracker({
 						maxWidth: '100%',
 						maxHeight: '100%',
 					}}
-					src={`cookedDish/kitchen_level_${tier}.webp`}
+					src={`cookeddish/kitchen_level_${tier}.webp`}
 					alt="tier"
 					key="tier"
 				/>
@@ -361,8 +399,8 @@ function ItemTracker({
 		return (
 			<>
 				<img
-					height={24}
-					width={24}
+					height={26}
+					width={26}
 					src="misc/essence.webp"
 					alt="essence"
 					key="essence"
@@ -380,6 +418,7 @@ function ItemTracker({
 				marginBottom={'6px'}
 				minWidth={'200px'}
 				width={'360px'}
+				key={item.name}
 			>
 				<Typography
 					sx={{ borderBottom: 'solid 1px white' }}
@@ -448,9 +487,7 @@ function ItemTracker({
 											<Typography variant="caption" marginLeft={1}>
 												{field.charAt(0).toUpperCase() + field.slice(1)}
 											</Typography>
-											<Typography marginLeft={2}>
-												{getIngredients(item.ingredients)}
-											</Typography>
+											{getIngredients(item.ingredients)}
 										</Paper>
 									)}
 								</>
@@ -518,7 +555,7 @@ function ItemTracker({
 						default:
 							return (
 								<>
-									{item[field] !== '' && (
+									{item[field] && item[field] !== '' && (
 										<Paper key={field}>
 											<Box>
 												<Typography variant="caption" marginLeft={1}>
@@ -610,9 +647,9 @@ function ItemTracker({
 				<Collapse in={expanded} timeout="auto" unmountOnExit>
 					<FilterButtons
 						filters={filters}
+						config={config}
 						tooltipsEnabled={tooltipsEnabled}
 						toggleFilter={toggleFilter}
-						isVerticalLayout={false}
 						setFilters={setFilters}
 					/>
 				</Collapse>

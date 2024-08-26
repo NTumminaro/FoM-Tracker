@@ -1,3 +1,4 @@
+// Libraries & Frameworks ///////////////////////////////////////////
 import {
 	Box,
 	ToggleButton,
@@ -8,230 +9,76 @@ import {
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import PropTypes from 'prop-types';
 
+// Main Component //////////////////////////////////////////////
 const FilterButtons = ({
 	filters,
+	config,
 	tooltipsEnabled,
 	toggleFilter,
 	setFilters,
 }) => {
+	// Render //////////////////////////////////////////////////
 	return (
 		<Box
 			sx={{
 				display: 'flex',
-				justifyContent: 'space-between',
+				justifyContent: 'start',
 				alignItems: 'center',
 				flexWrap: 'wrap',
 				margin: 0,
 				backgroundColor: '#3a49b22f',
 			}}
 		>
-			{/* Location Filter */}
-			<Box
-				display="flex"
-				justifyContent="center"
-				alignItems="center"
-				padding={1}
-			>
-				<ToggleButtonGroup
-					color="info"
-					value={filters.seasons}
-					exclusive={false}
-					size="small"
-				>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Spring"
-						placement="top"
-						arrow
-						disableInteractive
+			{Object.keys(config.filterGroups).map((groupKey) => {
+				const group = config.filterGroups[groupKey];
+				return (
+					<Box
+						key={groupKey}
+						display="flex"
+						flexDirection="column"
+						justifyContent="center"
+						alignItems="center"
+						padding={1}
 					>
-						<ToggleButton
-							value="Spring"
-							onClick={() => toggleFilter('seasons', 'Spring')}
-							selected={filters.seasons.includes('Spring')}
+						<ToggleButtonGroup
+							value={filters[groupKey]}
+							exclusive={false}
+							size="small"
 						>
-							<img
-								height={24}
-								width={24}
-								src="misc/spring.webp"
-								alt="spring"
-								key="spring"
-							/>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Summer"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							value="Summer"
-							onClick={() => toggleFilter('seasons', 'Summer')}
-							selected={filters.seasons.includes('Summer')}
-						>
-							<img
-								height={24}
-								width={24}
-								src="misc/summer.webp"
-								alt="summer"
-								key="summer"
-							/>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Fall"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							value="Fall"
-							onClick={() => toggleFilter('seasons', 'Fall')}
-							selected={filters.seasons.includes('Fall')}
-						>
-							<img
-								height={24}
-								width={24}
-								src="misc/fall.webp"
-								alt="fall"
-								key="fall"
-							/>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Winter"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							color="primary"
-							onClick={() => toggleFilter('seasons', 'Winter')}
-						>
-							<img
-								height={24}
-								width={24}
-								src="misc/winter.webp"
-								alt="winter"
-								key="winter"
-							/>
-						</ToggleButton>
-					</Tooltip>
-				</ToggleButtonGroup>
-			</Box>
-			<Box
-				display="flex"
-				justifyContent="center"
-				alignItems="center"
-				padding={1}
-			>
-				<ToggleButtonGroup
-					value={filters.weathers}
-					exclusive={false}
-					size="small"
-				>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="The Narrows"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'the narrows')}
-							selected={filters.locations.includes('the narrows')}
-							sx={{ width: '40px' }}
-						>
-							<Typography fontSize={16}>N</Typography>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="The Eastern Road"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'the eastern road')}
-							selected={filters.locations.includes('the eastern road')}
-							sx={{ width: '40px' }}
-						>
-							<Typography fontSize={16}>E</Typography>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Sweetwater Farm"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'sweetwater farm')}
-							selected={filters.locations.includes('sweetwater farm')}
-							sx={{ width: '40px' }}
-						>
-							<Typography fontSize={16}>S</Typography>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="The Western Ruins"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'the western ruins')}
-							selected={filters.locations.includes('the western ruins')}
-							sx={{ width: '40px' }}
-						>
-							<Typography fontSize={16}>W</Typography>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Overworld"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'overworld')}
-							selected={filters.locations.includes('overworld')}
-							sx={{ width: '40px' }}
-						>
-							<Typography fontSize={16}>O</Typography>
-						</ToggleButton>
-					</Tooltip>
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Mines"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('locations', 'mine')}
-							selected={filters.locations.includes('mine')}
-						>
-							<img
-								height={24}
-								width={24}
-								src="misc/mine.webp"
-								alt="mine"
-								key="mine"
-							/>
-						</ToggleButton>
-					</Tooltip>
-				</ToggleButtonGroup>
-			</Box>
+							{group.filters.map((filter) => {
+								const filterValue =
+									typeof filter === 'string' ? filter : filter.type;
+								const filterLabel =
+									typeof filter === 'string' ? filter : filter.label;
 
+								return (
+									<Tooltip
+										key={filterValue}
+										disableHoverListener={!tooltipsEnabled}
+										title={filterLabel}
+										placement="top"
+										arrow
+										disableInteractive
+									>
+										<ToggleButton
+											value={filterValue}
+											sx={{ width: '40px' }}
+											onClick={() => toggleFilter(groupKey, filterValue)}
+											selected={
+												Array.isArray(filters[groupKey])
+													? filters[groupKey]?.includes(filterValue)
+													: filters[groupKey]
+											}
+										>
+											{getFilterIcon(groupKey, filterValue)}
+										</ToggleButton>
+									</Tooltip>
+								);
+							})}
+						</ToggleButtonGroup>
+					</Box>
+				);
+			})}
 			<Box
 				display="flex"
 				justifyContent="center"
@@ -239,26 +86,6 @@ const FilterButtons = ({
 				padding={1}
 			>
 				<ToggleButtonGroup exclusive={false} size="small">
-					<Tooltip
-						disableHoverListener={!tooltipsEnabled}
-						title="Museum"
-						placement="top"
-						arrow
-						disableInteractive
-					>
-						<ToggleButton
-							onClick={() => toggleFilter('showMuseum')}
-							selected={filters.showMuseum}
-						>
-							<img
-								height={24}
-								width={24}
-								src="misc/museum.webp"
-								alt="museum"
-								key="museum"
-							/>
-						</ToggleButton>
-					</Tooltip>
 					<Tooltip
 						disableHoverListener={!tooltipsEnabled}
 						title="Show Only Missing"
@@ -292,11 +119,11 @@ const FilterButtons = ({
 							onClick={() =>
 								setFilters({
 									seasons: [],
-									weathers: [],
 									locations: [],
-									showMuseum: false,
-									showSkills: false,
-									showDiveable: false,
+									weathers: [],
+									kitchen: [],
+									materials: [],
+									attributes: [],
 									showMissing: false,
 								})
 							}
@@ -310,12 +137,79 @@ const FilterButtons = ({
 	);
 };
 
+// Helper Functions ///////////////////////////////////////////
+const getFilterIcon = (filterType, filterValue) => {
+	switch (filterType) {
+		case 'seasons':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`misc/${filterValue.toLowerCase()}.webp`}
+					alt={filterValue}
+				/>
+			);
+		case 'locations':
+			return filterValue === 'mine' ? (
+				<img height={24} width={24} src="misc/mine.webp" alt="mine" />
+			) : (
+				<Typography fontSize={16}>
+					{filterValue.charAt(0).toUpperCase()}
+				</Typography>
+			);
+		case 'weathers':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`weather/${filterValue.toLowerCase()}.webp`}
+					alt={filterValue}
+				/>
+			);
+		case 'kitchen':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`cookeddish/kitchen_level_${filterValue.toLowerCase()}.webp`}
+					alt={filterValue}
+				/>
+			);
+		case 'materials':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`blacksmithing/${filterValue.toLowerCase()}.webp`}
+					alt={filterValue}
+				/>
+			);
+		case 'attributes':
+			if (filterValue === 'museum') {
+				return (
+					<img height={24} width={24} src="misc/museum.webp" alt="museum" />
+				);
+			}
+			if (filterValue === 'skill') {
+				return (
+					<img height={24} width={24} src="misc/essence.webp" alt="skill" />
+				);
+			}
+			return (
+				<img height={24} width={24} src="misc/diveable.png" alt="diveable" />
+			);
+		default:
+			return <Typography>{filterValue}</Typography>;
+	}
+};
+
 export default FilterButtons;
 
 // PropTypes ////////////////////////////////////////////////////
 if (!import.meta.env.PROD) {
 	FilterButtons.propTypes = {
 		filters: PropTypes.object,
+		config: PropTypes.object,
 		tooltipsEnabled: PropTypes.bool,
 		toggleFilter: PropTypes.func,
 		isVerticalLayout: PropTypes.bool,
