@@ -1,7 +1,7 @@
 const artifactConfig = {
 	name: 'Artifact',
 	defaultSize: {
-		width: 750,
+		width: 780,
 		height: 350,
 	},
 	filterGroups: {
