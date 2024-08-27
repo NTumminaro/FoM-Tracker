@@ -26,6 +26,7 @@ function ItemTracker({
 	museumOnly,
 	backgroundColor,
 	caughtHighlighting,
+	showUnobtainable,
 }) {
 	console.log(data);
 	// State Hooks ////////////////////////////////////////////////////
@@ -39,6 +40,7 @@ function ItemTracker({
 		weathers: [],
 		locations: [],
 		kitchen: [],
+		buildings: [],
 		materials: [],
 		attributes: [],
 		showMissing: false,
@@ -67,7 +69,10 @@ function ItemTracker({
 		}
 		const savedItems =
 			JSON.parse(localStorage.getItem(`caught${config.name}`)) || {};
-		let filteredItems = data.filter((i) => i.Ignore !== 'Yes');
+		let filteredItems = data;
+		if (!showUnobtainable) {
+			filteredItems = filteredItems.filter((i) => i.Ignore !== 'Yes');
+		}
 		if (museumOnly) {
 			filteredItems = filteredItems.filter((i) => i.Museum === 'Yes');
 		}
@@ -96,6 +101,7 @@ function ItemTracker({
 					'locations',
 					'materials',
 					'kitchen',
+					'buildings',
 					'attributes',
 				].includes(filterType)
 			) {
@@ -149,6 +155,12 @@ function ItemTracker({
 				filters.kitchen.length === 0 ||
 				(i.kitchen && filters.kitchen.includes(i.kitchen));
 
+			console.log(i.building);
+
+			const matchBuildings =
+				filters.buildings.length === 0 ||
+				(i.building && filters.buildings.includes(i.building.toLowerCase()));
+
 			const matchMaterials =
 				filters.materials.length === 0 ||
 				(i.ingredients &&
@@ -175,6 +187,7 @@ function ItemTracker({
 				matchesLocation &&
 				matchKitchen &&
 				matchMaterials &&
+				matchBuildings &&
 				matchesAttributes &&
 				matchesMissing
 			);
@@ -410,6 +423,44 @@ function ItemTracker({
 		);
 	};
 
+	const getBuildingIcon = (building) => {
+		return (
+			<>
+				<img
+					height={28}
+					width={28}
+					src={`ranching/${building.toLowerCase()}.webp`}
+					alt="heart"
+					key="heart"
+				/>
+				<Typography marginLeft={1}>{building}</Typography>
+			</>
+		);
+	};
+
+	const getHeartIcon = (hearts) => {
+		return (
+			<>
+				<img
+					height={26}
+					width={26}
+					src="ranching/heart2.webp"
+					alt="heart"
+					key="heart"
+				/>
+				<Typography marginLeft={1}>Hearts: {hearts}</Typography>
+			</>
+		);
+	};
+
+	const getImgSrc = (i) => {
+		if (i.nosprite === true) {
+			return 'misc/question.webp';
+		} else {
+			return `${config.name.toLowerCase()}/${i.name.replace(/ /g, '_').toLowerCase()}.webp`;
+		}
+	};
+
 	// Child Components ////////////////////////////////////////////////////
 	const renderTooltipContent = (item) => {
 		return (
@@ -518,6 +569,26 @@ function ItemTracker({
 									{item.kitchen && item.kitchen !== '' && (
 										<Box display="flex" alignItems="center">
 											{getKitchenTierIcon(item.kitchen)}
+										</Box>
+									)}
+								</>
+							);
+						case 'building':
+							return (
+								<>
+									{item.building && item.building !== '' && (
+										<Box display="flex" alignItems="center">
+											{getBuildingIcon(item.building)}
+										</Box>
+									)}
+								</>
+							);
+						case 'hearts':
+							return (
+								<>
+									{item.hearts && item.hearts !== '' && (
+										<Box display="flex" alignItems="center">
+											{getHeartIcon(item.hearts)}
 										</Box>
 									)}
 								</>
@@ -678,17 +749,27 @@ function ItemTracker({
 											? {
 													filter: i.caught ? 'grayscale(0)' : 'grayscale(1)',
 													backgroundColor: i.caught ? '#66bb6a7d' : 'inherit',
+													outline:
+														i.ignore === 'Yes' ? 'dashed 2px white' : 'none',
+													outlineOffset: '-3px',
 													'&:hover': {
 														backgroundColor: i.caught ? '#66bb6aaf' : '',
+														outline:
+															i.ignore === 'Yes' ? 'dashed 2px white' : 'none',
 													},
 												}
-											: { filter: i.caught ? 'grayscale(0)' : 'grayscale(1)' }
+											: {
+													filter: i.caught ? 'grayscale(0)' : 'grayscale(1)',
+													outline:
+														i.ignore === 'Yes' ? 'dashed 2px white' : 'none',
+												}
 									}
 								>
 									<img
-										src={`${config.name.toLowerCase()}/${i.name
-											.replace(/ /g, '_')
-											.toLowerCase()}.webp`}
+										// src={`${config.name.toLowerCase()}/${i.name
+										// 	.replace(/ /g, '_')
+										// 	.toLowerCase()}.webp`}
+										src={getImgSrc(i)}
 										alt={i.name}
 										draggable={false}
 										style={{ width: '40px', height: '40px' }}
@@ -711,6 +792,7 @@ ItemTracker.propTypes = {
 	museumOnly: PropTypes.bool,
 	backgroundColor: PropTypes.string,
 	caughtHighlighting: PropTypes.bool,
+	showUnobtainable: PropTypes.bool,
 };
 
 export default ItemTracker;

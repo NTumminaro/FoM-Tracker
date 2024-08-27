@@ -13,6 +13,7 @@ import materialData from '../data/material.json';
 import forageableData from '../data/forageable.json';
 import blacksmithingData from '../data/blacksmithing.json';
 import cookedDishData from '../data/cookedDish.json';
+import ranchingData from '../data/ranching.json';
 
 const data = {
 	fish: fishData,
@@ -22,6 +23,7 @@ const data = {
 	forageable: forageableData,
 	blacksmithing: blacksmithingData,
 	cookeddish: cookedDishData,
+	ranching: ranchingData,
 };
 
 // configs /////////////////////////////////
@@ -32,6 +34,7 @@ import materialConfig from '../configs/materialConfig';
 import forageableConfig from '../configs/forageableConfig';
 import blacksmithingConfig from '../configs/blacksmithingConfig';
 import cookedDishConfig from '../configs/cookeddishConfig';
+import ranchingConfig from '../configs/ranchingConfig';
 
 const configs = {
 	Fish: fishConfig,
@@ -41,6 +44,7 @@ const configs = {
 	Forageable: forageableConfig,
 	Blacksmithing: blacksmithingConfig,
 	CookedDish: cookedDishConfig,
+	Ranching: ranchingConfig,
 };
 
 // Main Component /////////////////////////////////
@@ -59,6 +63,9 @@ const MainLayout = () => {
 	const [caughtHighlighting, setCaughtHighlighting] = useState(() => {
 		return JSON.parse(localStorage.getItem('caughtHighlighting')) ?? true;
 	});
+	const [showUnobtainable, setShowUnobtainable] = useState(() => {
+		return JSON.parse(localStorage.getItem('showUnobtainable')) ?? false;
+	});
 	const [editMode, setEditMode] = useState(false);
 	const [museumOnly, setMuseumOnly] = useState(() => {
 		return JSON.parse(localStorage.getItem('museumOnly')) ?? false;
@@ -73,6 +80,7 @@ const MainLayout = () => {
 				'Forageable',
 				'Blacksmithing',
 				'CookedDish',
+				'Ranching',
 			]
 		);
 	});
@@ -96,13 +104,20 @@ const MainLayout = () => {
 	}, [caughtHighlighting]);
 
 	useEffect(() => {
+		localStorage.setItem(
+			'showUnobtainable',
+			JSON.stringify(showUnobtainable)
+		);
+	}, [showUnobtainable]);
+
+	useEffect(() => {
 		localStorage.setItem('museumOnly', JSON.stringify(museumOnly));
 
 		if (museumOnly) {
 			// Hide Blacksmithing and CookedDish trackers if museumOnly is true
 			setDisplayedTrackers((prev) =>
 				prev.filter(
-					(tracker) => tracker !== 'Blacksmithing' && tracker !== 'CookedDish'
+					(tracker) => tracker !== 'Blacksmithing' && tracker !== 'CookedDish' && tracker !== 'Ranching'
 				)
 			);
 		} else if (museumOnly === false) {
@@ -114,6 +129,9 @@ const MainLayout = () => {
 				}
 				if (!prev.includes('CookedDish')) {
 					updatedTrackers.push('CookedDish');
+				}
+				if (!prev.includes('Ranching')) {
+					updatedTrackers.push('Ranching');
 				}
 				return updatedTrackers;
 			});
@@ -138,6 +156,8 @@ const MainLayout = () => {
 	const resetTrackers = () => {
 		// Reset to default settings
 		setTooltipsEnabled(true);
+		setCaughtHighlighting(true);
+		setShowUnobtainable(false);
 		setMuseumOnly(false);
 		setDisplayedTrackers([
 			'Fish',
@@ -147,12 +167,14 @@ const MainLayout = () => {
 			'Forageable',
 			'Blacksmithing',
 			'CookedDish',
+			'Ranching',
 		]);
 		setBackgroundColor('#303030');
 		// setBorderColor('#000000');
 
 		// Clear relevant localStorage keys
 		localStorage.removeItem('tooltipsEnabled');
+		localStorage.removeItem('showUnobtainable');
 		localStorage.removeItem('museumOnly');
 		localStorage.removeItem('displayedTrackers');
 		localStorage.removeItem('backgroundColor');
@@ -178,6 +200,12 @@ const MainLayout = () => {
 
 	const toggleTooltips = () => {
 		setTooltipsEnabled((prev) => !prev);
+	};
+
+	const toggleShowUnobtainable = () => {
+		setShowUnobtainable((prev) => !prev);
+		setMuseumOnly((prev) => !prev);
+		setTimeout(() => setMuseumOnly((prev) => !prev), 0);
 	};
 
 	const toggleEditMode = () => {
@@ -208,8 +236,10 @@ const MainLayout = () => {
 				toggleTooltips={toggleTooltips}
 				toggleEditMode={toggleEditMode}
 				toggleMuseumOnly={toggleMuseumOnly}
+				toggleShowUnobtainable={toggleShowUnobtainable}
 				editMode={editMode}
 				tooltipsEnabled={tooltipsEnabled}
+				showUnobtainable={showUnobtainable}
 				museumOnly={museumOnly}
 				displayedTrackers={displayedTrackers}
 				toggleTracker={toggleTracker}
@@ -249,6 +279,7 @@ const MainLayout = () => {
 							museumOnly={museumOnly}
 							backgroundColor={backgroundColor}
 							caughtHighlighting={caughtHighlighting}
+							showUnobtainable={showUnobtainable}
 						/>
 					))}
 				</Stack>

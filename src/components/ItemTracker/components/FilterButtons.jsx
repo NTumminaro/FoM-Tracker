@@ -122,6 +122,7 @@ const FilterButtons = ({
 									locations: [],
 									weathers: [],
 									kitchen: [],
+									buildings: [],
 									materials: [],
 									attributes: [],
 									showMissing: false,
@@ -181,6 +182,15 @@ const getFilterIcon = (filterType, filterValue) => {
 					height={24}
 					width={24}
 					src={`blacksmithing/${filterValue.toLowerCase()}.webp`}
+					alt={filterValue}
+				/>
+			);
+		case 'buildings':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`ranching/${filterValue.toLowerCase()}.webp`}
 					alt={filterValue}
 				/>
 			);

@@ -202,12 +202,6 @@
 		"Museum": "No"
 	},
 	{
-		"Name": "Ice Block",
-		"Location": "Overworld",
-		"Season": ["Winter"],
-		"Museum": "No"
-	},
-	{
 		"Name": "Iris",
 		"Location": "Beach",
 		"Season": ["Summer"],
@@ -215,7 +209,7 @@
 	},
 	{
 		"Name": "Jade Dulse",
-		"Location": "In Mines",
+		"Location": "Tide Caverns (Floors 21 - 39)",
 		"Season": ["All"],
 		"Museum": "Yes"
 	},
@@ -376,12 +370,6 @@
 		"Museum": "Yes"
 	},
 	{
-		"Name": "Seaweed",
-		"Location": "Beach",
-		"Season": ["All"],
-		"Museum": "No"
-	},
-	{
 		"Name": "Sesame",
 		"Location": "Sweetwater Farm",
 		"Season": ["Summer"],
@@ -488,5 +476,76 @@
 		"Location": "Overworld",
 		"Season": ["Winter"],
 		"Museum": "No"
+	},
+	{
+		"Name": "Lava Chestnut",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Flame Pepper",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Ash Mushroom",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Hot Potato",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Breath of Fire",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Spell Fruit",
+		"Location": "Ancient Ruins (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Essence Blossom",
+		"Location": "Ancient Ruins (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
+
+	},
+	{
+		"Name": "Obsidian",
+		"Location": "Lava Caves (Can't be obtained)",
+		"Season": ["All"],
+		"Museum": "No",
+		"NoSprite": true,
+		"Ignore": "Yes"
 	}
 ]

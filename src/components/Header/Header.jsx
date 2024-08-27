@@ -12,6 +12,7 @@ import {
 	Switch,
 	ToggleButtonGroup,
 	TextField,
+	Divider,
 } from '@mui/material';
 import SettingsIcon from '@mui/icons-material/Settings';
 import PropTypes from 'prop-types';
@@ -23,7 +24,9 @@ function Header({
 	toggleEditMode,
 	editMode,
 	tooltipsEnabled,
+	showUnobtainable,
 	toggleMuseumOnly,
+	toggleShowUnobtainable,
 	museumOnly,
 	displayedTrackers,
 	toggleTracker,
@@ -178,6 +181,7 @@ function Header({
 							onClose={handleClose}
 						>
 							<MenuItem onClick={resetTrackers}>Reset Trackers</MenuItem>
+							<Divider />
 							<MenuItem onClick={toggleTooltips} sx={{ height: 36 }}>
 								<Typography>Show Tooltips</Typography>
 								<Switch
@@ -185,7 +189,16 @@ function Header({
 									// onChange={toggleTooltips}
 									color="success"
 								/>
+							</MenuItem>{' '}
+							<MenuItem onClick={toggleCaughtHighlighting} sx={{ height: 36 }}>
+								<Typography>Highlight Obtained Items</Typography>
+								<Switch
+									checked={caughtHighlighting}
+									// onChange={toggleCaughtHighlighting}
+									color="success"
+								/>
 							</MenuItem>
+							<Divider />
 							<MenuItem onClick={toggleMuseumOnly} sx={{ height: 36 }}>
 								<Typography>Museum Items Only</Typography>
 								<Switch
@@ -194,11 +207,11 @@ function Header({
 									color="success"
 								/>
 							</MenuItem>
-							<MenuItem onClick={toggleCaughtHighlighting} sx={{ height: 36 }}>
-								<Typography>Highlight Obtained Items</Typography>
+							<MenuItem onClick={toggleShowUnobtainable} sx={{ height: 36 }}>
+								<Typography>Show Ignored Items</Typography>
 								<Switch
-									checked={caughtHighlighting}
-									// onChange={toggleCaughtHighlighting}
+									checked={showUnobtainable}
+									// onChange={toggleMuseumOnly}
 									color="success"
 								/>
 							</MenuItem>
@@ -229,5 +242,7 @@ if (!import.meta.env.PROD) {
 		setBorderColor: PropTypes.func,
 		caughtHighlighting: PropTypes.bool,
 		toggleCaughtHighlighting: PropTypes.func,
+		showUnobtainable: PropTypes.bool,
+		toggleShowUnobtainable: PropTypes.func,
 	};
 }

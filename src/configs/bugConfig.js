@@ -2,7 +2,7 @@
 const bugConfig = {
   name: 'Bug',
   defaultSize: {
-    width: 750,
+    width: 780,
     height: 350,
   },
 	filterGroups: {
@@ -12,6 +12,7 @@ const bugConfig = {
 				{ type: 'beach', label: 'Beach' },
 				{ type: 'narrows', label: 'Narrows' },
 				{ type: 'eastern road', label: 'Eastern Road' },
+        {type: 'overworld', label: 'Overworld'},
 				{ type: 'mine', label: 'Mine' },
 			],
 		},

@@ -208,6 +208,15 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Braised Carrots",
+		"Ingredients": ["Carrot (1)"],
+		"Time": "10 min",
+		"RequiredLevel": "4",
+		"Kitchen": "1",
+		"Source": "Ship a Carrot",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Broccoli Salad",
 		"Ingredients": ["Broccoli (1)", "Cranberry (1)", "Mayonnaise (1)"],
 		"Time": "30 min",
@@ -216,6 +225,7 @@
 		"Source": "Reina's Request for Broccoli",
 		"Skill": "Cooking"
 	},
+
 	{
 		"Name": "Cucumber Salad",
 		"Ingredients": ["Cucumber (1)", "Dill (1)", "Sesame (1)"],
@@ -257,6 +267,21 @@
 		"Kitchen": "1",
 		"Source": "Celine's Request for Fennel",
 		"Skill": "Cooking"
+	},
+	{
+		"Name": "Spring Galette",
+		"Ingredients": [
+			"Fiddlehead (1)",
+			"Morel Mushroom (1)",
+			"Wild Leek (1)",
+			"Flour (1)",
+			"Butter (1)",
+			"Cheese (1)"
+		],
+		"Time": "1 hour",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "Bought from Balor's Cart for 1000t"
 	},
 	{
 		"Name": "Seaweed Salad",
@@ -386,6 +411,15 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Rosemary Garlic Noodles",
+		"Ingredients": ["Noodles (1)", "Rosemary (1)", "Garlic (1)", "Butter (1)"],
+		"Time": "40 min",
+		"RequiredLevel": "20",
+		"Kitchen": "2",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Smoked Trout Soup",
 		"Ingredients": ["Trout (1)", "Cow Milk (1)"],
 		"Time": "20 min",
@@ -422,6 +456,15 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Buttered Peas",
+		"Ingredients": ["Peas (1)", "Butter (1)"],
+		"Time": "20 min",
+		"RequiredLevel": "8",
+		"Kitchen": "1",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Beet Soup",
 		"Ingredients": [
 			"Beet (1)",
@@ -434,7 +477,7 @@
 		"Time": "1 hour",
 		"RequiredLevel": "40",
 		"Kitchen": "3",
-		"Source": "Bought from The Inn",
+		"Source": "Bought from The Inn (after repair)",
 		"Skill": "Cooking"
 	},
 	{
@@ -447,12 +490,58 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Harvest Plate",
+		"Ingredients": [
+			"Sweet Potato (1)",
+			"Broccoli (1)",
+			"Cranberry (1)",
+			"Pumpkin (1)",
+			"Onion (1)",
+			"Rosemary (1)"
+		],
+		"Time": "1 hour",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Miner's Mushroom Stew",
 		"Ingredients": ["Upper Mines Mushroom (1)", "Cave Mushroom (1)"],
 		"Time": "20 min",
 		"RequiredLevel": "2",
 		"Kitchen": "1",
 		"Source": "Donate an Upper Mines Mushroom to the Museum",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Veggie Sub Sandwich",
+		"Ingredients": [
+			"Bread (1)",
+			"Tide Lettuce (1)",
+			"Tomato (1)",
+			"Cucumber (1)",
+			"Cheese (1)",
+			"Mayonnaise (1)"
+		],
+		"Time": "1 hour",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Cucumber Sandwich",
+		"Ingredients": [
+			"Cucumber (1)",
+			"Mayonnaise (1)",
+			"Cheese (1)",
+			"Bread (1)"
+		],
+		"Time": "40 min",
+		"RequiredLevel": "22",
+		"Kitchen": "2",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -524,12 +613,41 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Gazpacho",
+		"Ingredients": [
+			"Cucumber (1)",
+			"Tomato (1)",
+			"Watermelon (1)",
+			"Basil (1)"
+		],
+		"Time": "40 min",
+		"RequiredLevel": "26",
+		"Kitchen": "2",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Turnip and Potato Gratin",
 		"Ingredients": ["Potato (1)", "Turnip (1)", "Butter (1)", "Cheese (1)"],
 		"Time": "40 min",
 		"RequiredLevel": "26",
 		"Kitchen": "2",
 		"Source": "Treasure Chests in the Deep Earth",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Fish Tacos",
+		"Ingredients": [
+			"Corn (1)",
+			"Cod (1)",
+			"Mayonnaise (1)",
+			"Chili Pepper (1)",
+			"Tide Lettuce (1)"
+		],
+		"Time": "50 min",
+		"RequiredLevel": "34",
+		"Kitchen": "3",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -548,6 +666,15 @@
 		"RequiredLevel": "2",
 		"Kitchen": "1",
 		"Source": "Wooden Treasure Box",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Pan-Fried Bream",
+		"Ingredients": ["Bream (1)", "Oil (1)"],
+		"Time": "20 min",
+		"RequiredLevel": "2",
+		"Kitchen": "1",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -680,6 +807,21 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Incredibly Hot Pot",
+		"Ingredients": [
+			"Flame Pepper (1)",
+			"Ash Mushroom (1)",
+			"Lava Chestnuts (1)",
+			"Hot Potato (1)",
+			"Earthshroom (1)"
+		],
+		"Time": "50 min",
+		"RequiredLevel": "30",
+		"Kitchen": "3",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Lobster Roll",
 		"Ingredients": [
 			"Lobster (1)",
@@ -704,6 +846,15 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Spicy Corn",
+		"Ingredients": ["Corn (1)", "Chili Pepper (1)", "Mayonnaise (1)"],
+		"Time": "30 min",
+		"RequiredLevel": "14",
+		"Kitchen": "1",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Spicy Crab Sushi",
 		"Ingredients": ["Crab (1)", "Seaweed (1)", "Chili Pepper (1)", "Rice (1)"],
 		"Time": "40 min",
@@ -719,6 +870,29 @@
 		"RequiredLevel": "4",
 		"Kitchen": "1",
 		"Source": "Ship a Cauliflower",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Cherry Cobbler",
+		"Ingredients": ["Cherry (1)", "Sugar (1)"],
+		"Time": "20 min",
+		"RequiredLevel": "8",
+		"Kitchen": "1",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Cauliflower Curry",
+		"Ingredients": [
+			"Cauliflower (1)",
+			"Butter (1)",
+			"Curry Powder (1)",
+			"Rice (1)"
+		],
+		"Time": "40 min",
+		"RequiredLevel": "24",
+		"Kitchen": "2",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -747,6 +921,22 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Seafood Boil",
+		"Ingredients": [
+			"Crab (2)",
+			"Mines Mussels (2)",
+			"Crayfish (2)",
+			"Corn (1)",
+			"Hot Potato (1)",
+			"Butter (1)"
+		],
+		"Time": "1 hour",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Seafood Snow Pea Noodles",
 		"Ingredients": [
 			"Snow Peas (1)",
@@ -759,7 +949,7 @@
 		"Time": "1 hour",
 		"RequiredLevel": "40",
 		"Kitchen": "3",
-		"Source": "Bought from The Inn",
+		"Source": "Bought from The Inn (after repair)",
 		"Skill": "Cooking"
 	},
 	{
@@ -774,7 +964,7 @@
 		"Time": "50 min",
 		"RequiredLevel": "36",
 		"Kitchen": "3",
-		"Source": "Bought from The Inn",
+		"Source": "Bought from The Inn (after repair)",
 		"Skill": "Cooking"
 	},
 	{
@@ -820,6 +1010,21 @@
 		"RequiredLevel": "38",
 		"Kitchen": "3",
 		"Source": "Treasure Chests in the Deep Earth",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Vegetable Quiche",
+		"Ingredients": [
+			"Egg (1)",
+			"Cow Milk (1)",
+			"Flour (1)",
+			"Potato (1)",
+			"Wild Leek (1)"
+		],
+		"Time": "50 min",
+		"RequiredLevel": "30",
+		"Kitchen": "3",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -877,6 +1082,22 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Apple Honey Curry",
+		"Ingredients": [
+			"Apple (1)",
+			"Honey (1)",
+			"Curry Powder (1)",
+			"Sweet Potato (1)",
+			"Onion (1)",
+			"Rice (1)"
+		],
+		"Time": "1 hour",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Chili Coconut Curry",
 		"Ingredients": [
 			"Coconut Milk (1)",
@@ -888,7 +1109,7 @@
 		"Time": "50 min",
 		"RequiredLevel": "36",
 		"Kitchen": "3",
-		"Source": "Bought from The Inn for t",
+		"Source": "Bought from The Inn (after repair)",
 		"Skill": "Cooking"
 	},
 	{
@@ -1000,9 +1221,9 @@
 			"Flour (1)"
 		],
 		"Time": "1 hour",
-		"RequiredLevel": "40",
+		"RequiredLevel": "38",
 		"Kitchen": "3",
-		"Source": "Bought from The Inn for 800t",
+		"Source": "Bought from The Inn for 800t (after repair)",
 		"Skill": "Cooking"
 	},
 	{
@@ -1275,6 +1496,15 @@
 		"Skill": "Cooking"
 	},
 	{
+		"Name": "Chocolate Cake",
+		"Ingredients": ["Chocolate (1)", "Flour (1)", "Sugar (1)", "Egg (1)"],
+		"Time": "40 min",
+		"RequiredLevel": "20",
+		"Kitchen": "2",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
 		"Name": "Latte",
 		"Ingredients": ["Coffee (1)", "Cow Milk (1)"],
 		"Time": "20 min",
@@ -1290,6 +1520,15 @@
 		"RequiredLevel": "14",
 		"Kitchen": "1",
 		"Source": "Saturday Market at Darcy's stall for 300t",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Jasmine Tea",
+		"Ingredients": ["Tea (1)", "Jasmine (1)"],
+		"Time": "20 min",
+		"RequiredLevel": "8",
+		"Kitchen": "1",
+		"Source": "???",
 		"Skill": "Cooking"
 	},
 	{
@@ -1311,12 +1550,135 @@
 		"Skill": "Cooking"
 	},
 	{
-		"Name": "Tea with Lemon",
+		"Name": "Cup of Tea",
 		"Ingredients": ["Lemon (1)", "Sugar (1)", "Tea (1)"],
 		"Time": "30 min",
 		"RequiredLevel": "16",
 		"Kitchen": "1",
 		"Source": "Adeline's Request for a Lemon, Saturday Market at Darcy's stall for 300t",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Herb Butter Pasta",
+		"Ingredients": ["Noodles (1)", "Butter (1)", "Thyme (1)", "Oregano (1)"],
+		"Time": "40 min",
+		"RequiredLevel": "28",
+		"Kitchen": "2",
+		"Source": "Bought from The Inn for 800t",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Quiche",
+		"Ingredients": ["Egg (1)", "Cow Milk (1)", "Flour (1)"],
+		"Time": "30 min",
+		"RequiredLevel": "14",
+		"Kitchen": "1",
+		"Source": "Bought from ???",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Golden Cookies",
+		"Ingredients": [
+			"Golden Egg (2)",
+			"Golden Cow Milk (2)",
+			"Golden Butter (2)",
+			"Flour (2)",
+			"Sugar (2)",
+			"Chocolate (2)"
+		],
+		"Time": "1 hr",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "Chicken Statue",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Golden Cheesecake",
+		"Ingredients": [
+			"Golden Cheese (2)",
+			"Golden Egg (2)",
+			"Golden Cow Milk (2)",
+			"Golden Butter (2)",
+			"Flour (2)",
+			"Sugar (2)"
+		],
+		"Time": "1 hr",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "Chicken Statue",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Coconut Cream Pie",
+		"Ingredients": [
+			"Coconut (1)",
+			"Coconut Milk (1)",
+			"Sugar (1)",
+			"Butter (1)",
+			"Flour (1)"
+		],
+		"Time": "50 min",
+		"RequiredLevel": "38",
+		"Kitchen": "3",
+		"Source": "Reina's Request for Deep Earthworm (No Recipe)",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Glowberry Cookies",
+		"Ingredients": [
+			"Glowberry (6)",
+			"Sugar (1)",
+			"Butter (1)",
+			"Egg (1)",
+			"Flour (1)"
+		],
+		"Time": "50 min",
+		"RequiredLevel": "30",
+		"Kitchen": "3",
+		"Source": "Ryis's Request for Glowberries (No Recipe)",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Spell Fruit Parfait",
+		"Ingredients": [
+			"Spell Fruit (1)",
+			"Lava Chestnuts (1)",
+			"Crystal Berries (1)",
+			"Sweetroot (1)",
+			"Sugar (1)",
+			"Golden Cow Milk (1)"
+		],
+		"Time": "1 hr",
+		"RequiredLevel": "40",
+		"Kitchen": "3",
+		"Source": "Golden Treasure Box",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Iced Coffee",
+		"Ingredients": ["Cow Milk (1)", "Ice Block (1)", "Coffee (1)"],
+		"Time": "20 min",
+		"RequiredLevel": "10",
+		"Kitchen": "1",
+		"Source": "Saturday Market at Darcy's stall (No Recipe)",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Crystal Berry Pie",
+		"Ingredients": ["Crystal Berries (1)", "Flour (1)", "Egg (1)", "Sugar (1)"],
+		"Time": "40 min",
+		"RequiredLevel": "20",
+		"Kitchen": "2",
+		"Source": "???",
+		"Skill": "Cooking"
+	},
+	{
+		"Name": "Pomegranate Juice",
+		"Ingredients": ["Pomegranate (1)"],
+		"Time": "10 min",
+		"RequiredLevel": "4",
+		"Kitchen": "1",
+		"Source": "???",
 		"Skill": "Cooking"
 	}
 ]
