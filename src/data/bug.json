@@ -5,6 +5,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Leaves", "Petals", "Rain", "Rainy"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -14,6 +15,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -23,6 +25,7 @@
 		"Spawn": "",
 		"Season": ["Winter"],
 		"Weather": ["Sunny", "Petals"],
+		"Rarity": "Common",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -32,6 +35,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Petals", "Wind"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "No"
 	},
@@ -41,6 +45,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Petals", "Wind"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -50,6 +55,7 @@
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -59,6 +65,7 @@
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Summer"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -68,6 +75,7 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -77,6 +85,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -86,7 +95,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -95,7 +105,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": " Yes"
 	},
 	{
@@ -104,6 +115,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "Night",
 		"Museum": "No"
 	},
@@ -113,6 +125,7 @@
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Winter"],
 		"Weather": ["Blizzard"],
+		"Rarity": "Rare",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -122,7 +135,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Rare",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -131,7 +145,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -140,7 +155,8 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -149,6 +165,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Sunny", "Rain", "Rainy"],
+		"Rarity": "Uncommon",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -158,6 +175,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Sunny", "Leaves"],
+		"Rarity": "Very Rare",
 		"Time": "Morning",
 		"Museum": "Yes"
 	},
@@ -167,6 +185,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Sunny"],
+		"Rarity": "Common",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -176,6 +195,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Wind"],
+		"Rarity": "Very Rare",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -185,6 +205,7 @@
 		"Spawn": "",
 		"Season": ["Winter"],
 		"Weather": ["Sunny"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -194,6 +215,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Sunny", "Leaves", "Wind"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -203,7 +225,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -212,6 +235,7 @@
 		"Spawn": "Additional spawns when breaking grass",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Leaves", "Wind"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -221,6 +245,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -230,7 +255,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -239,6 +265,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Rare",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -248,6 +275,7 @@
 		"Spawn": "Additional spawns when breaking grass",
 		"Season": ["Winter"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -257,6 +285,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -267,6 +296,7 @@
 		"Season": ["Summer"],
 		"Weather": ["Any"],
 		"Time": "All day",
+		"Rarity": "Uncommon",
 		"Museum": "Yes"
 	},
 	{
@@ -275,6 +305,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -284,7 +315,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -293,6 +325,7 @@
 		"Spawn": "Additional spawns when breaking grass",
 		"Season": ["Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -302,6 +335,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Storm", "Thunderstorm"],
+		"Rarity": "Rare",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -311,6 +345,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Petals"],
+		"Rarity": "Rare",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -320,6 +355,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Any"],
+		"Rarity": "Rare",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -329,7 +365,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Kinda Rare",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -338,6 +375,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Sunny", "Leaves"],
+		"Rarity": "Rare",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -347,6 +385,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Sunny", "Leaves"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -356,6 +395,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Sunny", "Petals", "Rain", "Rainy"],
+		"Rarity": "Rare",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -365,6 +405,7 @@
 		"Spawn": "Additional spawns when breaking grass",
 		"Season": ["Spring"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -374,7 +415,8 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -383,6 +425,7 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["Spring"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -392,6 +435,7 @@
 		"Spawn": "",
 		"Season": ["Winter"],
 		"Weather": ["Sunny"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -401,6 +445,7 @@
 		"Spawn": "On water",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Wind", "petals", "Rain", "Rainy"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -410,6 +455,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Leaves", "Petals"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -419,7 +465,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Uncommon",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -428,6 +475,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Leaves", "Petals"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -437,7 +485,7 @@
 		"Spawn": "",
 		"Season": ["Any"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Time": "All day",
 		"Museum": "No",
 		"Ignore": "Yes"
 	},
@@ -447,6 +495,7 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -456,6 +505,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -465,6 +515,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "Night",
 		"Museum": "No"
 	},
@@ -474,6 +525,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -483,7 +535,8 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Rare",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -492,6 +545,7 @@
 		"Spawn": "",
 		"Season": ["Spring"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -501,6 +555,7 @@
 		"Spawn": "",
 		"Season": ["Winter"],
 		"Weather": ["Storm", "Thunderstorm", "Blizzard"],
+		"Rarity": "Very Rare",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -510,6 +565,7 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["Winter"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "No"
 	},
@@ -519,6 +575,7 @@
 		"Spawn": "",
 		"Season": ["Spring", "Summer", "Fall"],
 		"Weather": ["Sunny", "Leaves", "Petals", "Rain", "Rainy"],
+		"Rarity": "Very Rare",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -528,6 +585,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -537,6 +595,7 @@
 		"Spawn": "",
 		"Season": ["Summer"],
 		"Weather": ["Sunny"],
+		"Rarity": "Very Rare",
 		"Time": "Night",
 		"Museum": "Yes"
 	},
@@ -546,6 +605,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -555,6 +615,7 @@
 		"Spawn": "",
 		"Season": ["Fall"],
 		"Weather": ["Sunny", "Leaves"],
+		"Rarity": "Uncommon",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -564,7 +625,8 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -573,6 +635,7 @@
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Fall"],
 		"Weather": ["Any"],
+		"Rarity": "Uncommon",
 		"Time": "Day",
 		"Museum": "Yes"
 	},
@@ -582,6 +645,7 @@
 		"Spawn": "",
 		"Season": ["Winter"],
 		"Weather": ["Sunny"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -591,6 +655,7 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
+		"Rarity": "Common",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -600,7 +665,8 @@
 		"Spawn": "",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": "Yes"
 	},
 	{
@@ -609,6 +675,7 @@
 		"Spawn": "Additional spawns in trees",
 		"Season": ["Winter"],
 		"Weather": ["Sunny"],
+		"Rarity": "Uncommon",
 		"Time": "All day",
 		"Museum": "Yes"
 	},
@@ -618,7 +685,8 @@
 		"Spawn": "Breaking rocks",
 		"Season": ["All"],
 		"Weather": ["Any"],
-		"Time": "",
+		"Rarity": "Common",
+		"Time": "All day",
 		"Museum": " Yes"
 	}
 ]

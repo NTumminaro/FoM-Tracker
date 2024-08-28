@@ -2,8 +2,8 @@
 const bugConfig = {
   name: 'Bug',
   defaultSize: {
-    width: 780,
-    height: 350,
+		width: '47%',
+		height: '30%',
   },
 	filterGroups: {
 		locations: {
@@ -31,10 +31,16 @@ const bugConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'daycycle', label: 'Time of Day' },
+		{ type: 'rarity', label: 'Rarity' },
+	],
   tooltipFields: [
 		'location',
     'time',
     'spawn',
+		'rarity',
 		'season',
 		'weather',
     'museumAndDiveable',

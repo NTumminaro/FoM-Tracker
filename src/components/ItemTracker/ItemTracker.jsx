@@ -31,6 +31,7 @@ function ItemTracker({
 	console.log(data);
 	// State Hooks ////////////////////////////////////////////////////
 	const [items, setItems] = useState([]);
+	const [selectedSort, setSelectedSort] = useState('name');
 	const [containerSize, setContainerSize] = useState(
 		JSON.parse(localStorage.getItem(`${config.name}ContainerSize`)) ||
 			config.defaultSize
@@ -77,8 +78,6 @@ function ItemTracker({
 			filteredItems = filteredItems.filter((i) => i.Museum === 'Yes');
 		}
 
-		filteredItems.sort((a, b) => a.Name.localeCompare(b.Name));
-
 		const updatedItems = filteredItems.map((f) => {
 			const lowerCaseItems = keysToLowerCase(f);
 			return {
@@ -123,7 +122,65 @@ function ItemTracker({
 	};
 
 	const filterItems = () => {
-		return items.filter((i) => {
+		const sizeOrder = ['Small', 'Medium', 'Large', 'Giant'];
+		const rarityOrder = [
+			'Ultra Common',
+			'Very Common',
+			'Common',
+			'Uncommon',
+			'Kinda Rare',
+			'Rare',
+			'Very Rare',
+			'Legendary',
+		];
+		const dayCycle = ['Morning', 'Day', 'Night', 'All day'];
+
+		const convertTimeToMinutes = (timeString) => {
+			const [time, unit] = timeString.split(' ');
+
+			if (unit === 'min') {
+				return parseInt(time, 10);
+			} else if (unit === 'hour') {
+				return parseInt(time, 10) * 60;
+			}
+			return 0;
+		};
+
+		const sortedItems = [...items].sort((a, b) => {
+			switch (selectedSort) {
+				case 'name':
+					return a.name.localeCompare(b.name);
+				case 'size':
+					return sizeOrder.indexOf(a.size) - sizeOrder.indexOf(b.size);
+				case 'rarity':
+					return rarityOrder.indexOf(a.rarity) - rarityOrder.indexOf(b.rarity);
+				case 'daycycle':
+					return dayCycle.indexOf(a.time) - dayCycle.indexOf(b.time);
+				case 'time': {
+					const timeA = convertTimeToMinutes(a.time);
+					const timeB = convertTimeToMinutes(b.time);
+					return timeA - timeB;
+				}
+				case 'level': {
+					const levelA = parseInt(a.requiredlevel, 10);
+					const levelB = parseInt(b.requiredlevel, 10);
+					return levelA - levelB;
+				}
+				case 'hearts': {
+					const heartsA = parseInt(a.hearts, 10);
+					const heartsB = parseInt(b.hearts, 10);
+					return heartsA - heartsB;
+				}
+				case 'growth': {
+					const growthA = parseInt(a.growth.split(' ')[0], 10);
+					const growthb = parseInt(b.growth.split(' ')[0], 10);
+					return growthA - growthb;
+				}
+				default:
+					return 0;
+			}
+		});
+		return sortedItems.filter((i) => {
 			const matchesSeason =
 				filters.seasons.length === 0 ||
 				(i.season &&
@@ -149,7 +206,11 @@ function ItemTracker({
 				(i.location &&
 					filters.locations.includes('mine') &&
 					i.location.toLowerCase().includes('mine' || 'floor')) ||
-				(!i.location && filters.locations.includes('anywhere'));
+				(!i.location && filters.locations.includes('anywhere')) ||
+				(i.othersources &&
+					i.othersources
+						.map((source) => source?.Location?.trim().toLowerCase())
+						.some((source) => filters.locations.includes(source)));
 
 			const matchKitchen =
 				filters.kitchen.length === 0 ||
@@ -366,6 +427,22 @@ function ItemTracker({
 	const getIngredients = (ingredients) => {
 		return ingredients.map((ingredient) => {
 			let ingredientName = ingredient.split('(')[0].trim().toLowerCase();
+			console.log(ingredientName);
+			let futureIngredients = [
+				'lava chestnut',
+				'spell fruit',
+				'flame pepper',
+				'ash mushroom',
+				'hot potato',
+			];
+
+			const getImgSrc = (ingredientName) => {
+				if (futureIngredients.includes(ingredientName)) {
+					return 'misc/question.webp';
+				} else {
+					return `${config.name.toLowerCase()}/${ingredientName.replace(/ /g, '_').toLowerCase()}.webp`;
+				}
+			};
 			return (
 				<Box
 					key={ingredient}
@@ -374,11 +451,46 @@ function ItemTracker({
 					marginBottom={1}
 				>
 					<img
-						src={`${config.name.toLowerCase()}/${ingredientName.replace(/ /g, '_').toLowerCase()}.webp`}
+						src={getImgSrc(ingredientName)}
 						alt={ingredientName}
 						style={{ width: '30px', height: '30px' }}
 					/>
 					<Typography marginLeft={0}>{ingredient}</Typography>
+				</Box>
+			);
+		});
+	};
+
+	const getOtherSources = (name, sources) => {
+		return sources.map((source) => {
+			console.log(source);
+			let imgSrc = '';
+			switch (source.Type) {
+				case 'Crop':
+					imgSrc = `crop/${name.replace(/ /g, '_').toLowerCase()}.webp`;
+					break;
+				case 'Seed':
+					imgSrc = `crop/${name.replace(/ /g, '_').toLowerCase()}_seed.webp`;
+					break;
+				default:
+					imgSrc = 'misc/question.webp';
+			}
+
+			return (
+				<Box
+					key={source.Location}
+					display="flex"
+					alignItems="center"
+					marginBottom={1}
+				>
+					<img
+						src={imgSrc}
+						alt={name}
+						style={{ width: '30px', height: '30px' }}
+					/>
+					<Typography marginLeft={'2px'}>
+						{source.Location} {source.Details ? `- ${source.Details}` : null}{' '}
+					</Typography>
 				</Box>
 			);
 		});
@@ -623,6 +735,19 @@ function ItemTracker({
 									) : null}
 								</>
 							);
+						case 'othersources':
+							return (
+								<>
+									{item.othersources && item.othersources !== '' && (
+										<Paper key={field}>
+											<Typography variant="caption" marginLeft={1}>
+												Other Sources
+											</Typography>
+											{getOtherSources(item.name, item.othersources)}
+										</Paper>
+									)}
+								</>
+							);
 						default:
 							return (
 								<>
@@ -722,6 +847,8 @@ function ItemTracker({
 						tooltipsEnabled={tooltipsEnabled}
 						toggleFilter={toggleFilter}
 						setFilters={setFilters}
+						selectedSort={selectedSort}
+						setSelectedSort={setSelectedSort}
 					/>
 				</Collapse>
 

@@ -2,8 +2,8 @@
 const forageableConfig = {
   name: 'Forageable',
   defaultSize: {
-    width: 1000,
-    height: 350,
+		width: '35%',
+		height: '30%',
   },
 	filterGroups: {
 		locations: {
@@ -28,6 +28,9 @@ const forageableConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		// { type: 'name', label: 'Name' },
+	],
   tooltipFields: [
 		'location',
 		'season',

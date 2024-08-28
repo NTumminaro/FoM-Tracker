@@ -1,8 +1,8 @@
 const cookedDishConfig = {
 	name: 'CookedDish',
 	defaultSize: {
-		width: 1500,
-		height: 350,
+		width: '96%',
+		height: '26%',
 	},
 	filterGroups: {
 		kitchen: {
@@ -21,6 +21,11 @@ const cookedDishConfig = {
 		// 	],
 		// },
 	},
+	sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'time', label: 'Time' },
+		{ type: 'level', label: 'Level' },
+	],
 	tooltipFields: ['source', 'time', 'ingredients', 'skill', 'kitchen'],
 };
 

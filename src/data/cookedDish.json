@@ -118,7 +118,7 @@
 	},
 	{
 		"Name": "Roasted Chestnuts",
-		"Ingredients": ["Chestnuts (2)"],
+		"Ingredients": ["Chestnut (2)"],
 		"Time": "20 min",
 		"RequiredLevel": "0",
 		"Kitchen": "1",
@@ -811,7 +811,7 @@
 		"Ingredients": [
 			"Flame Pepper (1)",
 			"Ash Mushroom (1)",
-			"Lava Chestnuts (1)",
+			"Lava Chestnut (1)",
 			"Hot Potato (1)",
 			"Earthshroom (1)"
 		],
@@ -1301,7 +1301,7 @@
 	{
 		"Name": "Caramelized Moon Fruit",
 		"Ingredients": ["Moon Fruit (1)", "Sugar (1)"],
-		"Time": "",
+		"Time": "20 min",
 		"RequiredLevel": "6",
 		"Kitchen": "1",
 		"Source": "Eiland's Request for a Moon Fruit",
@@ -1586,7 +1586,7 @@
 			"Sugar (2)",
 			"Chocolate (2)"
 		],
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"RequiredLevel": "40",
 		"Kitchen": "3",
 		"Source": "Chicken Statue",
@@ -1602,7 +1602,7 @@
 			"Flour (2)",
 			"Sugar (2)"
 		],
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"RequiredLevel": "40",
 		"Kitchen": "3",
 		"Source": "Chicken Statue",
@@ -1642,13 +1642,13 @@
 		"Name": "Spell Fruit Parfait",
 		"Ingredients": [
 			"Spell Fruit (1)",
-			"Lava Chestnuts (1)",
+			"Lava Chestnut (1)",
 			"Crystal Berries (1)",
 			"Sweetroot (1)",
 			"Sugar (1)",
 			"Golden Cow Milk (1)"
 		],
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"RequiredLevel": "40",
 		"Kitchen": "3",
 		"Source": "Golden Treasure Box",

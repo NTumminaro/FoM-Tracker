@@ -1,8 +1,8 @@
 const materialConfig = {
 	name: 'Material',
 	defaultSize: {
-		width: 400,
-		height: 350,
+		width: '22%',
+		height: '30%',
 	},
 	filterGroups: {
 		locations: {
@@ -18,6 +18,9 @@ const materialConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		// { type: 'name', label: 'Name' },
+	],
 	tooltipFields: ['source', 'museumAndDiveable'],
 };
 

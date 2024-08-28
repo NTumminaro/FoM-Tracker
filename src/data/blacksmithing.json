@@ -335,28 +335,28 @@
 		"Name": "Copper Sword",
 		"Ingredients": ["Copper Ingot (4)"],
 		"RequiredLevel": "8",
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"Skill": "Blacksmithing"
 	},
 	{
 		"Name": "Iron Sword",
 		"Ingredients": ["Iron Ingot (4)"],
 		"RequiredLevel": "14",
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"Skill": "Blacksmithing"
 	},
 	{
 		"Name": "Silver Sword",
 		"Ingredients": ["Silver Ingot (4)"],
 		"RequiredLevel": "20",
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"Skill": "Blacksmithing"
 	},
 	{
 		"Name": "Gold Sword",
 		"Ingredients": ["Gold Ingot (4)"],
 		"RequiredLevel": "26",
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"Ignore": "Yes",
 		"Skill": "Blacksmithing"
 	},
@@ -364,7 +364,7 @@
 		"Name": "Mistril Sword",
 		"Ingredients": ["Mistril Ingot (4)"],
 		"RequiredLevel": "32",
-		"Time": "1 hr",
+		"Time": "1 hour",
 		"Ignore": "Yes",
 		"Skill": "Blacksmithing"
 	},

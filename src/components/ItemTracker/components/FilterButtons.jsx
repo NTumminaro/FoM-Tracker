@@ -7,6 +7,10 @@ import {
 	Typography,
 } from '@mui/material';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import AbcIcon from '@mui/icons-material/Abc';
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import StraightenIcon from '@mui/icons-material/Straighten';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PropTypes from 'prop-types';
 
 // Main Component //////////////////////////////////////////////
@@ -16,6 +20,8 @@ const FilterButtons = ({
 	tooltipsEnabled,
 	toggleFilter,
 	setFilters,
+	selectedSort,
+	setSelectedSort,
 }) => {
 	// Render //////////////////////////////////////////////////
 	return (
@@ -79,6 +85,37 @@ const FilterButtons = ({
 					</Box>
 				);
 			})}
+			{config.sortOptions.length === 0 ? null : (
+				<Box
+					display="flex"
+					justifyContent="center"
+					alignItems="center"
+					padding={1}
+				>
+					<ToggleButtonGroup
+						value={selectedSort}
+						exclusive
+						size="small"
+						onChange={(event, newSort) => setSelectedSort(newSort)}
+					>
+						{config.sortOptions.map((option) => (
+							<Tooltip
+								key={option.type}
+								title={option.label}
+								arrow
+								disableInteractive
+								placement="top"
+								disableHoverListener={!tooltipsEnabled}
+							>
+								<ToggleButton key={option.type} value={option.type}>
+									{getSortIcon(option.type, config.name)}
+								</ToggleButton>
+							</Tooltip>
+						))}
+					</ToggleButtonGroup>
+				</Box>
+			)}
+
 			<Box
 				display="flex"
 				justifyContent="center"
@@ -100,7 +137,7 @@ const FilterButtons = ({
 							<img
 								height={24}
 								width={24}
-								src="fish/wooden_chest.webp"
+								src="misc/chest.webp"
 								alt="missing"
 								key="missing"
 							/>
@@ -139,6 +176,43 @@ const FilterButtons = ({
 };
 
 // Helper Functions ///////////////////////////////////////////
+const getSortIcon = (sortType, name) => {
+	switch (sortType) {
+		case 'name':
+			return <AbcIcon />;
+		case 'size':
+			return <StraightenIcon />;
+		case 'rarity':
+			return <AutoAwesomeIcon />;
+		case 'daycycle':
+			return <AccessTimeIcon />;
+		case 'time':
+			return <AccessTimeIcon />;
+			case 'growth':
+				return <AccessTimeIcon />;
+		case 'level':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`misc/${name.toLowerCase()}.webp`}
+					alt={name}
+				/>
+			);
+		case 'hearts':
+			return (
+				<img
+					height={24}
+					width={24}
+					src={`ranching/heart2.webp`}
+					alt={name}
+				/>
+			);
+		default:
+			return <Typography>{sortType}</Typography>;
+	}
+};
+
 const getFilterIcon = (filterType, filterValue) => {
 	switch (filterType) {
 		case 'seasons':
@@ -151,13 +225,42 @@ const getFilterIcon = (filterType, filterValue) => {
 				/>
 			);
 		case 'locations':
-			return filterValue === 'mine' ? (
-				<img height={24} width={24} src="misc/mine.webp" alt="mine" />
-			) : (
-				<Typography fontSize={16}>
-					{filterValue.charAt(0).toUpperCase()}
-				</Typography>
-			);
+			switch (filterValue) {
+				case 'mine':
+					return <img height={24} width={24} src="misc/mine.webp" alt="mine" />;
+				case 'balor':
+					return (
+						<img height={24} width={24} src="misc/balor.webp" alt="balor" />
+					);
+				case 'quest':
+					return (
+						<img height={24} width={24} src="misc/quest.webp" alt="quest" />
+					);
+				case 'wooden chest':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="fish/wooden_chest.webp"
+							alt="wooden chest"
+						/>
+					);
+				case 'copper chest':
+					return (
+						<img
+							height={24}
+							width={24}
+							src="fish/copper_chest.webp"
+							alt="copper chest"
+						/>
+					);
+				default:
+					return (
+						<Typography fontSize={16}>
+							{filterValue.charAt(0).toUpperCase()}
+						</Typography>
+					);
+			}
 		case 'weathers':
 			return (
 				<img
@@ -206,7 +309,15 @@ const getFilterIcon = (filterType, filterValue) => {
 				);
 			}
 			return (
-				<img height={24} width={24} src="misc/diveable.png" alt="diveable" />
+				<img
+					height={24}
+					width={24}
+					src="misc/diveable.png"
+					alt="diveable"
+					style={{
+						filter: 'sepia(1) hue-rotate(190deg) saturate(600%)',
+					}}
+				/>
 			);
 		default:
 			return <Typography>{filterValue}</Typography>;
@@ -224,5 +335,7 @@ if (!import.meta.env.PROD) {
 		toggleFilter: PropTypes.func,
 		isVerticalLayout: PropTypes.bool,
 		setFilters: PropTypes.func,
+		selectedSort: PropTypes.string,
+		setSelectedSort: PropTypes.func,
 	};
 }

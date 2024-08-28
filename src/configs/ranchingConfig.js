@@ -1,8 +1,8 @@
 const materialConfig = {
 	name: 'Ranching',
 	defaultSize: {
-		width: 400,
-		height: 350,
+		width: '30%',
+		height: '20%',
 	},
 	filterGroups: {
 		buildings: {
@@ -13,6 +13,10 @@ const materialConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'hearts', label: 'Hearts' },
+	],
 	tooltipFields: ['source', 'hearts', 'building'],
 };
 

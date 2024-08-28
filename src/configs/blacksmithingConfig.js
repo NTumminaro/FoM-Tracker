@@ -2,8 +2,8 @@
 const blacksmithingConfig = {
   name: 'Blacksmithing',
   defaultSize: {
-    width: 750,
-    height: 350,
+		width: '30%',
+		height: '20%',
   },
 	filterGroups: {
     materials: {
@@ -21,6 +21,11 @@ const blacksmithingConfig = {
 		// 	],
 		// },
 	},
+  sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'time', label: 'Time' },
+		{ type: 'level', label: 'Level' },
+	],
   tooltipFields: [
     'time',
     'ingredients',

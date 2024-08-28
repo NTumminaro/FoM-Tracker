@@ -1,24 +1,135 @@
 [
-	{ "Name": "Chicken Egg", "Source": "Chickens (Hens)", "Hearts": "1", "Building": "Coop" },
-	{ "Name": "Golden Egg", "Source": "Chickens (Hens)", "Hearts": "8", "Building": "Coop" },
-	{ "Name": "Rooster Feather", "Source": "Chickens (Roosters)", "Hearts": "1", "Building": "Coop" },
-	{ "Name": "Golden Feather", "Source": "Chickens (Roosters)", "Hearts": "8", "Building": "Coop" },
-	{ "Name": "Duck Egg", "Source": "Ducks (Hens)", "Hearts": "1", "Building": "Coop" },
-	{ "Name": "Golden Duck Egg", "Source": "Ducks (Hens)", "Hearts": "8", "Building": "Coop" },
-	{ "Name": "Duck Feather", "Source": "Ducks (Drakes)", "Hearts": "1", "Building": "Coop" },
-	{ "Name": "Golden Duck Feather", "Source": "Ducks (Drakes)", "Hearts": "8", "Building": "Coop" },
-	{ "Name": "Milk", "Source": "Cows (Cows)", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Milk", "Source": "Cows (Cows)", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Bull Horn", "Source": "Cows (Bulls)", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Bull Horn", "Source": "Cows (Bulls)", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Horse Hair", "Source": "Horses", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Horse Hair", "Source": "Horses", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Sheep Wool", "Source": "Sheep", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Sheep Wool", "Source": "Sheep", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Rabbit Wool", "Source": "Rabbits", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Rabbit Wool", "Source": "Rabbits", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Alpaca Wool", "Source": "Alpacas", "Hearts": "1", "Building": "Barn" },
-	{ "Name": "Golden Alpaca Wool", "Source": "Alpacas", "Hearts": "8", "Building": "Barn" },
-	{ "Name": "Bristle", "Source": "Capybaras", "Hearts": "1", "Building": "Coop" },
-	{ "Name": "Golden Bristle", "Source": "Capybaras", "Hearts": "8", "Building": "Coop" }
+	{ "Name": "Shiny Bead", "Source": "Hand Feed Any Animal" },
+	{
+		"Name": "Chicken Egg",
+		"Source": "Chickens (Hens)",
+		"Hearts": "1",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Golden Egg",
+		"Source": "Chickens (Hens)",
+		"Hearts": "8",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Rooster Feather",
+		"Source": "Chickens (Roosters)",
+		"Hearts": "1",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Golden Feather",
+		"Source": "Chickens (Roosters)",
+		"Hearts": "8",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Duck Egg",
+		"Source": "Ducks (Hens)",
+		"Hearts": "1",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Golden Duck Egg",
+		"Source": "Ducks (Hens)",
+		"Hearts": "8",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Duck Feather",
+		"Source": "Ducks (Drakes)",
+		"Hearts": "1",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Golden Duck Feather",
+		"Source": "Ducks (Drakes)",
+		"Hearts": "8",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Milk",
+		"Source": "Cows (Cows)",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Milk",
+		"Source": "Cows (Cows)",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Bull Horn",
+		"Source": "Cows (Bulls)",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Bull Horn",
+		"Source": "Cows (Bulls)",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Horse Hair",
+		"Source": "Horses",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Horse Hair",
+		"Source": "Horses",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Sheep Wool",
+		"Source": "Sheep",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Sheep Wool",
+		"Source": "Sheep",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Rabbit Wool",
+		"Source": "Rabbits",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Rabbit Wool",
+		"Source": "Rabbits",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Alpaca Wool",
+		"Source": "Alpacas",
+		"Hearts": "1",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Golden Alpaca Wool",
+		"Source": "Alpacas",
+		"Hearts": "8",
+		"Building": "Barn"
+	},
+	{
+		"Name": "Bristle",
+		"Source": "Capybaras",
+		"Hearts": "1",
+		"Building": "Coop"
+	},
+	{
+		"Name": "Golden Bristle",
+		"Source": "Capybaras",
+		"Hearts": "8",
+		"Building": "Coop"
+	}
 ]

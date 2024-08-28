@@ -135,10 +135,12 @@ function Header({
 									'Fish',
 									'Bug',
 									'Artifact',
-									'Material',
 									'Forageable',
-									'Blacksmithing',
+									'Material',									
 									'CookedDish',
+									'Blacksmithing',
+									'Ranching',
+									'Crop',
 								].map((tracker) => (
 									<ToggleButton
 										key={tracker}

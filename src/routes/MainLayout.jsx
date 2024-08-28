@@ -14,16 +14,19 @@ import forageableData from '../data/forageable.json';
 import blacksmithingData from '../data/blacksmithing.json';
 import cookedDishData from '../data/cookedDish.json';
 import ranchingData from '../data/ranching.json';
+import cropData from '../data/crop.json';
 
 const data = {
 	fish: fishData,
 	bug: bugData,
 	artifact: artifactData,
-	material: materialData,
 	forageable: forageableData,
-	blacksmithing: blacksmithingData,
+	material: materialData,
 	cookeddish: cookedDishData,
+
+	blacksmithing: blacksmithingData,
 	ranching: ranchingData,
+	crop: cropData,
 };
 
 // configs /////////////////////////////////
@@ -35,16 +38,19 @@ import forageableConfig from '../configs/forageableConfig';
 import blacksmithingConfig from '../configs/blacksmithingConfig';
 import cookedDishConfig from '../configs/cookeddishConfig';
 import ranchingConfig from '../configs/ranchingConfig';
+import cropConfig from '../configs/cropConfig';
 
 const configs = {
 	Fish: fishConfig,
 	Bug: bugConfig,
 	Artifact: artifactConfig,
-	Material: materialConfig,
 	Forageable: forageableConfig,
-	Blacksmithing: blacksmithingConfig,
+	Material: materialConfig,
 	CookedDish: cookedDishConfig,
+
+	Blacksmithing: blacksmithingConfig,
 	Ranching: ranchingConfig,
+	Crop: cropConfig,
 };
 
 // Main Component /////////////////////////////////
@@ -76,11 +82,12 @@ const MainLayout = () => {
 				'Fish',
 				'Bug',
 				'Artifact',
-				'Material',
 				'Forageable',
-				'Blacksmithing',
+				'Material',
 				'CookedDish',
+				'Blacksmithing',
 				'Ranching',
+				'Crop',
 			]
 		);
 	});
@@ -104,38 +111,11 @@ const MainLayout = () => {
 	}, [caughtHighlighting]);
 
 	useEffect(() => {
-		localStorage.setItem(
-			'showUnobtainable',
-			JSON.stringify(showUnobtainable)
-		);
+		localStorage.setItem('showUnobtainable', JSON.stringify(showUnobtainable));
 	}, [showUnobtainable]);
 
 	useEffect(() => {
 		localStorage.setItem('museumOnly', JSON.stringify(museumOnly));
-
-		if (museumOnly) {
-			// Hide Blacksmithing and CookedDish trackers if museumOnly is true
-			setDisplayedTrackers((prev) =>
-				prev.filter(
-					(tracker) => tracker !== 'Blacksmithing' && tracker !== 'CookedDish' && tracker !== 'Ranching'
-				)
-			);
-		} else if (museumOnly === false) {
-			// Ensure Blacksmithing and CookedDish trackers are included when museumOnly is false
-			setDisplayedTrackers((prev) => {
-				const updatedTrackers = [...prev];
-				if (!prev.includes('Blacksmithing')) {
-					updatedTrackers.push('Blacksmithing');
-				}
-				if (!prev.includes('CookedDish')) {
-					updatedTrackers.push('CookedDish');
-				}
-				if (!prev.includes('Ranching')) {
-					updatedTrackers.push('Ranching');
-				}
-				return updatedTrackers;
-			});
-		}
 	}, [museumOnly]);
 
 	useEffect(() => {
@@ -163,11 +143,12 @@ const MainLayout = () => {
 			'Fish',
 			'Bug',
 			'Artifact',
-			'Material',
 			'Forageable',
-			'Blacksmithing',
+			'Material',
 			'CookedDish',
+			'Blacksmithing',
 			'Ranching',
+			'Crop',
 		]);
 		setBackgroundColor('#303030');
 		// setBorderColor('#000000');

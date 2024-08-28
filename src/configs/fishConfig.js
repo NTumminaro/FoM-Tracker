@@ -1,8 +1,8 @@
 const fishConfig = {
 	name: 'Fish',
 	defaultSize: {
-		width: 1250,
-		height: 350,
+		width: '47%',
+		height: '30%',
 	},
 	filterGroups: {
 		locations: {
@@ -31,9 +31,15 @@ const fishConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'size', label: 'Size' },
+		{ type: 'rarity', label: 'Rarity' },
+	],
 	tooltipFields: [
 		'location',
 		'size',
+		'rarity',
 		'requiredPerk',
 		'skill',
 		'essence',

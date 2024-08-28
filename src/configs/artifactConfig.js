@@ -1,8 +1,8 @@
 const artifactConfig = {
 	name: 'Artifact',
 	defaultSize: {
-		width: 780,
-		height: 350,
+		width: '35%',
+		height: '30%',
 	},
 	filterGroups: {
 		locations: {
@@ -24,8 +24,13 @@ const artifactConfig = {
 			],
 		},
 	},
+	sortOptions: [
+		{ type: 'name', label: 'Name' },
+		{ type: 'rarity', label: 'Rarity' },
+	],
 	tooltipFields: [
 		'location',
+		'rarity',
 		'requiredPerk',
 		'skill',
 		'essence',
