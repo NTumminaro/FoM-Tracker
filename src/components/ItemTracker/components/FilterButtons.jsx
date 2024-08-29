@@ -195,6 +195,11 @@ const getSortIcon = (sortType, name) => {
 				<img
 					height={24}
 					width={24}
+					style={{
+						objectFit: 'contain',
+						maxWidth: '100%',
+						maxHeight: '100%',
+					}}
 					src={`misc/${name.toLowerCase()}.webp`}
 					alt={name}
 				/>

@@ -1,0 +1,3451 @@
+[
+  {
+      "Name": "Cabin Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Cattail (5)",
+          "Rooster Feather (2)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Bookshelf",
+      "Ingredients": [
+          "Wood (35)",
+          "Paper (5)",
+          "Sap (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Cattail (5)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Bed Double",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Cattail (5)",
+          "Rooster Feather (5)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Dresser",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (5)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Firewood",
+      "Ingredients": [
+          "Wood (30)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Flooring",
+      "Ingredients": [
+          "Wood (25)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Lamp",
+      "Ingredients": [
+          "Wood (15)",
+          "Copper Ingot (1)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Nightstand",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (5)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Stove",
+      "Ingredients": [
+          "Iron Ingot (1)",
+          "Stone (30)",
+          "Peat (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (10)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Wall Shelf",
+      "Ingredients": [
+          "Wood (20)",
+          "Clay (3)",
+          "Sod (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Wall Window",
+      "Ingredients": [
+          "Wood (15)",
+          "Copper Ingot (1)",
+          "Glass (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Cabin Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Wood (15)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Rustic Cabin Set"
+  },
+  {
+      "Name": "Ornate Rug Small",
+      "Ingredients": [
+          "Rabbit Wool (1)",
+          "Ruby (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Ornate Rug Medium Round",
+      "Ingredients": [
+          "Rabbit Wool (2)",
+          "Ruby (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Ornate Rug Medium Square",
+      "Ingredients": [
+          "Rabbit Wool (2)",
+          "Ruby (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Ornate Rug Large Round",
+      "Ingredients": [
+          "Sheep Wool (3)",
+          "Ruby (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Ornate Rug Large Square",
+      "Ingredients": [
+          "Sheep Wool (3)",
+          "Ruby (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Ornate Rug Large Rectangle",
+      "Ingredients": [
+          "Sheep Wool (3)",
+          "Ruby (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Ornate Rug Set"
+  },
+  {
+      "Name": "Mistria Wall Map",
+      "Ingredients": [
+          "Paper (20)",
+          "Monster Powder (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Mistria History Book",
+      "Ingredients": [
+          "Paper (20)",
+          "Monster Powder (5)"
+      ],
+      "Time": "1 hour",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Ornate Flagstone",
+      "Ingredients": [
+          "Stone (10)",
+          "Monster Shell (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Dragon Priestess Fountain",
+      "Ingredients": [
+          "Stone (30)",
+          "Monster Horn (4)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Stone Dragon Figure",
+      "Ingredients": [
+          "Stone (30)",
+          "Monster Horn (4)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Dragon Statue Replica",
+      "Ingredients": [
+          "Stone (100)",
+          "Monster Core (2)",
+          "Monster Horn (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "20",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Mistria History Scroll",
+      "Ingredients": [
+          "Paper (10)",
+          "Shard Mass (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Mistrian History Set"
+  },
+  {
+      "Name": "Spring Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Cattail (5)",
+          "Daffodil (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Cattail (5)",
+          "Daffodil (2)",
+          "Sap (6)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Flooring",
+      "Ingredients": [
+          "Wood (20)",
+          "Copper Ore (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Lamp",
+      "Ingredients": [
+          "Clay (3)",
+          "Glass (3)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Potted Tree",
+      "Ingredients": [
+          "Clay (2)",
+          "Sod (2)",
+          "Grass Starter (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Rooster Feather (2)",
+          "Daffodil (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Sofa",
+      "Ingredients": [
+          "Wood (30)",
+          "Cattail (5)",
+          "Daffodil (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Spring Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Daffodil (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Set"
+  },
+  {
+      "Name": "Worn Bed",
+      "Ingredients": [
+          "Wood (35)",
+          "Cattail (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Chair",
+      "Ingredients": [
+          "Wood (20)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Fireplace",
+      "Ingredients": [
+          "Wood (10)",
+          "Stone (30)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Nightstand",
+      "Ingredients": [
+          "Wood (15)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Table",
+      "Ingredients": [
+          "Wood (20)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Window",
+      "Ingredients": [
+          "Wood (10)",
+          "Glass (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Wallpaper",
+      "Ingredients": [
+          "Paper (3)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Flooring",
+      "Ingredients": [
+          "Wood (10)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Well",
+      "Ingredients": [
+          "Stone (20)",
+          "Wood (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Garden Lamp",
+      "Ingredients": [
+          "Stone (10)",
+          "Glass (3)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Worn Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Cattail (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Default Worn Set"
+  },
+  {
+      "Name": "Stone Table",
+      "Ingredients": [
+          "Stone (50)",
+          "Monster Shell (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Stone Set"
+  },
+  {
+      "Name": "Stone Lamp",
+      "Ingredients": [
+          "Stone (30)",
+          "Monster Core (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Stone Set"
+  },
+  {
+      "Name": "Stone Bench",
+      "Ingredients": [
+          "Stone (30)",
+          "Sap (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Stone Set"
+  },
+  {
+      "Name": "Large Paving Stone",
+      "Ingredients": [
+          "Stone (20)",
+          "Peat (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Stone Set"
+  },
+  {
+      "Name": "Stone Storage Chest",
+      "Ingredients": [
+          "Stone (40)",
+          "Monster Fang (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Stone Set"
+  },
+  {
+      "Name": "Inn Stool",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Candle",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Cross Stitch",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Kitchen Shelves",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Counter",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Tile Flooring",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Inn Wooden Flooring",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Inn Set"
+  },
+  {
+      "Name": "Coffee Mug",
+      "Ingredients": [
+          "Clay (3)",
+          "Coffee (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Tabletop Clutter Set"
+  },
+  {
+      "Name": "Espresso Cup",
+      "Ingredients": [
+          "Clay (2)",
+          "Coffee (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Tabletop Clutter Set"
+  },
+  {
+      "Name": "Crop Sign Cabbage",
+      "Ingredients": [
+          "Wood (10)",
+          "Cabbage (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Carrot",
+      "Ingredients": [
+          "Wood (10)",
+          "Carrot (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Cauliflower",
+      "Ingredients": [
+          "Wood (10)",
+          "Cauliflower (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Chickpea",
+      "Ingredients": [
+          "Wood (10)",
+          "Chickpea (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Daffodil",
+      "Ingredients": [
+          "Wood (10)",
+          "Daffodil (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Lilac",
+      "Ingredients": [
+          "Wood (10)",
+          "Lilac (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Peas",
+      "Ingredients": [
+          "Wood (10)",
+          "Peas (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Potato",
+      "Ingredients": [
+          "Wood (10)",
+          "Potato (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Snowdrop Anemone",
+      "Ingredients": [
+          "Wood (10)",
+          "Snowdrop Anemone (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Strawberry",
+      "Ingredients": [
+          "Wood (10)",
+          "Strawberry (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Tulip",
+      "Ingredients": [
+          "Wood (10)",
+          "Tulip (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Turnip",
+      "Ingredients": [
+          "Wood (10)",
+          "Turnip (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Cherry",
+      "Ingredients": [
+          "Wood (10)",
+          "Cherry (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Lemon",
+      "Ingredients": [
+          "Wood (10)",
+          "Lemon (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Basil",
+      "Ingredients": [
+          "Wood (10)",
+          "Basil (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Catmint",
+      "Ingredients": [
+          "Wood (10)",
+          "Catmint (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Chili Pepper",
+      "Ingredients": [
+          "Wood (10)",
+          "Chili Pepper (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Corn",
+      "Ingredients": [
+          "Wood (10)",
+          "Corn (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Cosmos",
+      "Ingredients": [
+          "Wood (10)",
+          "Cosmos (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Cucumber",
+      "Ingredients": [
+          "Wood (10)",
+          "Cucumber (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Daisy",
+      "Ingredients": [
+          "Wood (10)",
+          "Daisy (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Dill",
+      "Ingredients": [
+          "Wood (10)",
+          "Dill (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Iris",
+      "Ingredients": [
+          "Wood (10)",
+          "Iris (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Marigold",
+      "Ingredients": [
+          "Wood (10)",
+          "Marigold (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Night Queen",
+      "Ingredients": [
+          "Wood (10)",
+          "Night Queen (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Oregano",
+      "Ingredients": [
+          "Wood (10)",
+          "Oregano (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Sage",
+      "Ingredients": [
+          "Wood (10)",
+          "Sage (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Sunflower",
+      "Ingredients": [
+          "Wood (10)",
+          "Sunflower (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Thyme",
+      "Ingredients": [
+          "Wood (10)",
+          "Thyme (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Tomato",
+      "Ingredients": [
+          "Wood (10)",
+          "Tomato (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Watermelon",
+      "Ingredients": [
+          "Wood (10)",
+          "Watermelon (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Coconut",
+      "Ingredients": [
+          "Wood (10)",
+          "Coconut (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Peach",
+      "Ingredients": [
+          "Wood (10)",
+          "Peach (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Pear",
+      "Ingredients": [
+          "Wood (10)",
+          "Pear (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Broccoli",
+      "Ingredients": [
+          "Wood (10)",
+          "Broccoli (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Celosia",
+      "Ingredients": [
+          "Wood (10)",
+          "Celosia (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Chrysanthemum",
+      "Ingredients": [
+          "Wood (10)",
+          "Chrysanthemum (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Cranberry",
+      "Ingredients": [
+          "Wood (10)",
+          "Cranberry (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Pumpkin",
+      "Ingredients": [
+          "Wood (10)",
+          "Pumpkin (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Sweet Potato",
+      "Ingredients": [
+          "Wood (10)",
+          "Sweet Potato (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Apple",
+      "Ingredients": [
+          "Wood (10)",
+          "Apple (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Pomegranate",
+      "Ingredients": [
+          "Wood (10)",
+          "Pomegranate (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Sugar Cane",
+      "Ingredients": [
+          "Wood (10)",
+          "Sugar Cane (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Tea",
+      "Ingredients": [
+          "Wood (10)",
+          "Tea (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Garlic",
+      "Ingredients": [
+          "Wood (10)",
+          "Garlic (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Heather",
+      "Ingredients": [
+          "Wood (10)",
+          "Heather (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Moon Fruit",
+      "Ingredients": [
+          "Wood (10)",
+          "Moon Fruit (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Onion",
+      "Ingredients": [
+          "Wood (10)",
+          "Onion (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Orange",
+      "Ingredients": [
+          "Wood (10)",
+          "Orange (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Rice",
+      "Ingredients": [
+          "Wood (10)",
+          "Rice (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Rosemary",
+      "Ingredients": [
+          "Wood (10)",
+          "Rosemary (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Viola",
+      "Ingredients": [
+          "Wood (10)",
+          "Viola (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Wheat",
+      "Ingredients": [
+          "Wood (10)",
+          "Wheat (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Beet",
+      "Ingredients": [
+          "Wood (10)",
+          "Beet (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Burdock Root",
+      "Ingredients": [
+          "Wood (10)",
+          "Burdock Root (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Daikon Radish",
+      "Ingredients": [
+          "Wood (10)",
+          "Daikon Radish (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Frost Lily",
+      "Ingredients": [
+          "Wood (10)",
+          "Frost Lily (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Jasmine",
+      "Ingredients": [
+          "Wood (10)",
+          "Jasmine (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Poinsettia",
+      "Ingredients": [
+          "Wood (10)",
+          "Poinsettia (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Snapdragon",
+      "Ingredients": [
+          "Wood (10)",
+          "Snapdragon (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Crop Sign Snow Peas",
+      "Ingredients": [
+          "Wood (10)",
+          "Snow Peas (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Crop Signs Set"
+  },
+  {
+      "Name": "Witch Queen Flooring",
+      "Ingredients": [
+          "Clay (10)",
+          "Shards (10)",
+          "Emerald (3)"
+      ],
+      "Time": "2 hours 30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Wallpaper",
+      "Ingredients": [
+          "Shards (5)",
+          "Golden Feather (5)",
+          "Paper (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Bed",
+      "Ingredients": [
+          "Hard Wood (60)",
+          "Shard Mass (3)",
+          "Golden Feather (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "20",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Double Bed",
+      "Ingredients": [
+          "Hard Wood (1000)",
+          "Shard Mass (6)",
+          "Golden Feather (6)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "26",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Cauldron",
+      "Ingredients": [
+          "Iron Ingot (10)",
+          "Shards (5)",
+          "Monster Powder (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "18",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Shard Mass (3)",
+          "Duck Feather (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Dressing Table",
+      "Ingredients": [
+          "Wood (20)",
+          "Glass (5)",
+          "Shards (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "16",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Moon Lamp",
+      "Ingredients": [
+          "Glass (5)",
+          "Crystal (5)",
+          "Shard Mass (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Nightstand",
+      "Ingredients": [
+          "Wood (40)",
+          "Shards (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Pillar",
+      "Ingredients": [
+          "Shard Mass (5)",
+          "Gold Ingot (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Rug",
+      "Ingredients": [
+          "Alpaca Wool (5)",
+          "Plum Blossom (3)",
+          "Golden Feather (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Table",
+      "Ingredients": [
+          "Wood (60)",
+          "Shards (6)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "22",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Witch Queen Throne",
+      "Ingredients": [
+          "Gold Ingot (5)",
+          "Shard Mass (5)",
+          "Alpaca Wool (2)",
+          "Bull Horn (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "22",
+      "Skill": "Woodcrafting",
+      "Set": "Witch Queen Set"
+  },
+  {
+      "Name": "Coral Lamp",
+      "Ingredients": [
+          "Coral (15)",
+          "Glass (5)",
+          "Monster Core (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Coral Chair",
+      "Ingredients": [
+          "Coral (15)",
+          "Sap (5)",
+          "Monster Fang (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Coral Table",
+      "Ingredients": [
+          "Coral (20)",
+          "Glass (5)",
+          "Monster Horn (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Coral Storage Chest",
+      "Ingredients": [
+          "Wood (20)",
+          "Coral (5)",
+          "Monster Shell (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Sand Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Rooster Feather (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Low Tide Flooring",
+      "Ingredients": [
+          "Stone (20)",
+          "Spirula Shell (3)",
+          "Pink Scallop Shell (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Tide Touched Cavern Wall",
+      "Ingredients": [
+          "Stone (20)",
+          "Iron Ore (5)",
+          "Paper (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Ornamental Iron Node",
+      "Ingredients": [
+          "Stone (10)",
+          "Iron Ore (10)",
+          "Monster Powder (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Ornamental Sapphire Rock",
+      "Ingredients": [
+          "Stone (10)",
+          "Sapphire (3)",
+          "Glowing Mushroom (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Coral Stone Archway",
+      "Ingredients": [
+          "Stone (20)",
+          "Coral (10)",
+          "Monster Fang (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Tide Set"
+  },
+  {
+      "Name": "Chess Pawn",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess Rook",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess Knight",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess Bishop",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess Queen",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess King",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Chess Table",
+      "Ingredients": [
+          "Wood (50)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Chess Set"
+  },
+  {
+      "Name": "Picnic Basket",
+      "Ingredients": [
+          "Hay (10)",
+          "Paper (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Pie Plate",
+      "Ingredients": [
+          "Clay (2)",
+          "Flour (1)",
+          "Sugar (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Place Setting",
+      "Ingredients": [
+          "Iron Ingot (1)",
+          "Clay (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Rug",
+      "Ingredients": [
+          "Fiber (5)",
+          "Cattail (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Donut Plate",
+      "Ingredients": [
+          "Clay (3)",
+          "Flour (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Hamburger Plate",
+      "Ingredients": [
+          "Clay (3)",
+          "Flour (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Sandwich Plate",
+      "Ingredients": [
+          "Clay (3)",
+          "Flour (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Picnic Sunflower Vase",
+      "Ingredients": [
+          "Glass (3)",
+          "Sunflower (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Picnic Set"
+  },
+  {
+      "Name": "Explorer Flooring",
+      "Ingredients": [
+          "Clay (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Wallpaper",
+      "Ingredients": [
+          "Paper (10)",
+          "Wood (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Rabbit Wool (2)",
+          "Bull Horn (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Rabbit Wool (2)",
+          "Bull Horn (2)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Horse Hair (2)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Globe",
+      "Ingredients": [
+          "Wood (10)",
+          "Shard Mass (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Lamp",
+      "Ingredients": [
+          "Wood (10)",
+          "Glass (1)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Horse Hair (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Explorer Trunk Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Bull Horn (2)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Explorer Set"
+  },
+  {
+      "Name": "Campfire",
+      "Ingredients": [
+          "Stone (50)",
+          "Wood (30)",
+          "Peat (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Potted Plant",
+      "Ingredients": [
+          "Clay (3)",
+          "Sod (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Scarecrow",
+      "Ingredients": [
+          "Wood (15)",
+          "Hay (15)",
+          "Fiber (10)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Bird House",
+      "Ingredients": [
+          "Wood (15)",
+          "Stone (15)",
+          "Hay (10)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Stone Path",
+      "Ingredients": [
+          "Stone (2)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Stone Path Double",
+      "Ingredients": [
+          "Stone (2)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Well",
+      "Ingredients": [
+          "Stone (50)",
+          "Wood (20)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Wheelbarrow",
+      "Ingredients": [
+          "Wood (25)",
+          "Lilac (1)",
+          "Tulip (1)",
+          "Dandelion (1)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Wood Fence",
+      "Ingredients": [
+          "Wood (2)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Starter Shipping Box",
+      "Ingredients": [
+          "Wood (100)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Haybale",
+      "Ingredients": [
+          "Hay (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Dirt Clear",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Dirt Dot One",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Dirt Dot Two",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Dirt Dot Three",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Field Clear",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Field Flower",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Field Flower Two",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Field Grass",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Field Grass Two",
+      "Ingredients": [
+          "Sod (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Starter Farm Set"
+  },
+  {
+      "Name": "Summer Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Duck Feather (2)",
+          "Daisy (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Chair",
+      "Ingredients": [
+          "Wood (30)",
+          "Duck Feather (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Duck Feather (4)",
+          "Daisy (2)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Flooring",
+      "Ingredients": [
+          "Sod (15)",
+          "Grass Starter (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Jar Lamp",
+      "Ingredients": [
+          "Glass (3)",
+          "Firefly (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Sunflower (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Silver Ingot (1)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Summer Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Daisy (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Summer Set"
+  },
+  {
+      "Name": "Spring Festival Planter",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Spring Festival Large Planter",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Spring Festival Basket",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Spring Festival Flower Chest",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Spring Festival Wreath",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Spring Festival Breath Of Spring Wreath",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "Spring Festival Set"
+  },
+  {
+      "Name": "Haunted Attic Armoire",
+      "Ingredients": [
+          "Wood (30)",
+          "Alpaca Wool (1)",
+          "Sap (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Cattail (5)",
+          "Bull Horn (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Candle Single",
+      "Ingredients": [
+          "Peat (1)",
+          "Oil (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Candle Cluster",
+      "Ingredients": [
+          "Peat (2)",
+          "Oil (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Fiber (5)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Cattail (5)",
+          "Bull Horn (2)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Dress Form",
+      "Ingredients": [
+          "Wood (30)",
+          "Rabbit Wool (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Nightstand",
+      "Ingredients": [
+          "Wood (30)",
+          "Iron Ingot (1)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Rocking Chair",
+      "Ingredients": [
+          "Wood (30)",
+          "Iron Ingot (1)",
+          "Sheep Wool (2)",
+          "Sap (5)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Iron Ingot (1)",
+          "Sheep Wool (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Wall Cobweb Left",
+      "Ingredients": [
+          "Monster Powder (2)",
+          "Clay (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Wall Cobweb Right",
+      "Ingredients": [
+          "Monster Powder (2)",
+          "Clay (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Wall Shelf",
+      "Ingredients": [
+          "Wood (10)",
+          "Paper (3)",
+          "Shards (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Wall Window",
+      "Ingredients": [
+          "Wood (15)",
+          "Iron Ingot (1)",
+          "Glass (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Monster Powder (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Haunted Attic Flooring",
+      "Ingredients": [
+          "Wood (25)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Haunted Attic Set"
+  },
+  {
+      "Name": "Cottage Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Cattail (5)",
+          "Rooster Feather (5)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Cattail (5)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Bed Double",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Cattail (10)",
+          "Rooster Feather (5)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Dresser",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (5)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Flooring",
+      "Ingredients": [
+          "Wood (25)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Nightstand",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (5)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Plant Shelf",
+      "Ingredients": [
+          "Wood (30)",
+          "Clay (4)",
+          "Sod (4)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Potted Fig",
+      "Ingredients": [
+          "Wood (10)",
+          "Clay (2)",
+          "Sod (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Cattail (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Table",
+      "Ingredients": [
+          "Wood (40)",
+          "Stone (10)",
+          "Copper Ingot (1)",
+          "Sap (10)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Wall Flowers",
+      "Ingredients": [
+          "Fiber (10)",
+          "Hay (2)",
+          "Grass Starter (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Wall Window",
+      "Ingredients": [
+          "Wood (15)",
+          "Copper Ingot (1)",
+          "Glass (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cottage Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Wood (15)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Lovely Cottage Set"
+  },
+  {
+      "Name": "Cavern Crystal Lamp",
+      "Ingredients": [
+          "Crystal (15)",
+          "Monster Core (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Mushroom Stool",
+      "Ingredients": [
+          "Stone (20)",
+          "Earthshroom (2)",
+          "Cave Mushroom (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Emerald Rock",
+      "Ingredients": [
+          "Stone (10)",
+          "Emerald (3)",
+          "Cave Mushroom (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Silver Node",
+      "Ingredients": [
+          "Stone (10)",
+          "Silver Ore (10)",
+          "Monster Powder (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Hewn Rock Bookshelf",
+      "Ingredients": [
+          "Stone (25)",
+          "Paper (5)",
+          "Earthshroom (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Hewn Rock Table",
+      "Ingredients": [
+          "Stone (40)",
+          "Iron Ore (5)",
+          "Monster Shell (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "14",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Stone Arch",
+      "Ingredients": [
+          "Stone (20)",
+          "Crystal (10)",
+          "Monster Horn (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "16",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Wall Brazier",
+      "Ingredients": [
+          "Iron Ingot (1)",
+          "Peat (3)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Floor Brazier",
+      "Ingredients": [
+          "Iron Ingot (2)",
+          "Peat (3)",
+          "Monster Core (2)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Mossy Rug",
+      "Ingredients": [
+          "Rooster Feather (3)",
+          "Narrows Moss (3)",
+          "Shale Grass (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Rock Wallpaper",
+      "Ingredients": [
+          "Stone (20)",
+          "Silver Ore (5)",
+          "Paper (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Cavern Rock Flooring",
+      "Ingredients": [
+          "Stone (20)",
+          "Crystal (10)",
+          "Monster Horn (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "Cavern Set"
+  },
+  {
+      "Name": "Mines Wooden Arch",
+      "Ingredients": [
+          "Wood (20)",
+          "Sap (5)",
+          "Monster Shell (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Copper Node",
+      "Ingredients": [
+          "Stone (10)",
+          "Copper Ore (10)",
+          "Monster Powder (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Ruby Rock",
+      "Ingredients": [
+          "Stone (10)",
+          "Ruby (3)",
+          "Red Toadstool (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Minecart",
+      "Ingredients": [
+          "Stone (20)",
+          "Wood (20)",
+          "Sap (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Crate Chair",
+      "Ingredients": [
+          "Wood (20)",
+          "Sap (5)",
+          "Monster Fang (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Crate Chest",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (10)",
+          "Monster Shell (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Floor Lamp",
+      "Ingredients": [
+          "Stone (10)",
+          "Glass (3)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Wall Lamp",
+      "Ingredients": [
+          "Stone (10)",
+          "Glass (3)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Shelves",
+      "Ingredients": [
+          "Wood (20)",
+          "Stone (10)",
+          "Copper Ore (5)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Flooring",
+      "Ingredients": [
+          "Stone (20)",
+          "Sod (5)",
+          "Monster Shell (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Miners Wallpaper",
+      "Ingredients": [
+          "Stone (20)",
+          "Sod (5)",
+          "Paper (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Mineshaft Set"
+  },
+  {
+      "Name": "Fishing Flooring",
+      "Ingredients": [
+          "Clay (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Wallpaper",
+      "Ingredients": [
+          "Paper (10)",
+          "Wood (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Blue Conch Shell (2)",
+          "Rooster Feather (2)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Blue Conch Shell (2)",
+          "Rooster Feather (2)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (10)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Cattail (5)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Seaweed (2)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Lamp",
+      "Ingredients": [
+          "Stone (15)",
+          "Glass (2)",
+          "Monster Core (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Oar Wall Decor",
+      "Ingredients": [
+          "Wood (30)",
+          "Clay (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Window",
+      "Ingredients": [
+          "Wood (15)",
+          "Iron Ingot (1)",
+          "Glass (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Plaque",
+      "Ingredients": [
+          "Wood (20)",
+          "Iron Ingot (1)",
+          "Trout (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Trophy Shelf",
+      "Ingredients": [
+          "Wood (20)",
+          "Clay (3)",
+          "Iron Ingot (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Fishing Tank",
+      "Ingredients": [
+          "Wood (30)",
+          "Iron Ingot (1)",
+          "Tetra (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Fishing Set"
+  },
+  {
+      "Name": "Basic Area Rug",
+      "Ingredients": [
+          "Fiber (10)",
+          "Cattail (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Cattail (5)",
+          "Fiber (5)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Bookshelf",
+      "Ingredients": [
+          "Wood (25)",
+          "Paper (5)",
+          "Sap (3)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Cattail (2)",
+          "Sap (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Doormat",
+      "Ingredients": [
+          "Hay (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Bed Double",
+      "Ingredients": [
+          "Wood (50)",
+          "Hard Wood (4)",
+          "Cattail (10)",
+          "Fiber (10)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Dresser",
+      "Ingredients": [
+          "Wood (25)",
+          "Stone (5)",
+          "Sap (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Flooring",
+      "Ingredients": [
+          "Wood (20)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Flower Pot",
+      "Ingredients": [
+          "Sod (1)",
+          "Clay (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Nightstand",
+      "Ingredients": [
+          "Wood (25)",
+          "Stone (5)",
+          "Sap (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Oil Lamp",
+      "Ingredients": [
+          "Iron Ingot (1)",
+          "Oil (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (5)",
+          "Paper (3)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Wall Window",
+      "Ingredients": [
+          "Wood (15)",
+          "Glass (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Basic Wallpaper",
+      "Ingredients": [
+          "Paper (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Set"
+  },
+  {
+      "Name": "Insect Flooring",
+      "Ingredients": [
+          "Clay (10)",
+          "Question Mark Butterfly (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Insect Wallpaper",
+      "Ingredients": [
+          "Paper (5)",
+          "Lightning Dragonfly (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Butterfly Bed",
+      "Ingredients": [
+          "Wood (40)",
+          "Question Mark Butterfly (1)",
+          "Rooster Feather (2)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Butterfly Double Bed",
+      "Ingredients": [
+          "Wood (60)",
+          "Hard Wood (4)",
+          "Question Mark Butterfly (2)",
+          "Duck Feather (2)",
+          "Sap (6)"
+      ],
+      "Time": "50 min",
+      "RequiredLevel": "8",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Ladybug Table",
+      "Ingredients": [
+          "Wood (30)",
+          "Stone (10)",
+          "Ladybug (1)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Moth Lamp",
+      "Ingredients": [
+          "Stone (15)",
+          "Glass (2)",
+          "Lantern Moth (1)",
+          "Monster Core (1)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Caterpillar Chair",
+      "Ingredients": [
+          "Wood (25)",
+          "Caterpillar (1)",
+          "Bristle (2)",
+          "Sap (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Insect Rug",
+      "Ingredients": [
+          "Rabbit Wool (2)",
+          "Copper Beetle (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Insect Set"
+  },
+  {
+      "Name": "Journal",
+      "Ingredients": [
+          "Paper (5)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Weather Crystal Ball",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Espresso Machine",
+      "Ingredients": [
+          "Gold Ingot (20)",
+          "Diamond (10)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "30",
+      "Skill": "Woodcrafting",
+      "Set": "No Set",
+      "Ignore": "Yes"
+  },
+  {
+      "Name": "Tile Roof Fence",
+      "Ingredients": [
+          "Stone (3)",
+          "Clay (3)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Moon Gate",
+      "Ingredients": [
+          "Stone (50)",
+          "Clay (10)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "10",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Picket Fence",
+      "Ingredients": [
+          "Hard Wood (1)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Stone Wall",
+      "Ingredients": [
+          "Stone (5)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Farm House Calendar",
+      "Ingredients": [
+          "Paper (5)"
+      ],
+      "Time": "10 min",
+      "RequiredLevel": "1",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Alda Pot Replica",
+      "Ingredients": [
+          "Clay (10)",
+          "Shards (5)",
+          "Shard Mass (2)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "12",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Training Dummy Sapling",
+      "Ingredients": [
+          "Wood (30)",
+          "Fiber (10)",
+          "Monster Fang (5)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "No Set"
+  },
+  {
+      "Name": "Mournful Clown Painting",
+      "Ingredients": [],
+      "Time": "N/A",
+      "RequiredLevel": "N/A",
+      "Skill": "Woodcrafting",
+      "Set": "No Set",
+      "Ignore": "Yes"
+  },
+  {
+      "Name": "Basic Wood Chest",
+      "Ingredients": [
+          "Wood (30)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Basic Chest Set"
+  },
+  {
+      "Name": "Bakery Bread Basket",
+      "Ingredients": [
+          "Hay (10)",
+          "Flour (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "2",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  },
+  {
+      "Name": "Bakery Cake Case",
+      "Ingredients": [
+          "Wood (20)",
+          "Glass (10)",
+          "Sugar (3)"
+      ],
+      "Time": "40 min",
+      "RequiredLevel": "6",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  },
+  {
+      "Name": "Bakery Cake Slice",
+      "Ingredients": [
+          "Clay (3)",
+          "Flour (1)",
+          "Sugar (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  },
+  {
+      "Name": "Bakery Cake",
+      "Ingredients": [
+          "Clay (3)",
+          "Flour (1)",
+          "Sugar (1)"
+      ],
+      "Time": "30 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  },
+  {
+      "Name": "Bakery Cookie Jar",
+      "Ingredients": [
+          "Glass (5)",
+          "Sugar (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  },
+  {
+      "Name": "Bakery Cutting Board",
+      "Ingredients": [
+          "Wood (5)",
+          "Flour (1)"
+      ],
+      "Time": "20 min",
+      "RequiredLevel": "4",
+      "Skill": "Woodcrafting",
+      "Set": "Decor Bakery Set"
+  }
+]

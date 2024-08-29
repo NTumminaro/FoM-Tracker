@@ -141,6 +141,7 @@ function Header({
 									'Blacksmithing',
 									'Ranching',
 									'Crop',
+									'Furniture',
 								].map((tracker) => (
 									<ToggleButton
 										key={tracker}
