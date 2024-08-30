@@ -1,6 +1,6 @@
 [
   {
-      "Name": "Cabin Bed",
+      "Name": "Rustic Cabin Bed",
       "Ingredients": [
           "Wood (40)",
           "Cattail (5)",
@@ -13,7 +13,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Bookshelf",
+      "Name": "Rustic Cabin Bookshelf",
       "Ingredients": [
           "Wood (35)",
           "Paper (5)",
@@ -25,7 +25,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Chair",
+      "Name": "Rustic Cabin Chair",
       "Ingredients": [
           "Wood (25)",
           "Cattail (5)",
@@ -37,7 +37,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Bed Double",
+      "Name": "Rustic Cabin Double Bed",
       "Ingredients": [
           "Wood (60)",
           "Hard Wood (4)",
@@ -51,7 +51,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Dresser",
+      "Name": "Rustic Cabin Dresser",
       "Ingredients": [
           "Wood (30)",
           "Stone (5)",
@@ -63,7 +63,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Firewood",
+      "Name": "Rustic Cabin Firewood",
       "Ingredients": [
           "Wood (30)"
       ],
@@ -73,7 +73,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Flooring",
+      "Name": "Rustic Cabin Flooring",
       "Ingredients": [
           "Wood (25)"
       ],
@@ -83,7 +83,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Lamp",
+      "Name": "Rustic Cabin Lamp",
       "Ingredients": [
           "Wood (15)",
           "Copper Ingot (1)",
@@ -95,7 +95,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Nightstand",
+      "Name": "Rustic Cabin Nightstand",
       "Ingredients": [
           "Wood (30)",
           "Stone (5)",
@@ -107,7 +107,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Stove",
+      "Name": "Rustic Cabin Stove",
       "Ingredients": [
           "Iron Ingot (1)",
           "Stone (30)",
@@ -119,7 +119,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Table",
+      "Name": "Rustic Cabin Table",
       "Ingredients": [
           "Wood (30)",
           "Stone (10)",
@@ -131,7 +131,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Wall Shelf",
+      "Name": "Rustic Cabin Wall Shelf",
       "Ingredients": [
           "Wood (20)",
           "Clay (3)",
@@ -143,7 +143,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Wall Window",
+      "Name": "Rustic Cabin Window",
       "Ingredients": [
           "Wood (15)",
           "Copper Ingot (1)",
@@ -155,7 +155,7 @@
       "Set": "Rustic Cabin Set"
   },
   {
-      "Name": "Cabin Wallpaper",
+      "Name": "Rustic Cabin Wallpaper",
       "Ingredients": [
           "Paper (5)",
           "Wood (15)"
@@ -364,7 +364,7 @@
       "Ingredients": [
           "Clay (2)",
           "Sod (2)",
-          "Grass Starter (2)"
+          "Grass Basic (2)"
       ],
       "Time": "30 min",
       "RequiredLevel": "4",
@@ -372,7 +372,7 @@
       "Set": "Spring Set"
   },
   {
-      "Name": "Spring Rug",
+      "Name": "Spring Flower Rug",
       "Ingredients": [
           "Fiber (10)",
           "Rooster Feather (2)",
@@ -658,7 +658,7 @@
       "Set": "Tabletop Clutter Set"
   },
   {
-      "Name": "Crop Sign Cabbage",
+      "Name": "Cabbage Sign",
       "Ingredients": [
           "Wood (10)",
           "Cabbage (1)"
@@ -669,7 +669,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Carrot",
+      "Name": "Carrot Sign",
       "Ingredients": [
           "Wood (10)",
           "Carrot (1)"
@@ -680,7 +680,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Cauliflower",
+      "Name": "Cauliflower Sign",
       "Ingredients": [
           "Wood (10)",
           "Cauliflower (1)"
@@ -691,7 +691,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Chickpea",
+      "Name": "Chickpea Sign",
       "Ingredients": [
           "Wood (10)",
           "Chickpea (1)"
@@ -702,7 +702,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Daffodil",
+      "Name": "Daffodil Sign",
       "Ingredients": [
           "Wood (10)",
           "Daffodil (1)"
@@ -713,7 +713,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Lilac",
+      "Name": "Lilac Sign",
       "Ingredients": [
           "Wood (10)",
           "Lilac (1)"
@@ -724,7 +724,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Peas",
+      "Name": "Peas Sign",
       "Ingredients": [
           "Wood (10)",
           "Peas (1)"
@@ -735,7 +735,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Potato",
+      "Name": "Potato Sign",
       "Ingredients": [
           "Wood (10)",
           "Potato (1)"
@@ -746,7 +746,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Snowdrop Anemone",
+      "Name": "Snowdrop Anemone Sign",
       "Ingredients": [
           "Wood (10)",
           "Snowdrop Anemone (1)"
@@ -757,7 +757,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Strawberry",
+      "Name": "Strawberry Sign",
       "Ingredients": [
           "Wood (10)",
           "Strawberry (1)"
@@ -768,7 +768,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Tulip",
+      "Name": "Tulip Sign",
       "Ingredients": [
           "Wood (10)",
           "Tulip (1)"
@@ -779,7 +779,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Turnip",
+      "Name": "Turnip Sign",
       "Ingredients": [
           "Wood (10)",
           "Turnip (1)"
@@ -790,7 +790,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Cherry",
+      "Name": "Cherry Sign",
       "Ingredients": [
           "Wood (10)",
           "Cherry (1)"
@@ -801,7 +801,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Lemon",
+      "Name": "Lemon Sign",
       "Ingredients": [
           "Wood (10)",
           "Lemon (1)"
@@ -812,7 +812,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Basil",
+      "Name": "Basil Sign",
       "Ingredients": [
           "Wood (10)",
           "Basil (1)"
@@ -823,7 +823,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Catmint",
+      "Name": "Catmint Sign",
       "Ingredients": [
           "Wood (10)",
           "Catmint (1)"
@@ -845,7 +845,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Corn",
+      "Name": "Corn Sign",
       "Ingredients": [
           "Wood (10)",
           "Corn (1)"
@@ -856,7 +856,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Cosmos",
+      "Name": "Cosmos Sign",
       "Ingredients": [
           "Wood (10)",
           "Cosmos (1)"
@@ -867,7 +867,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Cucumber",
+      "Name": "Cucumber Sign",
       "Ingredients": [
           "Wood (10)",
           "Cucumber (1)"
@@ -878,7 +878,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Daisy",
+      "Name": "Daisy Sign",
       "Ingredients": [
           "Wood (10)",
           "Daisy (1)"
@@ -889,7 +889,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Dill",
+      "Name": "Dill Sign",
       "Ingredients": [
           "Wood (10)",
           "Dill (1)"
@@ -900,7 +900,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Iris",
+      "Name": "Iris Sign",
       "Ingredients": [
           "Wood (10)",
           "Iris (1)"
@@ -911,7 +911,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Marigold",
+      "Name": "Marigold Sign",
       "Ingredients": [
           "Wood (10)",
           "Marigold (1)"
@@ -933,7 +933,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Oregano",
+      "Name": "Oregano Sign",
       "Ingredients": [
           "Wood (10)",
           "Oregano (1)"
@@ -944,7 +944,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Sage",
+      "Name": "Sage Sign",
       "Ingredients": [
           "Wood (10)",
           "Sage (1)"
@@ -955,7 +955,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Sunflower",
+      "Name": "Sunflower Sign",
       "Ingredients": [
           "Wood (10)",
           "Sunflower (1)"
@@ -966,7 +966,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Thyme",
+      "Name": "Thyme Sign",
       "Ingredients": [
           "Wood (10)",
           "Thyme (1)"
@@ -977,7 +977,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Tomato",
+      "Name": "Tomato Sign",
       "Ingredients": [
           "Wood (10)",
           "Tomato (1)"
@@ -988,7 +988,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Watermelon",
+      "Name": "Watermelon Sign",
       "Ingredients": [
           "Wood (10)",
           "Watermelon (1)"
@@ -999,7 +999,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Coconut",
+      "Name": "Coconut Sign",
       "Ingredients": [
           "Wood (10)",
           "Coconut (1)"
@@ -1010,7 +1010,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Peach",
+      "Name": "Peach Sign",
       "Ingredients": [
           "Wood (10)",
           "Peach (1)"
@@ -1021,7 +1021,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Pear",
+      "Name": "Pear Sign",
       "Ingredients": [
           "Wood (10)",
           "Pear (1)"
@@ -1032,7 +1032,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Broccoli",
+      "Name": "Broccoli Sign",
       "Ingredients": [
           "Wood (10)",
           "Broccoli (1)"
@@ -1043,7 +1043,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Celosia",
+      "Name": "Celosia Sign",
       "Ingredients": [
           "Wood (10)",
           "Celosia (1)"
@@ -1054,7 +1054,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Chrysanthemum",
+      "Name": "Chrysanthemum Sign",
       "Ingredients": [
           "Wood (10)",
           "Chrysanthemum (1)"
@@ -1065,7 +1065,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Cranberry",
+      "Name": "Cranberry Sign",
       "Ingredients": [
           "Wood (10)",
           "Cranberry (1)"
@@ -1076,7 +1076,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Pumpkin",
+      "Name": "Pumpkin Sign",
       "Ingredients": [
           "Wood (10)",
           "Pumpkin (1)"
@@ -1087,7 +1087,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Sweet Potato",
+      "Name": "Sweet Potato Sign",
       "Ingredients": [
           "Wood (10)",
           "Sweet Potato (1)"
@@ -1098,7 +1098,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Apple",
+      "Name": "Apple Sign",
       "Ingredients": [
           "Wood (10)",
           "Apple (1)"
@@ -1109,7 +1109,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Pomegranate",
+      "Name": "Pomegranate Sign",
       "Ingredients": [
           "Wood (10)",
           "Pomegranate (1)"
@@ -1120,7 +1120,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Sugar Cane",
+      "Name": "Sugar Cane Sign ",
       "Ingredients": [
           "Wood (10)",
           "Sugar Cane (1)"
@@ -1131,7 +1131,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Tea",
+      "Name": "Tea Sign",
       "Ingredients": [
           "Wood (10)",
           "Tea (1)"
@@ -1142,7 +1142,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Garlic",
+      "Name": "Garlic Sign",
       "Ingredients": [
           "Wood (10)",
           "Garlic (1)"
@@ -1153,7 +1153,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Heather",
+      "Name": "Heather Sign",
       "Ingredients": [
           "Wood (10)",
           "Heather (1)"
@@ -1175,7 +1175,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Onion",
+      "Name": "Onion Sign",
       "Ingredients": [
           "Wood (10)",
           "Onion (1)"
@@ -1186,7 +1186,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Orange",
+      "Name": "Orange Sign",
       "Ingredients": [
           "Wood (10)",
           "Orange (1)"
@@ -1197,7 +1197,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Rice",
+      "Name": "Rice Sign",
       "Ingredients": [
           "Wood (10)",
           "Rice (1)"
@@ -1208,7 +1208,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Rosemary",
+      "Name": "Rosemary Sign",
       "Ingredients": [
           "Wood (10)",
           "Rosemary (1)"
@@ -1219,7 +1219,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Viola",
+      "Name": "Viola Sign",
       "Ingredients": [
           "Wood (10)",
           "Viola (1)"
@@ -1230,7 +1230,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Wheat",
+      "Name": "Wheat Sign",
       "Ingredients": [
           "Wood (10)",
           "Wheat (1)"
@@ -1241,7 +1241,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Beet",
+      "Name": "Beet Sign",
       "Ingredients": [
           "Wood (10)",
           "Beet (1)"
@@ -1285,7 +1285,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Jasmine",
+      "Name": "Jasmine Sign",
       "Ingredients": [
           "Wood (10)",
           "Jasmine (1)"
@@ -1296,7 +1296,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Poinsettia",
+      "Name": "Poinsettia Sign",
       "Ingredients": [
           "Wood (10)",
           "Poinsettia (1)"
@@ -1307,7 +1307,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Snapdragon",
+      "Name": "Snapdragon Sign",
       "Ingredients": [
           "Wood (10)",
           "Snapdragon (1)"
@@ -1318,7 +1318,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Snow Peas",
+      "Name": "Snow Peas Sign",
       "Ingredients": [
           "Wood (10)",
           "Snow Peas (1)"
@@ -1590,7 +1590,7 @@
       "Set": "Tide Set"
   },
   {
-      "Name": "Coral Stone Archway",
+      "Name": "Coral-Stone Arch",
       "Ingredients": [
           "Stone (20)",
           "Coral (10)",
@@ -1683,7 +1683,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Pie Plate",
+      "Name": "Picnic Display Pie",
       "Ingredients": [
           "Clay (2)",
           "Flour (1)",
@@ -1706,7 +1706,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Rug",
+      "Name": "Picnic Blanket",
       "Ingredients": [
           "Fiber (5)",
           "Cattail (5)"
@@ -1717,7 +1717,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Donut Plate",
+      "Name": "Picnic Display Donuts",
       "Ingredients": [
           "Clay (3)",
           "Flour (1)"
@@ -1728,7 +1728,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Hamburger Plate",
+      "Name": "Picnic Display Burgers",
       "Ingredients": [
           "Clay (3)",
           "Flour (1)"
@@ -1739,7 +1739,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Sandwich Plate",
+      "Name": "Picnic Dispay Sandwiches",
       "Ingredients": [
           "Clay (3)",
           "Flour (1)"
@@ -1876,10 +1876,10 @@
       "Time": "30 min",
       "RequiredLevel": "4",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Potted Plant",
+      "Name": "Potted Plant",
       "Ingredients": [
           "Clay (3)",
           "Sod (3)"
@@ -1887,10 +1887,10 @@
       "Time": "30 min",
       "RequiredLevel": "2",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Scarecrow",
+      "Name": "Scarecrow",
       "Ingredients": [
           "Wood (15)",
           "Hay (15)",
@@ -1899,10 +1899,10 @@
       "Time": "30 min",
       "RequiredLevel": "4",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Bird House",
+      "Name": "Bird House",
       "Ingredients": [
           "Wood (15)",
           "Stone (15)",
@@ -1911,30 +1911,30 @@
       "Time": "30 min",
       "RequiredLevel": "4",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Stone Path",
+      "Name": "Stone Path",
       "Ingredients": [
           "Stone (2)"
       ],
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Stone Path Double",
+      "Name": "Stone Path Double",
       "Ingredients": [
           "Stone (2)"
       ],
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Well",
+      "Name": "Water Well",
       "Ingredients": [
           "Stone (50)",
           "Wood (20)"
@@ -1942,10 +1942,10 @@
       "Time": "20 min",
       "RequiredLevel": "2",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Wheelbarrow",
+      "Name": "Wheelbarrow",
       "Ingredients": [
           "Wood (25)",
           "Lilac (1)",
@@ -1955,27 +1955,27 @@
       "Time": "40 min",
       "RequiredLevel": "4",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Wood Fence",
+      "Name": "Wooden Fence",
       "Ingredients": [
           "Wood (2)"
       ],
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
-      "Name": "Starter Shipping Box",
+      "Name": "Shipping Bin",
       "Ingredients": [
           "Wood (100)"
       ],
       "Time": "10 min",
       "RequiredLevel": "4",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Haybale",
@@ -1985,7 +1985,7 @@
       "Time": "20 min",
       "RequiredLevel": "2",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Dirt Clear",
@@ -1995,7 +1995,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Dirt Dot One",
@@ -2005,7 +2005,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Dirt Dot Two",
@@ -2015,7 +2015,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Dirt Dot Three",
@@ -2025,7 +2025,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Field Clear",
@@ -2035,7 +2035,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Field Flower",
@@ -2045,7 +2045,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Field Flower Two",
@@ -2055,7 +2055,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Field Grass",
@@ -2065,7 +2065,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Field Grass Two",
@@ -2075,7 +2075,7 @@
       "Time": "10 min",
       "RequiredLevel": "1",
       "Skill": "Woodcrafting",
-      "Set": "Starter Farm Set"
+      "Set": "Basic Farm Set"
   },
   {
       "Name": "Summer Bed",
@@ -2119,7 +2119,7 @@
       "Name": "Summer Flooring",
       "Ingredients": [
           "Sod (15)",
-          "Grass Starter (2)"
+          "Grass Basic (2)"
       ],
       "Time": "20 min",
       "RequiredLevel": "4",
@@ -2138,7 +2138,7 @@
       "Set": "Summer Set"
   },
   {
-      "Name": "Summer Rug",
+      "Name": "Summer Flower Rug",
       "Ingredients": [
           "Fiber (10)",
           "Sunflower (1)"
@@ -2172,7 +2172,7 @@
       "Set": "Summer Set"
   },
   {
-      "Name": "Spring Festival Planter",
+      "Name": "Breath of Spring Planter",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2180,7 +2180,7 @@
       "Set": "Spring Festival Set"
   },
   {
-      "Name": "Spring Festival Large Planter",
+      "Name": "Breath of Spring Large Planter",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2188,7 +2188,7 @@
       "Set": "Spring Festival Set"
   },
   {
-      "Name": "Spring Festival Basket",
+      "Name": "Breath of Spring Basket",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2196,7 +2196,7 @@
       "Set": "Spring Festival Set"
   },
   {
-      "Name": "Spring Festival Flower Chest",
+      "Name": "Breath of Spring Storage Chest",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2204,7 +2204,7 @@
       "Set": "Spring Festival Set"
   },
   {
-      "Name": "Spring Festival Wreath",
+      "Name": "Breath of Spring Wreath",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2212,7 +2212,7 @@
       "Set": "Spring Festival Set"
   },
   {
-      "Name": "Spring Festival Breath Of Spring Wreath",
+      "Name": "Deluxe Breath Of Spring Wreath",
       "Ingredients": [],
       "Time": "N/A",
       "RequiredLevel": "N/A",
@@ -2533,7 +2533,7 @@
       "Ingredients": [
           "Fiber (10)",
           "Hay (2)",
-          "Grass Starter (2)"
+          "Grass Basic (2)"
       ],
       "Time": "30 min",
       "RequiredLevel": "4",
@@ -2564,7 +2564,7 @@
       "Set": "Lovely Cottage Set"
   },
   {
-      "Name": "Cavern Crystal Lamp",
+      "Name": "Glowing Crystal Lamp Pink",
       "Ingredients": [
           "Crystal (15)",
           "Monster Core (2)"
@@ -2575,7 +2575,29 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Mushroom Stool",
+    "Name": "Glowing Crystal Lamp White",
+    "Ingredients": [
+        "Crystal (15)",
+        "Monster Core (2)"
+    ],
+    "Time": "20 min",
+    "RequiredLevel": "10",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+{
+    "Name": "Glowing Crystal Lamp Green",
+    "Ingredients": [
+        "Crystal (15)",
+        "Monster Core (2)"
+    ],
+    "Time": "20 min",
+    "RequiredLevel": "10",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+  {
+      "Name": "Cavern Mushroom Stool Purple",
       "Ingredients": [
           "Stone (20)",
           "Earthshroom (2)",
@@ -2587,7 +2609,31 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Emerald Rock",
+    "Name": "Cavern Mushroom Stool Green",
+    "Ingredients": [
+        "Stone (20)",
+        "Earthshroom (2)",
+        "Cave Mushroom (2)"
+    ],
+    "Time": "30 min",
+    "RequiredLevel": "12",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+{
+    "Name": "Cavern Mushroom Stool Pink",
+    "Ingredients": [
+        "Stone (20)",
+        "Earthshroom (2)",
+        "Cave Mushroom (2)"
+    ],
+    "Time": "30 min",
+    "RequiredLevel": "12",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+  {
+      "Name": "Ornamental Emerald Rock",
       "Ingredients": [
           "Stone (10)",
           "Emerald (3)",
@@ -2599,7 +2645,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Silver Node",
+      "Name": "Ornamental Silver Node",
       "Ingredients": [
           "Stone (10)",
           "Silver Ore (10)",
@@ -2635,7 +2681,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Stone Arch",
+      "Name": "Stalactite Arch",
       "Ingredients": [
           "Stone (20)",
           "Crystal (10)",
@@ -2647,7 +2693,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Wall Brazier",
+      "Name": "Wall Brazier Pink",
       "Ingredients": [
           "Iron Ingot (1)",
           "Peat (3)",
@@ -2659,7 +2705,31 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Floor Brazier",
+    "Name": "Wall Brazier Orange",
+    "Ingredients": [
+        "Iron Ingot (1)",
+        "Peat (3)",
+        "Monster Core (1)"
+    ],
+    "Time": "30 min",
+    "RequiredLevel": "8",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+{
+    "Name": "Wall Brazier Blue",
+    "Ingredients": [
+        "Iron Ingot (1)",
+        "Peat (3)",
+        "Monster Core (1)"
+    ],
+    "Time": "30 min",
+    "RequiredLevel": "8",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+  {
+      "Name": "Cavern Floor Brazier Purple",
       "Ingredients": [
           "Iron Ingot (2)",
           "Peat (3)",
@@ -2671,7 +2741,31 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Mossy Rug",
+    "Name": "Cavern Floor Brazier Orange",
+    "Ingredients": [
+        "Iron Ingot (2)",
+        "Peat (3)",
+        "Monster Core (2)"
+    ],
+    "Time": "40 min",
+    "RequiredLevel": "10",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+{
+    "Name": "Cavern Floor Brazier Blue",
+    "Ingredients": [
+        "Iron Ingot (2)",
+        "Peat (3)",
+        "Monster Core (2)"
+    ],
+    "Time": "40 min",
+    "RequiredLevel": "10",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+  {
+      "Name": "Cavern Mossy Rug Warm",
       "Ingredients": [
           "Rooster Feather (3)",
           "Narrows Moss (3)",
@@ -2683,7 +2777,19 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Rock Wallpaper",
+    "Name": "Cavern Mossy Rug Cool",
+    "Ingredients": [
+        "Rooster Feather (3)",
+        "Narrows Moss (3)",
+        "Shale Grass (2)"
+    ],
+    "Time": "30 min",
+    "RequiredLevel": "6",
+    "Skill": "Woodcrafting",
+    "Set": "Cavern Set"
+},
+  {
+      "Name": "Rock Wallpaper",
       "Ingredients": [
           "Stone (20)",
           "Silver Ore (5)",
@@ -2695,7 +2801,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Cavern Rock Flooring",
+      "Name": "Rock Floor",
       "Ingredients": [
           "Stone (20)",
           "Crystal (10)",
@@ -2707,7 +2813,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Mines Wooden Arch",
+      "Name": "Mines Arch",
       "Ingredients": [
           "Wood (20)",
           "Sap (5)",
@@ -2719,7 +2825,7 @@
       "Set": "Mineshaft Set"
   },
   {
-      "Name": "Miners Copper Node",
+      "Name": "Ornamental Copper Node",
       "Ingredients": [
           "Stone (10)",
           "Copper Ore (10)",
@@ -2731,7 +2837,7 @@
       "Set": "Mineshaft Set"
   },
   {
-      "Name": "Miners Ruby Rock",
+      "Name": "Ornamental Ruby Rock",
       "Ingredients": [
           "Stone (10)",
           "Ruby (3)",
@@ -2923,7 +3029,7 @@
       "Set": "Fishing Set"
   },
   {
-      "Name": "Fishing Lamp",
+      "Name": "Lighthouse Lamp",
       "Ingredients": [
           "Stone (15)",
           "Glass (2)",
@@ -2935,7 +3041,7 @@
       "Set": "Fishing Set"
   },
   {
-      "Name": "Fishing Oar Wall Decor",
+      "Name": "Oar Wall Decor",
       "Ingredients": [
           "Wood (30)",
           "Clay (3)"
@@ -2946,7 +3052,7 @@
       "Set": "Fishing Set"
   },
   {
-      "Name": "Fishing Window",
+      "Name": "Porthole Window",
       "Ingredients": [
           "Wood (15)",
           "Iron Ingot (1)",
@@ -3005,7 +3111,7 @@
       "Set": "Basic Set"
   },
   {
-      "Name": "Basic Bed",
+      "Name": "Basic Single Bed",
       "Ingredients": [
           "Wood (40)",
           "Cattail (5)",
@@ -3052,7 +3158,7 @@
       "Set": "Basic Set"
   },
   {
-      "Name": "Basic Bed Double",
+      "Name": "Basic Double Bed",
       "Ingredients": [
           "Wood (50)",
           "Hard Wood (4)",
@@ -3270,7 +3376,8 @@
       "Time": "N/A",
       "RequiredLevel": "N/A",
       "Skill": "Woodcrafting",
-      "Set": "No Set"
+      "Set": "No Set",
+      "Ignore": "Yes"
   },
   {
       "Name": "Espresso Machine",
@@ -3281,8 +3388,7 @@
       "Time": "20 min",
       "RequiredLevel": "30",
       "Skill": "Woodcrafting",
-      "Set": "No Set",
-      "Ignore": "Yes"
+      "Set": "No Set"
   },
   {
       "Name": "Tile Roof Fence",
@@ -3349,7 +3455,7 @@
       "Set": "No Set"
   },
   {
-      "Name": "Training Dummy Sapling",
+      "Name": "Training Dummy",
       "Ingredients": [
           "Wood (30)",
           "Fiber (10)",
@@ -3366,8 +3472,7 @@
       "Time": "N/A",
       "RequiredLevel": "N/A",
       "Skill": "Woodcrafting",
-      "Set": "No Set",
-      "Ignore": "Yes"
+      "Set": "No Set"
   },
   {
       "Name": "Basic Wood Chest",
