@@ -1,8 +1,8 @@
 const materialConfig = {
 	name: 'Ranching',
 	defaultSize: {
-		width: '30%',
-		height: '20%',
+		width: 20,
+		height: 30,
 	},
 	filterGroups: {
 		buildings: {

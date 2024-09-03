@@ -1,8 +1,8 @@
 const fishConfig = {
 	name: 'Fish',
 	defaultSize: {
-		width: '47%',
-		height: '30%',
+		width: 47,
+		height: 30,
 	},
 	filterGroups: {
 		locations: {

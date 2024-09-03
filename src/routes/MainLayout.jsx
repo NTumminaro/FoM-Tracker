@@ -227,10 +227,7 @@ const MainLayout = () => {
 					sx={{ userSelect: 'none' }}
 				>
 					{displayedTrackers.map((tracker) => (
-						<Suspense
-							fallback={<div>Loading {tracker} Tracker...</div>}
-							key={tracker}
-						>
+						<Suspense fallback={<></>} key={tracker}>
 							<ItemTrackerLoader
 								tracker={tracker}
 								loadTrackerData={loadTrackerData}
@@ -251,7 +248,8 @@ const MainLayout = () => {
 					bottom: 12,
 					right: 12,
 					display: 'flex',
-					gap: 1,
+					flexDirection: 'column',
+					gap: 0,
 				}}
 			>
 				<IconButton

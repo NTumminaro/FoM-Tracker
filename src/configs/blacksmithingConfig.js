@@ -1,10 +1,10 @@
 
 const blacksmithingConfig = {
   name: 'Blacksmithing',
-  defaultSize: {
-		width: '30%',
-		height: '20%',
-  },
+	defaultSize: {
+		width: 20,
+		height: 30,
+	},
 	filterGroups: {
     materials: {
       title: 'Materials',

@@ -7,7 +7,6 @@ import {
 	Typography,
 	MenuItem,
 	Menu,
-	ButtonBase,
 	ToggleButton,
 	Switch,
 	ToggleButtonGroup,
@@ -77,15 +76,13 @@ function Header({
 				}}
 			>
 				<Toolbar variant="dense">
-					<ButtonBase sx={{ borderRadius: '14px' }}>
 						<Box
 							display={'flex'}
 							alignItems={'center'}
-							sx={{ textDecoration: 'none', '&:hover': { opacity: 0.75 } }}
 						>
 							<img
-								height={24}
-								width={24}
+								height={28}
+								width={28}
 								src="misc/almanac.webp"
 								alt="almanac"
 								key="almanac"
@@ -98,7 +95,6 @@ function Header({
 								Mistria Tracker
 							</Typography>
 						</Box>
-					</ButtonBase>
 					<Box sx={{ flexGrow: 1 }} />
 					{editMode && (
 						<>

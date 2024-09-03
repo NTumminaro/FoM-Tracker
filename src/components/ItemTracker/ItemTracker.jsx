@@ -17,6 +17,15 @@ import FilterButtons from './components/FilterButtons';
 import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
 
+function convertPercentageToPixels(defaultSize) {
+	let defaultWidth = defaultSize.width;
+	let defaultHeight = defaultSize.height;
+	return {
+		width: (defaultWidth / 100) * window.innerWidth,
+		height: (defaultHeight / 100) * window.innerHeight,
+	};
+}
+
 // Main Component ////////////////////////////////////////////////////
 function ItemTracker({
 	config,
@@ -28,13 +37,12 @@ function ItemTracker({
 	caughtHighlighting,
 	showUnobtainable,
 }) {
-	console.log(data);
 	// State Hooks ////////////////////////////////////////////////////
 	const [items, setItems] = useState([]);
 	const [selectedSort, setSelectedSort] = useState('name');
 	const [containerSize, setContainerSize] = useState(
 		JSON.parse(localStorage.getItem(`${config.name}ContainerSize`)) ||
-			config.defaultSize
+			convertPercentageToPixels(config.defaultSize)
 	);
 	const [filters, setFilters] = useState({
 		seasons: [],
@@ -162,9 +170,17 @@ function ItemTracker({
 					return timeA - timeB;
 				}
 				case 'level': {
-					const levelA = parseInt(a.requiredlevel, 10);
-					const levelB = parseInt(b.requiredlevel, 10);
-					return levelA - levelB;
+					if (a.requiredlevel === '' && b.requiredlevel === '') {
+						return 0;
+					} else if (a.requiredlevel === '') {
+						return 1;
+					} else if (b.requiredlevel === '') {
+						return -1;
+					} else {
+						const levelA = parseInt(a.requiredlevel, 10);
+						const levelB = parseInt(b.requiredlevel, 10);
+						return levelA - levelB;
+					}
 				}
 				case 'hearts': {
 					const heartsA = parseInt(a.hearts, 10);
@@ -787,12 +803,17 @@ function ItemTracker({
 					: {}
 			}
 			style={{ margin: '10px', position: 'relative' }}
-			defaultSize={{ width: containerSize.width, height: containerSize.height }}
+			defaultSize={{
+				width: parseInt(containerSize.width, 10),
+				height: parseInt(containerSize.height, 10),
+			}}
 			maxWidth="95vw"
 			onResizeStop={(e, direction, ref, d) => {
 				let newContainerSize = {
-					width: containerSize.width + d.width,
-					height: containerSize.height + d.height,
+					width:
+						parseInt(containerSize.width, 10) + parseInt(d.width, 10) + 'px',
+					height:
+						parseInt(containerSize.height, 10) + parseInt(d.height, 10) + 'px',
 				};
 				setContainerSize(newContainerSize);
 				localStorage.setItem(

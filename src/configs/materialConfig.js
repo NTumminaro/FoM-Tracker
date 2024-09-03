@@ -1,8 +1,8 @@
 const materialConfig = {
 	name: 'Material',
 	defaultSize: {
-		width: '22%',
-		height: '30%',
+		width: 22,
+		height: 30,
 	},
 	filterGroups: {
 		locations: {

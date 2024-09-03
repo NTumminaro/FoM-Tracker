@@ -1,8 +1,8 @@
 const cookedDishConfig = {
 	name: 'CookedDish',
 	defaultSize: {
-		width: '96%',
-		height: '26%',
+		width: 96,
+		height: 26,
 	},
 	filterGroups: {
 		kitchen: {

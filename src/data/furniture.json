@@ -582,57 +582,57 @@
   {
       "Name": "Inn Stool",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Candle",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Cross Stitch",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Kitchen Shelves",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Counter",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Tile Flooring",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
       "Name": "Inn Wooden Flooring",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Inn Set"
   },
   {
@@ -834,7 +834,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Chili Pepper",
+      "Name": "Chili Pepper Sign",
       "Ingredients": [
           "Wood (10)",
           "Chili Pepper (1)"
@@ -922,7 +922,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Night Queen",
+      "Name": "Night Queen Sign",
       "Ingredients": [
           "Wood (10)",
           "Night Queen (1)"
@@ -1120,7 +1120,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Sugar Cane Sign ",
+      "Name": "Sugar Cane Sign",
       "Ingredients": [
           "Wood (10)",
           "Sugar Cane (1)"
@@ -1164,7 +1164,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Moon Fruit",
+      "Name": "Moon Fruit Sign",
       "Ingredients": [
           "Wood (10)",
           "Moon Fruit (1)"
@@ -1252,7 +1252,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Burdock Root",
+      "Name": "Burdock Root Sign",
       "Ingredients": [
           "Wood (10)",
           "Burdock Root (1)"
@@ -1263,7 +1263,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Daikon Radish",
+      "Name": "Daikon Radish Sign",
       "Ingredients": [
           "Wood (10)",
           "Daikon Radish (1)"
@@ -1274,7 +1274,7 @@
       "Set": "Crop Signs Set"
   },
   {
-      "Name": "Crop Sign Frost Lily",
+      "Name": "Frost Lily Sign",
       "Ingredients": [
           "Wood (10)",
           "Frost Lily (1)"
@@ -1739,7 +1739,7 @@
       "Set": "Decor Picnic Set"
   },
   {
-      "Name": "Picnic Dispay Sandwiches",
+      "Name": "Picnic Display Sandwiches",
       "Ingredients": [
           "Clay (3)",
           "Flour (1)"
@@ -2174,49 +2174,49 @@
   {
       "Name": "Breath of Spring Planter",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
       "Name": "Breath of Spring Large Planter",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
       "Name": "Breath of Spring Basket",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
       "Name": "Breath of Spring Storage Chest",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
       "Name": "Breath of Spring Wreath",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
       "Name": "Deluxe Breath Of Spring Wreath",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "Spring Festival Set"
   },
   {
@@ -2597,7 +2597,7 @@
     "Set": "Cavern Set"
 },
   {
-      "Name": "Cavern Mushroom Stool Purple",
+      "Name": "Mushroom Stool Purple",
       "Ingredients": [
           "Stone (20)",
           "Earthshroom (2)",
@@ -2609,7 +2609,7 @@
       "Set": "Cavern Set"
   },
   {
-    "Name": "Cavern Mushroom Stool Green",
+    "Name": "Mushroom Stool Green",
     "Ingredients": [
         "Stone (20)",
         "Earthshroom (2)",
@@ -2621,7 +2621,7 @@
     "Set": "Cavern Set"
 },
 {
-    "Name": "Cavern Mushroom Stool Pink",
+    "Name": "Mushroom Stool Pink",
     "Ingredients": [
         "Stone (20)",
         "Earthshroom (2)",
@@ -2693,7 +2693,7 @@
       "Set": "Cavern Set"
   },
   {
-      "Name": "Wall Brazier Pink",
+      "Name": "Wall Brazier Purple",
       "Ingredients": [
           "Iron Ingot (1)",
           "Peat (3)",
@@ -2729,7 +2729,7 @@
     "Set": "Cavern Set"
 },
   {
-      "Name": "Cavern Floor Brazier Purple",
+      "Name": "Floor Brazier Purple",
       "Ingredients": [
           "Iron Ingot (2)",
           "Peat (3)",
@@ -2741,7 +2741,7 @@
       "Set": "Cavern Set"
   },
   {
-    "Name": "Cavern Floor Brazier Orange",
+    "Name": "Floor Brazier Orange",
     "Ingredients": [
         "Iron Ingot (2)",
         "Peat (3)",
@@ -2753,7 +2753,7 @@
     "Set": "Cavern Set"
 },
 {
-    "Name": "Cavern Floor Brazier Blue",
+    "Name": "Floor Brazier Blue",
     "Ingredients": [
         "Iron Ingot (2)",
         "Peat (3)",
@@ -2765,7 +2765,7 @@
     "Set": "Cavern Set"
 },
   {
-      "Name": "Cavern Mossy Rug Warm",
+      "Name": "Mossy Rug Warm",
       "Ingredients": [
           "Rooster Feather (3)",
           "Narrows Moss (3)",
@@ -2777,7 +2777,7 @@
       "Set": "Cavern Set"
   },
   {
-    "Name": "Cavern Mossy Rug Cool",
+    "Name": "Mossy Rug Cool",
     "Ingredients": [
         "Rooster Feather (3)",
         "Narrows Moss (3)",
@@ -3373,9 +3373,9 @@
   {
       "Name": "Weather Crystal Ball",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "No Set",
       "Ignore": "Yes"
   },
@@ -3433,7 +3433,7 @@
       "Set": "No Set"
   },
   {
-      "Name": "Farm House Calendar",
+      "Name": "Farmhouse Calendar",
       "Ingredients": [
           "Paper (5)"
       ],
@@ -3469,9 +3469,9 @@
   {
       "Name": "Mournful Clown Painting",
       "Ingredients": [],
-      "Time": "N/A",
-      "RequiredLevel": "N/A",
-      "Skill": "Woodcrafting",
+      "Time": "",
+      "RequiredLevel": "",
+      "Skill": "",
       "Set": "No Set"
   },
   {

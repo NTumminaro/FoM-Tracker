@@ -2,8 +2,8 @@
 const forageableConfig = {
   name: 'Forageable',
   defaultSize: {
-		width: '35%',
-		height: '30%',
+		width: 35,
+		height: 30,
   },
 	filterGroups: {
 		locations: {
