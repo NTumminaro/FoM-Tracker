@@ -4,6 +4,7 @@
 		"Seeds": "General Store for 40t",
 		"Growth": "4 days",
 		"OtherSources": [{ "Type": "Crop", "Location": "Balor" }],
+		"Season": ["Spring"],
 		"Museum": "Yes"
 	},
 	{

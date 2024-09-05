@@ -1,7 +1,7 @@
 const cropConfig = {
 	name: 'Crop',
 	defaultSize: {
-		width: 20,
+		width: 30,
 		height: 30,
 	},
 	filterGroups: {
@@ -16,6 +16,10 @@ const cropConfig = {
 				{ type: 'quest', label: 'Quest' },
 			],
 		},
+		seasons: {
+			title: 'Seasons',
+			filters: ['Spring', 'Summer', 'Fall', 'Winter'],
+		},
 		attributes: {
 			title: 'Attributes',
 			filters: [{ type: 'museum', label: 'Museum' }],
@@ -25,7 +29,7 @@ const cropConfig = {
 		{ type: 'name', label: 'Name' },
 		{ type: 'growth', label: 'Growth' },
 	],
-	tooltipFields: ['seeds', 'growth', 'othersources', 'museumAndDiveable'],
+	tooltipFields: ['seeds', 'growth', 'othersources', 'season', 'museumAndDiveable'],
 };
 
 export default cropConfig;
