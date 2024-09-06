@@ -73,6 +73,18 @@ const MainLayout = () => {
 		return localStorage.getItem('backgroundColor') || '#303030';
 	});
 
+	const CURRENT_VERSION = '0.2.0';
+
+	useEffect(() => {
+		const storedVersion = localStorage.getItem('trackerVersion');
+
+		if (!storedVersion || storedVersion !== CURRENT_VERSION) {
+			resetTrackers();
+
+			localStorage.setItem('trackerVersion', CURRENT_VERSION);
+		}
+	}, []);
+
 	useEffect(() => {
 		localStorage.setItem('tooltipsEnabled', JSON.stringify(tooltipsEnabled));
 	}, [tooltipsEnabled]);
