@@ -16,6 +16,8 @@ import { Resizable } from 're-resizable';
 import FilterButtons from './components/FilterButtons';
 import ResizeHandle from '../ResizeHandle';
 import PropTypes from 'prop-types';
+import ResetButton from './components/ResetButton';
+import useSnackbarHandler from '../../hooks/useSnackbarHandler';
 
 function convertPercentageToPixels(defaultSize) {
 	let defaultWidth = defaultSize.width;
@@ -37,6 +39,9 @@ function ItemTracker({
 	caughtHighlighting,
 	showUnobtainable,
 }) {
+	// Hooks ////////////////////////////////////////////////////
+	const showSnackbar = useSnackbarHandler();
+
 	// State Hooks ////////////////////////////////////////////////////
 	const [items, setItems] = useState([]);
 	const [selectedSort, setSelectedSort] = useState('name');
@@ -97,6 +102,16 @@ function ItemTracker({
 	}, [museumOnly]);
 
 	// Handlers ////////////////////////////////////////////////////
+	const resetTracker = () => {
+		localStorage.removeItem(`caught${config.name}`);
+		setItems((prevItems) =>
+			prevItems.map((i) => {
+				return { ...i, caught: false };
+			})
+		);
+		showSnackbar('Tracker Reset', 'success');
+	};
+
 	const toggleFilter = (filterType, value) => {
 		setFilters((prevFilters) => {
 			const updatedFilters = { ...prevFilters };
@@ -831,7 +846,7 @@ function ItemTracker({
 			>
 				<Box
 					display={'flex'}
-					justifyContent={'start'}
+					justifyContent={'space-between'}
 					alignItems={'center'}
 					zIndex={100}
 					sx={{
@@ -839,26 +854,29 @@ function ItemTracker({
 						backgroundColor: 'secondary.main',
 					}}
 				>
-					<Tooltip
-						placement="top"
-						title={expanded ? 'Hide Filters' : 'Show Filters'}
-						arrow
-						disableInteractive
-					>
-						<IconButton
-							sx={{ marginRight: '2px' }}
-							size="small"
-							// onClick={handleMenuOpen}
-							onClick={() => setExpanded(!expanded)}
+					<Box display={'flex'} alignItems={'center'}>
+						<Tooltip
+							placement="top"
+							title={expanded ? 'Hide Filters' : 'Show Filters'}
+							arrow
+							disableInteractive
 						>
-							<FilterAltIcon
-								sx={{ color: expanded ? 'warning.main' : 'sideBarTextColor' }}
-							/>
-						</IconButton>
-					</Tooltip>
-					<Typography variant="subtitle1">
-						{config.name} Tracker ({countCaughtItems()} / {items.length})
-					</Typography>
+							<IconButton
+								sx={{ marginRight: '2px' }}
+								size="small"
+								// onClick={handleMenuOpen}
+								onClick={() => setExpanded(!expanded)}
+							>
+								<FilterAltIcon
+									sx={{ color: expanded ? 'warning.main' : 'sideBarTextColor' }}
+								/>
+							</IconButton>
+						</Tooltip>
+						<Typography variant="subtitle1">
+							{config.name} Tracker ({countCaughtItems()} / {items.length})
+						</Typography>
+					</Box>
+					<ResetButton resetTracker={resetTracker} />
 				</Box>
 
 				<Collapse in={expanded} timeout="auto" unmountOnExit>
@@ -932,15 +950,17 @@ function ItemTracker({
 	);
 }
 
-ItemTracker.propTypes = {
-	config: PropTypes.object,
-	data: PropTypes.array,
-	tooltipsEnabled: PropTypes.bool,
-	editMode: PropTypes.bool,
-	museumOnly: PropTypes.bool,
-	backgroundColor: PropTypes.string,
-	caughtHighlighting: PropTypes.bool,
-	showUnobtainable: PropTypes.bool,
-};
-
 export default ItemTracker;
+
+if (!import.meta.env.PROD) {
+	ItemTracker.propTypes = {
+		config: PropTypes.object.isRequired,
+		data: PropTypes.array.isRequired,
+		tooltipsEnabled: PropTypes.bool.isRequired,
+		editMode: PropTypes.bool.isRequired,
+		museumOnly: PropTypes.bool.isRequired,
+		backgroundColor: PropTypes.string.isRequired,
+		caughtHighlighting: PropTypes.bool.isRequired,
+		showUnobtainable: PropTypes.bool.isRequired,
+	};
+}

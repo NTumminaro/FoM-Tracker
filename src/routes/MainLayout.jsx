@@ -4,6 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Header from '../components/Header/Header';
 import PropTypes from 'prop-types';
+import { SnackbarProvider } from 'notistack';
 
 const dataFiles = {
 	fish: () => import('../data/fish.json'),
@@ -200,102 +201,107 @@ const MainLayout = () => {
 	};
 
 	return (
-		<Box sx={{ display: 'flex', width: '100%', height: '98vh' }}>
-			<CssBaseline />
-			<Header
-				resetTrackers={resetTrackers}
-				toggleTooltips={toggleTooltips}
-				toggleEditMode={toggleEditMode}
-				toggleMuseumOnly={toggleMuseumOnly}
-				toggleShowUnobtainable={toggleShowUnobtainable}
-				editMode={editMode}
-				tooltipsEnabled={tooltipsEnabled}
-				showUnobtainable={showUnobtainable}
-				museumOnly={museumOnly}
-				displayedTrackers={displayedTrackers}
-				toggleTracker={toggleTracker}
-				backgroundColor={backgroundColor}
-				setBackgroundColor={setBackgroundColor}
-				caughtHighlighting={caughtHighlighting}
-				toggleCaughtHighlighting={toggleCaughtHighlighting}
-			/>
-			<Box
-				display={'flex'}
-				flexWrap={'wrap'}
-				component="main"
-				sx={{
-					flexGrow: 1,
-					p: 3,
-					marginTop: '48px',
-				}}
-			>
-				<Stack
-					spacing={{ xs: 1, sm: 2 }}
-					direction="row"
-					useFlexGap
-					flexWrap="wrap"
-					justifyContent={'start'}
-					alignContent={'flex-start'}
-					sx={{ userSelect: 'none' }}
+		<SnackbarProvider
+			anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
+			maxSnack={5}
+		>
+			<Box sx={{ display: 'flex', width: '100%', height: '98vh' }}>
+				<CssBaseline />
+				<Header
+					resetTrackers={resetTrackers}
+					toggleTooltips={toggleTooltips}
+					toggleEditMode={toggleEditMode}
+					toggleMuseumOnly={toggleMuseumOnly}
+					toggleShowUnobtainable={toggleShowUnobtainable}
+					editMode={editMode}
+					tooltipsEnabled={tooltipsEnabled}
+					showUnobtainable={showUnobtainable}
+					museumOnly={museumOnly}
+					displayedTrackers={displayedTrackers}
+					toggleTracker={toggleTracker}
+					backgroundColor={backgroundColor}
+					setBackgroundColor={setBackgroundColor}
+					caughtHighlighting={caughtHighlighting}
+					toggleCaughtHighlighting={toggleCaughtHighlighting}
+				/>
+				<Box
+					display={'flex'}
+					flexWrap={'wrap'}
+					component="main"
+					sx={{
+						flexGrow: 1,
+						p: 3,
+						marginTop: '48px',
+					}}
 				>
-					{displayedTrackers.map((tracker) => (
-						<Suspense fallback={<></>} key={tracker}>
-							<ItemTrackerLoader
-								tracker={tracker}
-								loadTrackerData={loadTrackerData}
-								tooltipsEnabled={tooltipsEnabled}
-								editMode={editMode}
-								museumOnly={museumOnly}
-								backgroundColor={backgroundColor}
-								caughtHighlighting={caughtHighlighting}
-								showUnobtainable={showUnobtainable}
-							/>
-						</Suspense>
-					))}
-				</Stack>
+					<Stack
+						spacing={{ xs: 1, sm: 2 }}
+						direction="row"
+						useFlexGap
+						flexWrap="wrap"
+						justifyContent={'start'}
+						alignContent={'flex-start'}
+						sx={{ userSelect: 'none' }}
+					>
+						{displayedTrackers.map((tracker) => (
+							<Suspense fallback={<></>} key={tracker}>
+								<ItemTrackerLoader
+									tracker={tracker}
+									loadTrackerData={loadTrackerData}
+									tooltipsEnabled={tooltipsEnabled}
+									editMode={editMode}
+									museumOnly={museumOnly}
+									backgroundColor={backgroundColor}
+									caughtHighlighting={caughtHighlighting}
+									showUnobtainable={showUnobtainable}
+								/>
+							</Suspense>
+						))}
+					</Stack>
+				</Box>
+				<Box
+					sx={{
+						position: 'fixed',
+						bottom: 12,
+						right: 12,
+						display: 'flex',
+						flexDirection: 'column',
+						gap: 0,
+					}}
+				>
+					<IconButton
+						color="secondary"
+						component="a"
+						href="https://github.com/NTumminaro/FoM-Tracker"
+						target="_blank"
+						rel="noopener noreferrer"
+						size="small"
+					>
+						<GitHubIcon sx={{ fontSize: '18px' }} />
+					</IconButton>
+					<IconButton
+						color="secondary"
+						component="a"
+						href="https://discord.gg/suEZrgwXRF"
+						target="_blank"
+						rel="noopener noreferrer"
+						size="small"
+					>
+						<DiscordIcon sx={{ fontSize: '18px' }} />
+					</IconButton>
+					<IconButton
+						color="secondary"
+						component="a"
+						href="https://www.youtube.com/@misterstealyourgil"
+						target="_blank"
+						rel="noopener noreferrer"
+						size="small"
+					>
+						<YouTubeIcon sx={{ fontSize: '20px' }} />
+					</IconButton>
+				</Box>
 			</Box>
-			<Box
-				sx={{
-					position: 'fixed',
-					bottom: 12,
-					right: 12,
-					display: 'flex',
-					flexDirection: 'column',
-					gap: 0,
-				}}
-			>
-				<IconButton
-					color="secondary"
-					component="a"
-					href="https://github.com/NTumminaro/FoM-Tracker"
-					target="_blank"
-					rel="noopener noreferrer"
-					size="small"
-				>
-					<GitHubIcon sx={{ fontSize: '18px' }} />
-				</IconButton>
-				<IconButton
-					color="secondary"
-					component="a"
-					href="https://discord.gg/suEZrgwXRF"
-					target="_blank"
-					rel="noopener noreferrer"
-					size="small"
-				>
-					<DiscordIcon sx={{ fontSize: '18px' }} />
-				</IconButton>
-				<IconButton
-					color="secondary"
-					component="a"
-					href="https://www.youtube.com/@misterstealyourgil"
-					target="_blank"
-					rel="noopener noreferrer"
-					size="small"
-				>
-					<YouTubeIcon sx={{ fontSize: '20px' }} />
-				</IconButton>
-			</Box>
-		</Box>
+		</SnackbarProvider>
 	);
 };
 
@@ -338,15 +344,17 @@ const ItemTrackerLoader = ({
 };
 
 // Proptypes /////////////////////////////
-ItemTrackerLoader.propTypes = {
-	tracker: PropTypes.string.isRequired,
-	loadTrackerData: PropTypes.func.isRequired,
-	tooltipsEnabled: PropTypes.bool.isRequired,
-	editMode: PropTypes.bool.isRequired,
-	museumOnly: PropTypes.bool.isRequired,
-	backgroundColor: PropTypes.string.isRequired,
-	caughtHighlighting: PropTypes.bool.isRequired,
-	showUnobtainable: PropTypes.bool.isRequired,
-};
+if (!import.meta.env.PROD) {
+	ItemTrackerLoader.propTypes = {
+		tracker: PropTypes.string.isRequired,
+		loadTrackerData: PropTypes.func.isRequired,
+		tooltipsEnabled: PropTypes.bool.isRequired,
+		editMode: PropTypes.bool.isRequired,
+		museumOnly: PropTypes.bool.isRequired,
+		backgroundColor: PropTypes.string.isRequired,
+		caughtHighlighting: PropTypes.bool.isRequired,
+		showUnobtainable: PropTypes.bool.isRequired,
+	};
+}
 
 export default MainLayout;

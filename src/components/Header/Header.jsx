@@ -16,6 +16,7 @@ import {
 import SettingsIcon from '@mui/icons-material/Settings';
 import PropTypes from 'prop-types';
 import EditIcon from '@mui/icons-material/Edit';
+import useSnackbarHandler from '../../hooks/useSnackbarHandler';
 
 function Header({
 	resetTrackers,
@@ -36,6 +37,7 @@ function Header({
 	// borderColor,
 	// setBorderColor,
 }) {
+	const showSnackbar = useSnackbarHandler();
 	const [anchorEl, setAnchorEl] = useState(null);
 	const [bgColorInput, setBgColorInput] = useState(backgroundColor);
 	const [debounceTimeout, setDebounceTimeout] = useState(null);
@@ -66,6 +68,13 @@ function Header({
 		);
 	};
 
+	const handleEditToggle = () => {
+		if (editMode) {
+			showSnackbar('Layout saved', 'info');
+		}
+		toggleEditMode();
+	};
+
 	return (
 		<>
 			<AppBar
@@ -76,25 +85,22 @@ function Header({
 				}}
 			>
 				<Toolbar variant="dense">
-						<Box
-							display={'flex'}
-							alignItems={'center'}
+					<Box display={'flex'} alignItems={'center'}>
+						<img
+							height={28}
+							width={28}
+							src="misc/almanac.webp"
+							alt="almanac"
+							key="almanac"
+						/>
+						<Typography
+							variant="h6"
+							noWrap
+							sx={{ color: 'lightText', marginRight: '4px', marginLeft: 1 }}
 						>
-							<img
-								height={28}
-								width={28}
-								src="misc/almanac.webp"
-								alt="almanac"
-								key="almanac"
-							/>
-							<Typography
-								variant="h6"
-								noWrap
-								sx={{ color: 'lightText', marginRight: '4px', marginLeft: 1 }}
-							>
-								Mistria Tracker
-							</Typography>
-						</Box>
+							Mistria Tracker
+						</Typography>
+					</Box>
 					<Box sx={{ flexGrow: 1 }} />
 					{editMode && (
 						<>
@@ -132,7 +138,7 @@ function Header({
 									'Bug',
 									'Artifact',
 									'Forageable',
-									'Material',									
+									'Material',
 									'CookedDish',
 									'Blacksmithing',
 									'Ranching',
@@ -158,7 +164,7 @@ function Header({
 							size={'small'}
 							value="check"
 							selected={editMode}
-							onChange={toggleEditMode}
+							onChange={handleEditToggle}
 							color="success"
 						>
 							<EditIcon sx={{ fontSize: 16, marginRight: '4px' }} />
