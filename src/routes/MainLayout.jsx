@@ -1,5 +1,5 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
-import { Box, CssBaseline, IconButton, Stack, SvgIcon } from '@mui/material';
+import { Box, CssBaseline, IconButton, Stack, SvgIcon, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Header from '../components/Header/Header';
@@ -74,7 +74,7 @@ const MainLayout = () => {
 		return localStorage.getItem('backgroundColor') || '#303030';
 	});
 
-	const CURRENT_VERSION = '0.2.0';
+	const CURRENT_VERSION = '0.3.1';
 
 	useEffect(() => {
 		const storedVersion = localStorage.getItem('trackerVersion');
@@ -299,6 +299,9 @@ const MainLayout = () => {
 					>
 						<YouTubeIcon sx={{ fontSize: '20px' }} />
 					</IconButton>
+					<Typography variant="caption" sx={{ color: 'text.secondary' }}>
+						{CURRENT_VERSION}
+					</Typography>
 				</Box>
 			</Box>
 		</SnackbarProvider>
